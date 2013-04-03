@@ -1,9 +1,9 @@
 
 setlocal tags+=~/.vim/bundle/dm_vim_misc/cpp_tags/std_tags
-" setlocal tags+=~/.vim/dm_vim_misc/cpp_tags/gl_tags
-setlocal tags+=~/.vim/dm_vim_misc/cpp_tags/pcl_tags
-setlocal tags+=~/.vim/dm_vim_misc/cpp_tags/pcl_tags2
-setlocal tags+=~/.vim/dm_vim_misc/cpp_tags/opencv2_tags
+" setlocal tags+=~/.vim/bundle/dm_vim_misc/cpp_tags/gl_tags
+setlocal tags+=~/.vim/bundle/dm_vim_misc/cpp_tags/pcl_tags
+setlocal tags+=~/.vim/bundle/dm_vim_misc/cpp_tags/pcl_tags2
+setlocal tags+=~/.vim/bundle/dm_vim_misc/cpp_tags/opencv2_tags
 " setlocal tags+=~/.vim/
 " disable looking into boost libraries because they are huge
 setlocal include=^\\s*#\\s*include\ \\(<boost/\\)\\@!
