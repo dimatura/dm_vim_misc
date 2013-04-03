@@ -1,0 +1,357 @@
+
+*eigen-tut-linear*
+
+Eigen's silly professor
+
+  • Main Page
+  • Related Pages
+  • Modules
+  • Namespaces
+  • Classes
+
+Tutorial page 6 - Linear algebra and decompositions~
+
+  • Previous: Tutorial page 5 - Advanced initialization
+  • Next: Tutorial page 7 - Reductions, visitors and broadcasting
+
+This tutorial explains how to solve linear systems, compute various
+decompositions such as LU, QR, SVD, eigendecompositions... for more advanced
+topics, don't miss our special page on this topic.
+
+Table of contents
+
+  • Basic linear solving
+  • Checking if a solution really exists
+  • Computing eigenvalues and eigenvectors
+  • Computing inverse and determinant
+  • Least squares solving
+  • Separating the computation from the construction
+  • Rank-revealing decompositions
+
+Basic linear solving
+
+The problem: You have a system of equations, that you have written as a single
+matrix equation
+
+\[ Ax \: = \: b \]
+
+Where A and b are matrices (b could be a vector, as a special case). You want
+to find a solution x.
+
+The solution: You can choose between various decompositions, depending on what
+your matrix A looks like, and depending on whether you favor speed or accuracy.
+However, let's start with an example that works in all cases, and is a good
+compromise:
+
+                     Example:                             Output:
+#include <iostream>
+#include <Eigen/Dense>
+                                                   Here is the matrix A:
+using namespace std;                                1  2  3
+using namespace Eigen;                              4  5  6
+                                                    7  8 10
+int main()                                         Here is the vector b:
+{                                                  3
+   Matrix3f A;                                     3
+   Vector3f b;                                     4
+   A << 1,2,3,  4,5,6,  7,8,10;                    The solution is:
+   b << 3, 3, 4;                                   -2
+   cout << "Here is the matrix A:\n" << A << endl; 1
+   cout << "Here is the vector b:\n" << b << endl; 1
+   Vector3f x = A.colPivHouseholderQr().solve(b);
+   cout << "The solution is:\n" << x << endl;
+}
+
+In this example, the colPivHouseholderQr() method returns an object of class
+ColPivHouseholderQR. Since here the matrix is of type Matrix3f, this line could
+have been replaced by:
+
+ColPivHouseholderQR<Matrix3f> dec(A);
+Vector3f x = dec.solve(b);
+
+Here, ColPivHouseholderQR is a QR decomposition with column pivoting. It's a
+good compromise for this tutorial, as it works for all matrices while being
+quite fast. Here is a table of some other decompositions that you can choose
+from, depending on your matrix and the trade-off you want to make:
+
+   Decomposition            Method         Requirements on the   Speed Accuracy
+                                                  matrix
+PartialPivLU         partialPivLu()       Invertible             ++    +
+FullPivLU            fullPivLu()          None                   -     +++
+HouseholderQR        householderQr()      None                   ++    +
+ColPivHouseholderQR  colPivHouseholderQr  None                   +     ++
+                     ()
+FullPivHouseholderQR fullPivHouseholderQr None                   -     +++
+                     ()
+LLT                  llt()                Positive definite      +++   +
+LDLT                 ldlt()               Positive or negative   +++   ++
+                                          semidefinite
+
+All of these decompositions offer a solve() method that works as in the above
+example.
+
+For example, if your matrix is positive definite, the above table says that a
+very good choice is then the LDLT decomposition. Here's an example, also
+demonstrating that using a general matrix (not a vector) as right hand side is
+possible.
+
+                         Example:                                      Output:
+#include <iostream>
+#include <Eigen/Dense>
+
+using namespace std;                                        Here is the matrix A:
+using namespace Eigen;                                       2 -1
+                                                            -1  3
+int main()                                                  Here is the right hand side b:
+{                                                           1 2
+   Matrix2f A, b;                                           3 1
+   A << 2, -1, -1, 3;                                       The solution is:
+   b << 1, 2, 3, 1;                                         1.2 1.4
+   cout << "Here is the matrix A:\n" << A << endl;          1.4 0.8
+   cout << "Here is the right hand side b:\n" << b << endl;
+   Matrix2f x = A.ldlt().solve(b);
+   cout << "The solution is:\n" << x << endl;
+}
+
+For a much more complete table comparing all decompositions supported by Eigen
+(notice that Eigen supports many other decompositions), see our special page on
+this topic.
+
+Checking if a solution really exists
+
+Only you know what error margin you want to allow for a solution to be
+considered valid. So Eigen lets you do this computation for yourself, if you
+want to, as in this example:
+
+                                  Example:                                          Output:
+#include <iostream>
+#include <Eigen/Dense>
+
+using namespace std;
+using namespace Eigen;
+
+int main()                                                                   The relative error is:
+{                                                                            2.29835e-14
+   MatrixXd A = MatrixXd::Random(100,100);
+   MatrixXd b = MatrixXd::Random(100,50);
+   MatrixXd x = A.fullPivLu().solve(b);
+   double relative_error = (A*x - b).norm() / b.norm(); // norm() is L2 norm
+   cout << "The relative error is:\n" << relative_error << endl;
+}
+
+Computing eigenvalues and eigenvectors
+
+You need an eigendecomposition here, see available such decompositions on this
+page. Make sure to check if your matrix is self-adjoint, as is often the case
+in these problems. Here's an example using SelfAdjointEigenSolver, it could
+easily be adapted to general matrices using EigenSolver or ComplexEigenSolver.
+
+                                   Example:                                                                            Output:
+#include <iostream>
+#include <Eigen/Dense>
+
+using namespace std;
+using namespace Eigen;                                                         Here is the matrix A:
+                                                                               1 2
+int main()                                                                     2 3
+{                                                                              The eigenvalues of A are:
+   Matrix2f A;                                                                 -0.236
+   A << 1, 2, 2, 3;                                                            4.24
+   cout << "Here is the matrix A:\n" << A << endl;                             Here's a matrix whose columns are eigenvectors of A corresponding to these eigenvalues:
+   SelfAdjointEigenSolver<Matrix2f> eigensolver(A);                            -0.851 -0.526
+   cout << "The eigenvalues of A are:\n" << eigensolver.eigenvalues() << endl;  0.526 -0.851
+   cout << "Here's a matrix whose columns are eigenvectors of A "
+        << "corresponding to these eigenvalues:\n"
+        << eigensolver.eigenvectors() << endl;
+}
+
+Computing inverse and determinant
+
+First of all, make sure that you really want this. While inverse and
+determinant are fundamental mathematical concepts, in numerical linear algebra
+they are not as popular as in pure mathematics. Inverse computations are often
+advantageously replaced by solve() operations, and the determinant is often not
+a good way of checking if a matrix is invertible.
+
+However, for very small matrices, the above is not true, and inverse and
+determinant can be very useful.
+
+While certain decompositions, such as PartialPivLU and FullPivLU, offer inverse
+() and determinant() methods, you can also call inverse() and determinant()
+directly on a matrix. If your matrix is of a very small fixed size (at most
+4x4) this allows Eigen to avoid performing a LU decomposition, and instead use
+formulas that are more efficient on such small matrices.
+
+Here is an example:
+
+                            Example:                                       Output:
+#include <iostream>
+#include <Eigen/Dense>
+
+using namespace std;                                              Here is the matrix A:
+using namespace Eigen;                                            1 2 1
+                                                                  2 1 0
+int main()                                                        -1 1 2
+{                                                                 The determinant of A is -3
+   Matrix3f A;                                                    The inverse of A is:
+   A << 1, 2, 1,                                                  -0.667      1  0.333
+        2, 1, 0,                                                    1.33     -1 -0.667
+        -1, 1, 2;                                                     -1      1      1
+   cout << "Here is the matrix A:\n" << A << endl;
+   cout << "The determinant of A is " << A.determinant() << endl;
+   cout << "The inverse of A is:\n" << A.inverse() << endl;
+}
+
+Least squares solving
+
+The best way to do least squares solving is with a SVD decomposition. Eigen
+provides one as the JacobiSVD class, and its solve() is doing least-squares
+solving.
+
+Here is an example:
+
+                              Example:                                           Output:
+#include <iostream>
+#include <Eigen/Dense>
+                                                                      Here is the matrix A:
+using namespace std;                                                    0.68  0.597
+using namespace Eigen;                                                -0.211  0.823
+                                                                       0.566 -0.605
+int main()                                                            Here is the right hand side b:
+{                                                                     -0.33
+   MatrixXf A = MatrixXf::Random(3, 2);                               0.536
+   cout << "Here is the matrix A:\n" << A << endl;                    -0.444
+   VectorXf b = VectorXf::Random(3);                                  The least-squares solution is:
+   cout << "Here is the right hand side b:\n" << b << endl;           -0.67
+   cout << "The least-squares solution is:\n"                         0.314
+        << A.jacobiSvd(ComputeThinU | ComputeThinV).solve(b) << endl;
+}
+
+Another way, potentially faster but less reliable, is to use a LDLT
+decomposition of the normal matrix. In any case, just read any reference text
+on least squares, and it will be very easy for you to implement any linear
+least squares computation on top of Eigen.
+
+Separating the computation from the construction
+
+In the above examples, the decomposition was computed at the same time that the
+decomposition object was constructed. There are however situations where you
+might want to separate these two things, for example if you don't know, at the
+time of the construction, the matrix that you will want to decompose; or if you
+want to reuse an existing decomposition object.
+
+What makes this possible is that:
+
+  • all decompositions have a default constructor,
+  • all decompositions have a compute(matrix) method that does the computation,
+    and that may be called again on an already-computed decomposition,
+    reinitializing it.
+
+For example:
+
+                          Example:                                      Output:
+#include <iostream>
+#include <Eigen/Dense>
+
+using namespace std;                                         Here is the matrix A:
+using namespace Eigen;                                        2 -1
+                                                             -1  3
+int main()                                                   Here is the right hand side b:
+{                                                            1 2
+   Matrix2f A, b;                                            3 1
+   LLT<Matrix2f> llt;                                        Computing LLT decomposition...
+   A << 2, -1, -1, 3;                                        The solution is:
+   b << 1, 2, 3, 1;                                          1.2 1.4
+   cout << "Here is the matrix A:\n" << A << endl;           1.4 0.8
+   cout << "Here is the right hand side b:\n" << b << endl;  The matrix A is now:
+   cout << "Computing LLT decomposition..." << endl;          2 -1
+   llt.compute(A);                                           -1  4
+   cout << "The solution is:\n" << llt.solve(b) << endl;     Computing LLT decomposition...
+   A(1,1)++;                                                 The solution is now:
+   cout << "The matrix A is now:\n" << A << endl;                1  1.29
+   cout << "Computing LLT decomposition..." << endl;             1 0.571
+   llt.compute(A);
+   cout << "The solution is now:\n" << llt.solve(b) << endl;
+}
+
+Finally, you can tell the decomposition constructor to preallocate storage for
+decomposing matrices of a given size, so that when you subsequently decompose
+such matrices, no dynamic memory allocation is performed (of course, if you are
+using fixed-size matrices, no dynamic memory allocation happens at all). This
+is done by just passing the size to the decomposition constructor, as in this
+example:
+
+HouseholderQR<MatrixXf> qr(50,50);
+MatrixXf A = MatrixXf::Random(50,50);
+qr.compute(A); // no dynamic memory allocation
+
+Rank-revealing decompositions
+
+Certain decompositions are rank-revealing, i.e. are able to compute the rank of
+a matrix. These are typically also the decompositions that behave best in the
+face of a non-full-rank matrix (which in the square case means a singular
+matrix). On this table you can see for all our decompositions whether they are
+rank-revealing or not.
+
+Rank-revealing decompositions offer at least a rank() method. They can also
+offer convenience methods such as isInvertible(), and some are also providing
+methods to compute the kernel (null-space) and image (column-space) of the
+matrix, as is the case with FullPivLU:
+
+                                      Example:                                                                      Output:
+#include <iostream>
+#include <Eigen/Dense>
+
+using namespace std;                                                                 Here is the matrix A:
+using namespace Eigen;                                                               1 2 5
+                                                                                     2 1 4
+int main()                                                                           3 0 3
+{                                                                                    The rank of A is 2
+   Matrix3f A;                                                                       Here is a matrix whose columns form a basis of the null-space of A:
+   A << 1, 2, 5,                                                                     0.5
+        2, 1, 4,                                                                     1
+        3, 0, 3;                                                                     -0.5
+   cout << "Here is the matrix A:\n" << A << endl;                                   Here is a matrix whose columns form a basis of the column-space of A:
+   FullPivLU<Matrix3f> lu_decomp(A);                                                 5 1
+   cout << "The rank of A is " << lu_decomp.rank() << endl;                          4 2
+   cout << "Here is a matrix whose columns form a basis of the null-space of A:\n"   3 3
+        << lu_decomp.kernel() << endl;
+   cout << "Here is a matrix whose columns form a basis of the column-space of A:\n"
+        << lu_decomp.image(A) << endl; // yes, have to pass the original A
+}
+
+Of course, any rank computation depends on the choice of an arbitrary
+threshold, since practically no floating-point matrix is exactly
+rank-deficient. Eigen picks a sensible default threshold, which depends on the
+decomposition but is typically the diagonal size times machine epsilon. While
+this is the best default we could pick, only you know what is the right
+threshold for your application. You can set this by calling setThreshold() on
+your decomposition object before calling rank() or any other method that needs
+to use such a threshold. The decomposition itself, i.e. the compute() method,
+is independent of the threshold. You don't need to recompute the decomposition
+after you've changed the threshold.
+
+                                      Example:                                                              Output:
+#include <iostream>
+#include <Eigen/Dense>
+
+using namespace std;
+using namespace Eigen;
+
+int main()
+{                                                                                     By default, the rank of A is found to be 2
+   Matrix2d A;                                                                        With threshold 1e-5, the rank of A is found to be 1
+   A << 2, 1,
+        2, 0.9999999999;
+   FullPivLU<Matrix2d> lu(A);
+   cout << "By default, the rank of A is found to be " << lu.rank() << endl;
+   lu.setThreshold(1e-5);
+   cout << "With threshold 1e-5, the rank of A is found to be " << lu.rank() << endl;
+}
+
+  • Next: Tutorial page 7 - Reductions, visitors and broadcasting
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Generated on Wed May 18 2011 06:54:42 for Eigen by  doxygen 1.7.1
+vim:tw=78:ts=8:ft=help

@@ -1,0 +1,221 @@
+*EigenGeometry.txt*
+
+*eigen-tut-geom*
+Tutorial page 8 - Geometry~
+
+In this tutorial, we will shortly introduce the many possibilities offered by
+the geometry module, namely 2D and 3D rotations and projective or affine
+transformations.
+
+*eigen-geom-intro*
+
+Table of contents
+
+  • Transformation types
+  • Common API across transformation types
+  • Affine transformations
+  • Euler angles
+
+Eigen's Geometry module provides two different kinds of geometric
+transformations:
+
+  • Abstract transformations, such as rotations (represented by angle and axis
+    or by a quaternion), translations, scalings. These transformations are NOT
+    represented as matrices, but you can nevertheless mix them with matrices
+    and vectors in expressions, and convert them to matrices if you wish.
+  • Projective or affine transformation matrices: see the Transform class.
+    These are really matrices.
+
+Note:
+    If you are working with OpenGL 4x4 matrices then Affine3f and Affine3d are
+    what you want. Since Eigen defaults to column-major storage, you can
+    directly use the Transform::data() method to pass your transformation
+    matrix to OpenGL.
+
+You can construct a Transform from an abstract transformation, like this:
+
+  Transform t(AngleAxis(angle,axis));
+
+or like this:
+
+  Transform t;
+  t = AngleAxis(angle,axis);
+
+But note that unfortunately, because of how C++ works, you can not do this:
+
+  Transform t = AngleAxis(angle,axis);
+
+Explanation: In the C++ language, this would require Transform to have a
+non-explicit conversion constructor from AngleAxis, but we really don't want to
+allow implicit casting here.
+
+*eigen-geom-types*
+
+Transformation types~
+
+Transformation                              Typical initialization code
+     type
+2D rotation     Rotation2D<float> rot2(angle_in_radian);
+from an angle
+3D rotation as  AngleAxis<float> aa(angle_in_radian, Vector3f(ax,ay,az));
+an angle + axis
+3D rotation as  Quaternion<float> q = AngleAxis<float>(angle_in_radian, axis);
+a quaternion
+                Scaling<float,2>(sx, sy)
+                Scaling<float,3>(sx, sy, sz)
+N-D Scaling     Scaling<float,N>(s)
+                Scaling<float,N>(vecN)
+
+                Translation<float,2>(tx, ty)
+                Translation<float,3>(tx, ty, tz)
+N-D Translation Translation<float,N>(s)
+                Translation<float,N>(vecN)
+
+N-D Affine      Transform<float,N,Affine> t = concatenation_of_any_transformations;
+transformation  Transform<float,3,Affine> t = Translation3f(p) * AngleAxisf(a,axis) * Scaling3f(s);
+
+N-D Linear
+transformations Matrix<float,N> t = concatenation_of_rotations_and_scalings;
+(pure           Matrix<float,2> t = Rotation2Df(a) * Scaling2f(s);
+rotations,      Matrix<float,3> t = AngleAxisf(a,axis) * Scaling3f(s);
+scaling, etc.)
+
+Notes on rotations
+To transform more than a single vector the preferred representations are
+rotation matrices, while for other usages Quaternion is the representation of
+choice as they are compact, fast and stable. Finally Rotation2D and AngleAxis
+are mainly convenient types to create other rotation objects.
+
+Notes on Translation and Scaling
+Likewise AngleAxis, these classes were designed to simplify the creation/
+initialization of linear (Matrix) and affine (Transform) transformations.
+Nevertheless, unlike AngleAxis which is inefficient to use, these classes might
+still be interesting to write generic and efficient algorithms taking as input
+any kind of transformations.
+
+Any of the above transformation types can be converted to any other types of
+the same nature, or to a more generic type. Here are some additional examples:
+
+Rotation2Df r = Matrix2f(..);       // assumes a pure rotation matrix
+AngleAxisf aa = Quaternionf(..);
+AngleAxisf aa = Matrix3f(..);       // assumes a pure rotation matrix
+Matrix2f m = Rotation2Df(..);
+Matrix3f m = Quaternionf(..);       Matrix3f m = Scaling3f(..);
+Affine3f m = AngleAxis3f(..);       Affine3f m = Scaling3f(..);
+Affine3f m = Translation3f(..);     Affine3f m = Matrix3f(..);
+
+
+*eigen-geom-api*
+Common API across transformation types~
+
+To some extent, Eigen's geometry module allows you to write generic algorithms
+working on any kind of transformation representations:
+
+Concatenation of two transformations  gen1 * gen2;
+
+Apply the transformation to a vector  vec2 = gen1 * vec1;
+
+Get the inverse of the transformation gen2 = gen1.inverse();
+
+Spherical interpolation               rot3 = rot1.slerp(alpha,rot2);
+(Rotation2D and Quaternion only)
+
+
+*eigen-geom-affine*
+Affine transformations~
+
+Generic affine transformations are represented by the Transform class which
+internaly is a (Dim+1)^2 matrix. In Eigen we have chosen to not distinghish
+between points and vectors such that all points are actually represented by
+displacement vectors from the origin ( $ \mathbf{p} \equiv \mathbf{p}-0 $ ).
+With that in mind, real points and vector distinguish when the transformation
+is applied.
+
+Apply the             VectorNf p1, p2;
+transformation to a   p2 = t * p1;
+point
+Apply the             VectorNf vec1, vec2;
+transformation to a   vec2 = t.linear() * vec1;
+vector
+Apply a general       VectorNf n1, n2;
+transformation        MatrixNf normalMatrix = t.linear().inverse().transpose();
+to a normal vector (  n2 = (normalMatrix * n1).normalized();
+explanations)
+Apply a
+transformation with
+pure rotation         n2 = t.linear() * n1;
+to a normal vector
+(no scaling, no
+shear)
+OpenGL compatibility  glLoadMatrixf(t.data());
+3D
+                      Affine3f aux(Affine3f::Identity);
+OpenGL compatibility  aux.linear().topLeftCorner<2,2>() = t.linear();
+2D                    aux.translation().start<2>() = t.translation();
+                      glLoadMatrixf(aux.data());
+
+*eigen-geom-accessors*
+Component accessors~
+
+full read-write access to    t.matrix() = matN1xN1;    // N1 means N+1
+the internal matrix          matN1xN1 = t.matrix();
+
+                             t(i,j) = scalar;   <=>   t.matrix()(i,j) = scalar;
+coefficient accessors        scalar = t(i,j);   <=>   scalar = t.matrix()(i,j);
+
+                             t.translation() = vecN;
+translation part             vecN = t.translation();
+
+                             t.linear() = matNxN;
+linear part                  matNxN = t.linear();
+
+extract the rotation matrix  matNxN = t.extractRotation();
+
+*eigen-geom-creation*
+Transformation creation~
+While transformation objects can be created and updated concatenating
+elementary transformations, the Transform class also features a procedural API:
+
+                        procedurale API               equivalent natural API
+               t.translate(Vector_(tx,ty,..));    t *= Translation_(tx,ty,..);
+Translation    t.pretranslate(Vector_(tx,ty,..)); t = Translation_(tx,ty,..) * t;
+
+Rotation
+In 2D and for
+the procedural t.rotate(any_rotation);            t *= any_rotation;
+API,           t.prerotate(any_rotation);         t = any_rotation * t;
+any_rotation
+can also
+be an angle in
+radian
+               t.scale(Vector_(sx,sy,..));        t *= Scaling_(sx,sy,..);
+               t.scale(s);                        t *= Scaling_(s);
+Scaling        t.prescale(Vector_(sx,sy,..));     t = Scaling_(sx,sy,..) * t;
+               t.prescale(s);                     t = Scaling_(s) * t;
+
+Shear          t.shear(sx,sy);
+transformation t.preshear(sx,sy);
+( 2D only ! )
+
+Note that in both API, any many transformations can be concatenated in a single
+expression as shown in the two following equivalent examples:
+
+t.pretranslate(..).rotate(..).translate(..).scale(..);
+
+t = Translation_(..) * t * RotationType(..) * Translation_(..) * Scaling_(..);
+
+
+*eigen-geom-euler*
+Euler angles~
+
+Euler angles might be convenient to
+create rotation objects. On the
+other hand, since there exist 24     Matrix3f m;
+differents convension,they are       m = AngleAxisf(angle1, Vector3f::UnitZ())
+pretty confusing to use. This          * AngleAxisf(angle2, Vector3f::UnitY())
+example shows how to create a          * AngleAxisf(angle3, Vector3f::UnitZ());
+rotation matrix according to the
+2-1-2 convention.
+
+===============================================================================
+vim:tw=78:ts=8:ft=help

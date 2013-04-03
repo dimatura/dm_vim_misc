@@ -1,0 +1,128 @@
+*pil-imageops.txt*
+
+==============================================================================
+The ImageOps Module~
+
+(New in 1.1.3) The ImageOps module contains a number of
+'ready-made' image processing operations. This module is
+somewhat experimental, and most operators only work on L
+and RGB images.
+
+==============================================================================
+Functions~
+
+autocontrast *pil-imageops-autocontrast*
+
+ImageOps.autocontrast(image, cutoff=0) => image
+
+Maximize (normalize) image contrast. This function calculates a histogram of
+the input image, removes cutoff percent of the lightest and darkest pixels
+from the histogram, and remaps the image so that the darkest remaining pixel
+becomes black (0), and the lightest becomes white (255).
+
+colorize *pil-imageops-colorize*
+
+ImageOps.colorize(image, black, white) => image
+
+Colorize grayscale image. The black and white arguments should be RGB tuples
+or color names; this function calculates a colour wedge mapping all black
+pixels in the source image to the first colour, and all white pixels to the
+second colour.
+
+crop *pil-imageops-crop*
+
+ImageOps.crop(image, border=0) => image
+
+Remove border pixels from all four edges. This function works on all image
+modes.
+
+deform *pil-imageops-deform*
+
+ImageOps.deform(image, deformer, filter=Image.BILINEAR)
+=> image
+
+Deform the image using the given deformer object. The deformer should provide
+a getmesh method, which returns a MESH list suitable for the Image transform
+method. See the transform method for details.
+
+equalize *pil-imageops-equalize*
+
+ImageOps.equalize(image) => image
+
+Equalize the image histogram. This function applies a non-linear mapping to
+the input image, in order to create a uniform distribution of grayscale values
+in the output image.
+
+expand *pil-imageops-expand*
+
+ImageOps.expand(image, border=0, fill=0) => image
+
+Add border pixels of border to the image, at all four edges.
+
+fit *pil-imageops-fit*
+
+ImageOps.fit(image, size, method, bleed, centering) => image
+
+Returns a sized and cropped version of the image, cropped to the requested
+aspect ratio and size. The size argument is the requested output size in
+pixels, given as a (width, height) tuple.
+
+The method argument is what resampling method to use.  The default is
+Image.NEAREST (nearest neighbour).
+
+The bleed argument allows you to remove a border around the outside the image
+(from all four edges). The value is a decimal percentage (use 0.01 for one
+percent). The default value is 0 (no border).
+
+The centering argument is used to control the cropping position. (0.5, 0.5) is
+center cropping (i.e. if cropping the width, take 50% off of the left side
+(and therefore 50% off the right side), and same with top/ bottom).
+
+(0.0, 0.0) will crop from the top left corner (i.e. if cropping the width,
+take all of the crop off of the right side, and if cropping the height, take
+all of it off the bottom).
+
+(1.0, 0.0) will crop from the bottom left corner, etc.  (i.e. if cropping the
+width, take all of the crop off the left side, and if cropping the height take
+none from the top (and therefore all off the bottom)).
+
+The fit function was contributed by Kevin Cazabon.
+
+flip *pil-imageops-flip*
+
+ImageOps.flip(image) => image
+
+Flip the image vertically (top to bottom).
+
+grayscale *pil-imageops-grayscale*
+
+ImageOps.grayscale(image) => image
+
+Convert the image to grayscale.
+
+invert *pil-imageops-invert*
+
+ImageOps.invert(image) => image
+
+Invert (negate) the image.
+
+mirror *pil-imageops-mirror*
+
+ImageOps.mirror(image) => image
+
+Flip image horizontally (left to right).
+
+posterize *pil-imageops-posterize*
+
+ImageOps.posterize(image, bits) => image
+
+Reduce the number of bits for each colour channel.
+
+solarize *pil-imageops-solarize*
+
+ImageOps.solarize(image, threshold=128) => image
+
+Invert all pixel values above the given threshold.
+
+
+vim:tw=78:ts=4:ft=help:norl:
