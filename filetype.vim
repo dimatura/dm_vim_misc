@@ -14,4 +14,5 @@ augroup filetypedetect
     autocmd! BufRead,BufNewFile *.mkd,*.md setfiletype mkd
     autocmd! BufRead,BufNewFile CMakeLists.txt set filetype=cmake
     autocmd! BufRead,BufNewFile *.json set filetype=json
+    autocmd! BufRead,BufNewFile *.launch set filetype=xml
 augroup END
