@@ -1,0 +1,692 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ConstPtr	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^  typedef boost::shared_ptr< ::roscpp::EmptyRequest_<ContainerAllocator> const> ConstPtr;$/;"	t	struct:roscpp::EmptyRequest_	access:public
+ConstPtr	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^  typedef boost::shared_ptr< ::roscpp::EmptyResponse_<ContainerAllocator> const> ConstPtr;$/;"	t	struct:roscpp::EmptyResponse_	access:public
+ConstPtr	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^  typedef boost::shared_ptr< ::roscpp::GetLoggersRequest_<ContainerAllocator> const> ConstPtr;$/;"	t	struct:roscpp::GetLoggersRequest_	access:public
+ConstPtr	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^  typedef boost::shared_ptr< ::roscpp::GetLoggersResponse_<ContainerAllocator> const> ConstPtr;$/;"	t	struct:roscpp::GetLoggersResponse_	access:public
+ConstPtr	/opt/ros/fuerte/include/roscpp/Logger.h	/^  typedef boost::shared_ptr< ::roscpp::Logger_<ContainerAllocator> const> ConstPtr;$/;"	t	struct:roscpp::Logger_	access:public
+ConstPtr	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  typedef boost::shared_ptr< ::roscpp::SetLoggerLevelRequest_<ContainerAllocator> const> ConstPtr;$/;"	t	struct:roscpp::SetLoggerLevelRequest_	access:public
+ConstPtr	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^  typedef boost::shared_ptr< ::roscpp::SetLoggerLevelResponse_<ContainerAllocator> const> ConstPtr;$/;"	t	struct:roscpp::SetLoggerLevelResponse_	access:public
+DataType	/opt/ros/fuerte/include/roscpp/Empty.h	/^struct DataType< ::roscpp::Empty > {$/;"	s	namespace:ros::service_traits
+DataType	/opt/ros/fuerte/include/roscpp/Empty.h	/^struct DataType< ::roscpp::EmptyRequest>$/;"	s	namespace:ros::service_traits
+DataType	/opt/ros/fuerte/include/roscpp/Empty.h	/^struct DataType< ::roscpp::EmptyResponse>$/;"	s	namespace:ros::service_traits
+DataType	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^struct DataType< ::roscpp::EmptyRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+DataType	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^struct DataType< ::roscpp::EmptyResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+DataType	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^struct DataType< ::roscpp::GetLoggers > {$/;"	s	namespace:ros::service_traits
+DataType	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^struct DataType< ::roscpp::GetLoggersRequest>$/;"	s	namespace:ros::service_traits
+DataType	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^struct DataType< ::roscpp::GetLoggersResponse>$/;"	s	namespace:ros::service_traits
+DataType	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^struct DataType< ::roscpp::GetLoggersRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+DataType	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^struct DataType< ::roscpp::GetLoggersResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+DataType	/opt/ros/fuerte/include/roscpp/Logger.h	/^struct DataType< ::roscpp::Logger_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+DataType	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^struct DataType< ::roscpp::SetLoggerLevel > {$/;"	s	namespace:ros::service_traits
+DataType	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^struct DataType< ::roscpp::SetLoggerLevelRequest>$/;"	s	namespace:ros::service_traits
+DataType	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^struct DataType< ::roscpp::SetLoggerLevelResponse>$/;"	s	namespace:ros::service_traits
+DataType	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^struct DataType< ::roscpp::SetLoggerLevelRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+DataType	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^struct DataType< ::roscpp::SetLoggerLevelResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+Definition	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^struct Definition< ::roscpp::EmptyRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+Definition	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^struct Definition< ::roscpp::EmptyResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+Definition	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^struct Definition< ::roscpp::GetLoggersRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+Definition	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^struct Definition< ::roscpp::GetLoggersResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+Definition	/opt/ros/fuerte/include/roscpp/Logger.h	/^struct Definition< ::roscpp::Logger_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+Definition	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^struct Definition< ::roscpp::SetLoggerLevelRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+Definition	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^struct Definition< ::roscpp::SetLoggerLevelResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+Empty	/opt/ros/fuerte/include/roscpp/Empty.h	/^struct Empty$/;"	s	namespace:roscpp
+EmptyRequest	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^typedef ::roscpp::EmptyRequest_<std::allocator<void> > EmptyRequest;$/;"	t	namespace:roscpp
+EmptyRequestConstPtr	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^typedef boost::shared_ptr< ::roscpp::EmptyRequest const> EmptyRequestConstPtr;$/;"	t	namespace:roscpp
+EmptyRequestPtr	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^typedef boost::shared_ptr< ::roscpp::EmptyRequest > EmptyRequestPtr;$/;"	t	namespace:roscpp
+EmptyRequest_	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^  EmptyRequest_()$/;"	f	struct:roscpp::EmptyRequest_	access:public	signature:()
+EmptyRequest_	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^  EmptyRequest_(const ContainerAllocator& _alloc)$/;"	f	struct:roscpp::EmptyRequest_	access:public	signature:(const ContainerAllocator& _alloc)
+EmptyRequest_	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^struct EmptyRequest_$/;"	s	namespace:roscpp
+EmptyResponse	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^typedef ::roscpp::EmptyResponse_<std::allocator<void> > EmptyResponse;$/;"	t	namespace:roscpp
+EmptyResponseConstPtr	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^typedef boost::shared_ptr< ::roscpp::EmptyResponse const> EmptyResponseConstPtr;$/;"	t	namespace:roscpp
+EmptyResponsePtr	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^typedef boost::shared_ptr< ::roscpp::EmptyResponse > EmptyResponsePtr;$/;"	t	namespace:roscpp
+EmptyResponse_	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^  EmptyResponse_()$/;"	f	struct:roscpp::EmptyResponse_	access:public	signature:()
+EmptyResponse_	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^  EmptyResponse_(const ContainerAllocator& _alloc)$/;"	f	struct:roscpp::EmptyResponse_	access:public	signature:(const ContainerAllocator& _alloc)
+EmptyResponse_	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^struct EmptyResponse_$/;"	s	namespace:roscpp
+GetLoggers	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^struct GetLoggers$/;"	s	namespace:roscpp
+GetLoggersRequest	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^typedef ::roscpp::GetLoggersRequest_<std::allocator<void> > GetLoggersRequest;$/;"	t	namespace:roscpp
+GetLoggersRequestConstPtr	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^typedef boost::shared_ptr< ::roscpp::GetLoggersRequest const> GetLoggersRequestConstPtr;$/;"	t	namespace:roscpp
+GetLoggersRequestPtr	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^typedef boost::shared_ptr< ::roscpp::GetLoggersRequest > GetLoggersRequestPtr;$/;"	t	namespace:roscpp
+GetLoggersRequest_	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^  GetLoggersRequest_()$/;"	f	struct:roscpp::GetLoggersRequest_	access:public	signature:()
+GetLoggersRequest_	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^  GetLoggersRequest_(const ContainerAllocator& _alloc)$/;"	f	struct:roscpp::GetLoggersRequest_	access:public	signature:(const ContainerAllocator& _alloc)
+GetLoggersRequest_	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^struct GetLoggersRequest_$/;"	s	namespace:roscpp
+GetLoggersResponse	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^typedef ::roscpp::GetLoggersResponse_<std::allocator<void> > GetLoggersResponse;$/;"	t	namespace:roscpp
+GetLoggersResponseConstPtr	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^typedef boost::shared_ptr< ::roscpp::GetLoggersResponse const> GetLoggersResponseConstPtr;$/;"	t	namespace:roscpp
+GetLoggersResponsePtr	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^typedef boost::shared_ptr< ::roscpp::GetLoggersResponse > GetLoggersResponsePtr;$/;"	t	namespace:roscpp
+GetLoggersResponse_	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^  GetLoggersResponse_()$/;"	f	struct:roscpp::GetLoggersResponse_	access:public	signature:()
+GetLoggersResponse_	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^  GetLoggersResponse_(const ContainerAllocator& _alloc)$/;"	f	struct:roscpp::GetLoggersResponse_	access:public	signature:(const ContainerAllocator& _alloc)
+GetLoggersResponse_	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^struct GetLoggersResponse_$/;"	s	namespace:roscpp
+HasHeader	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^struct HasHeader< ::roscpp::EmptyRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:FalseType
+HasHeader	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^struct HasHeader< ::roscpp::EmptyRequest_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:FalseType
+HasHeader	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^struct HasHeader< ::roscpp::EmptyResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:FalseType
+HasHeader	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^struct HasHeader< ::roscpp::EmptyResponse_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:FalseType
+HasHeader	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^struct HasHeader< ::roscpp::GetLoggersRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:FalseType
+HasHeader	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^struct HasHeader< ::roscpp::GetLoggersRequest_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:FalseType
+HasHeader	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^struct HasHeader< ::roscpp::GetLoggersResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:FalseType
+HasHeader	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^struct HasHeader< ::roscpp::GetLoggersResponse_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:FalseType
+HasHeader	/opt/ros/fuerte/include/roscpp/Logger.h	/^struct HasHeader< ::roscpp::Logger_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:FalseType
+HasHeader	/opt/ros/fuerte/include/roscpp/Logger.h	/^struct HasHeader< ::roscpp::Logger_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:FalseType
+HasHeader	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^struct HasHeader< ::roscpp::SetLoggerLevelRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:FalseType
+HasHeader	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^struct HasHeader< ::roscpp::SetLoggerLevelRequest_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:FalseType
+HasHeader	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^struct HasHeader< ::roscpp::SetLoggerLevelResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:FalseType
+HasHeader	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^struct HasHeader< ::roscpp::SetLoggerLevelResponse_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:FalseType
+IsFixedSize	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^struct IsFixedSize< ::roscpp::EmptyRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:TrueType
+IsFixedSize	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^struct IsFixedSize< ::roscpp::EmptyRequest_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:TrueType
+IsFixedSize	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^struct IsFixedSize< ::roscpp::EmptyResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:TrueType
+IsFixedSize	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^struct IsFixedSize< ::roscpp::EmptyResponse_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:TrueType
+IsFixedSize	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^struct IsFixedSize< ::roscpp::GetLoggersRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:TrueType
+IsFixedSize	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^struct IsFixedSize< ::roscpp::GetLoggersRequest_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:TrueType
+IsFixedSize	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^struct IsFixedSize< ::roscpp::GetLoggersResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:FalseType
+IsFixedSize	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^struct IsFixedSize< ::roscpp::GetLoggersResponse_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:FalseType
+IsFixedSize	/opt/ros/fuerte/include/roscpp/Logger.h	/^struct IsFixedSize< ::roscpp::Logger_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:FalseType
+IsFixedSize	/opt/ros/fuerte/include/roscpp/Logger.h	/^struct IsFixedSize< ::roscpp::Logger_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:FalseType
+IsFixedSize	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^struct IsFixedSize< ::roscpp::SetLoggerLevelRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:FalseType
+IsFixedSize	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^struct IsFixedSize< ::roscpp::SetLoggerLevelRequest_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:FalseType
+IsFixedSize	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^struct IsFixedSize< ::roscpp::SetLoggerLevelResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:TrueType
+IsFixedSize	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^struct IsFixedSize< ::roscpp::SetLoggerLevelResponse_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:TrueType
+IsMessage	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^struct IsMessage< ::roscpp::EmptyRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:TrueType
+IsMessage	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^struct IsMessage< ::roscpp::EmptyRequest_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:TrueType
+IsMessage	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^struct IsMessage< ::roscpp::EmptyResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:TrueType
+IsMessage	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^struct IsMessage< ::roscpp::EmptyResponse_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:TrueType
+IsMessage	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^struct IsMessage< ::roscpp::GetLoggersRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:TrueType
+IsMessage	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^struct IsMessage< ::roscpp::GetLoggersRequest_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:TrueType
+IsMessage	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^struct IsMessage< ::roscpp::GetLoggersResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:TrueType
+IsMessage	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^struct IsMessage< ::roscpp::GetLoggersResponse_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:TrueType
+IsMessage	/opt/ros/fuerte/include/roscpp/Logger.h	/^struct IsMessage< ::roscpp::Logger_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:TrueType
+IsMessage	/opt/ros/fuerte/include/roscpp/Logger.h	/^struct IsMessage< ::roscpp::Logger_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:TrueType
+IsMessage	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^struct IsMessage< ::roscpp::SetLoggerLevelRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:TrueType
+IsMessage	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^struct IsMessage< ::roscpp::SetLoggerLevelRequest_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:TrueType
+IsMessage	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^struct IsMessage< ::roscpp::SetLoggerLevelResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:TrueType
+IsMessage	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^struct IsMessage< ::roscpp::SetLoggerLevelResponse_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:TrueType
+Logger	/opt/ros/fuerte/include/roscpp/Logger.h	/^typedef ::roscpp::Logger_<std::allocator<void> > Logger;$/;"	t	namespace:roscpp
+LoggerConstPtr	/opt/ros/fuerte/include/roscpp/Logger.h	/^typedef boost::shared_ptr< ::roscpp::Logger const> LoggerConstPtr;$/;"	t	namespace:roscpp
+LoggerPtr	/opt/ros/fuerte/include/roscpp/Logger.h	/^typedef boost::shared_ptr< ::roscpp::Logger > LoggerPtr;$/;"	t	namespace:roscpp
+Logger_	/opt/ros/fuerte/include/roscpp/Logger.h	/^  Logger_()$/;"	f	struct:roscpp::Logger_	access:public	signature:()
+Logger_	/opt/ros/fuerte/include/roscpp/Logger.h	/^  Logger_(const ContainerAllocator& _alloc)$/;"	f	struct:roscpp::Logger_	access:public	signature:(const ContainerAllocator& _alloc)
+Logger_	/opt/ros/fuerte/include/roscpp/Logger.h	/^struct Logger_$/;"	s	namespace:roscpp
+MD5Sum	/opt/ros/fuerte/include/roscpp/Empty.h	/^struct MD5Sum< ::roscpp::Empty > {$/;"	s	namespace:ros::service_traits
+MD5Sum	/opt/ros/fuerte/include/roscpp/Empty.h	/^struct MD5Sum< ::roscpp::EmptyRequest>$/;"	s	namespace:ros::service_traits
+MD5Sum	/opt/ros/fuerte/include/roscpp/Empty.h	/^struct MD5Sum< ::roscpp::EmptyResponse>$/;"	s	namespace:ros::service_traits
+MD5Sum	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^struct MD5Sum< ::roscpp::EmptyRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+MD5Sum	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^struct MD5Sum< ::roscpp::EmptyResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+MD5Sum	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^struct MD5Sum< ::roscpp::GetLoggers > {$/;"	s	namespace:ros::service_traits
+MD5Sum	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^struct MD5Sum< ::roscpp::GetLoggersRequest>$/;"	s	namespace:ros::service_traits
+MD5Sum	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^struct MD5Sum< ::roscpp::GetLoggersResponse>$/;"	s	namespace:ros::service_traits
+MD5Sum	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^struct MD5Sum< ::roscpp::GetLoggersRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+MD5Sum	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^struct MD5Sum< ::roscpp::GetLoggersResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+MD5Sum	/opt/ros/fuerte/include/roscpp/Logger.h	/^struct MD5Sum< ::roscpp::Logger_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+MD5Sum	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^struct MD5Sum< ::roscpp::SetLoggerLevel > {$/;"	s	namespace:ros::service_traits
+MD5Sum	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^struct MD5Sum< ::roscpp::SetLoggerLevelRequest>$/;"	s	namespace:ros::service_traits
+MD5Sum	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^struct MD5Sum< ::roscpp::SetLoggerLevelResponse>$/;"	s	namespace:ros::service_traits
+MD5Sum	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^struct MD5Sum< ::roscpp::SetLoggerLevelRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+MD5Sum	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^struct MD5Sum< ::roscpp::SetLoggerLevelResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+Printer	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^struct Printer< ::roscpp::EmptyRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_operations
+Printer	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^struct Printer< ::roscpp::EmptyResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_operations
+Printer	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^struct Printer< ::roscpp::GetLoggersRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_operations
+Printer	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^struct Printer< ::roscpp::GetLoggersResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_operations
+Printer	/opt/ros/fuerte/include/roscpp/Logger.h	/^struct Printer< ::roscpp::Logger_<ContainerAllocator> >$/;"	s	namespace:ros::message_operations
+Printer	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^struct Printer< ::roscpp::SetLoggerLevelRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_operations
+Printer	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^struct Printer< ::roscpp::SetLoggerLevelResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_operations
+Ptr	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^  typedef boost::shared_ptr< ::roscpp::EmptyRequest_<ContainerAllocator> > Ptr;$/;"	t	struct:roscpp::EmptyRequest_	access:public
+Ptr	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^  typedef boost::shared_ptr< ::roscpp::EmptyResponse_<ContainerAllocator> > Ptr;$/;"	t	struct:roscpp::EmptyResponse_	access:public
+Ptr	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^  typedef boost::shared_ptr< ::roscpp::GetLoggersRequest_<ContainerAllocator> > Ptr;$/;"	t	struct:roscpp::GetLoggersRequest_	access:public
+Ptr	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^  typedef boost::shared_ptr< ::roscpp::GetLoggersResponse_<ContainerAllocator> > Ptr;$/;"	t	struct:roscpp::GetLoggersResponse_	access:public
+Ptr	/opt/ros/fuerte/include/roscpp/Logger.h	/^  typedef boost::shared_ptr< ::roscpp::Logger_<ContainerAllocator> > Ptr;$/;"	t	struct:roscpp::Logger_	access:public
+Ptr	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  typedef boost::shared_ptr< ::roscpp::SetLoggerLevelRequest_<ContainerAllocator> > Ptr;$/;"	t	struct:roscpp::SetLoggerLevelRequest_	access:public
+Ptr	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^  typedef boost::shared_ptr< ::roscpp::SetLoggerLevelResponse_<ContainerAllocator> > Ptr;$/;"	t	struct:roscpp::SetLoggerLevelResponse_	access:public
+ROSCPP_MESSAGE_EMPTYREQUEST_H	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	39;"	d
+ROSCPP_MESSAGE_EMPTYRESPONSE_H	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	39;"	d
+ROSCPP_MESSAGE_EMPTY_H	/opt/ros/fuerte/include/roscpp/Empty.h	39;"	d
+ROSCPP_MESSAGE_GETLOGGERSREQUEST_H	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	39;"	d
+ROSCPP_MESSAGE_GETLOGGERSRESPONSE_H	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	39;"	d
+ROSCPP_MESSAGE_GETLOGGERS_H	/opt/ros/fuerte/include/roscpp/GetLoggers.h	39;"	d
+ROSCPP_MESSAGE_LOGGER_H	/opt/ros/fuerte/include/roscpp/Logger.h	39;"	d
+ROSCPP_MESSAGE_SETLOGGERLEVELREQUEST_H	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	39;"	d
+ROSCPP_MESSAGE_SETLOGGERLEVELRESPONSE_H	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	39;"	d
+ROSCPP_MESSAGE_SETLOGGERLEVEL_H	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	39;"	d
+ROS_DECLARE_ALLINONE_SERIALIZER	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^    ROS_DECLARE_ALLINONE_SERIALIZER;$/;"	m	struct:ros::serialization::Serializer	access:public
+ROS_DECLARE_ALLINONE_SERIALIZER	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^    ROS_DECLARE_ALLINONE_SERIALIZER;$/;"	m	struct:ros::serialization::Serializer	access:public
+ROS_DECLARE_ALLINONE_SERIALIZER	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^    ROS_DECLARE_ALLINONE_SERIALIZER;$/;"	m	struct:ros::serialization::Serializer	access:public
+ROS_DECLARE_ALLINONE_SERIALIZER	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^    ROS_DECLARE_ALLINONE_SERIALIZER;$/;"	m	struct:ros::serialization::Serializer	access:public
+ROS_DECLARE_ALLINONE_SERIALIZER	/opt/ros/fuerte/include/roscpp/Logger.h	/^    ROS_DECLARE_ALLINONE_SERIALIZER;$/;"	m	struct:ros::serialization::Serializer	access:public
+ROS_DECLARE_ALLINONE_SERIALIZER	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^    ROS_DECLARE_ALLINONE_SERIALIZER;$/;"	m	struct:ros::serialization::Serializer	access:public
+ROS_DECLARE_ALLINONE_SERIALIZER	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^    ROS_DECLARE_ALLINONE_SERIALIZER;$/;"	m	struct:ros::serialization::Serializer	access:public
+Request	/opt/ros/fuerte/include/roscpp/Empty.h	/^typedef EmptyRequest Request;$/;"	t	struct:roscpp::Empty	access:public
+Request	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^typedef GetLoggersRequest Request;$/;"	t	struct:roscpp::GetLoggers	access:public
+Request	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^typedef SetLoggerLevelRequest Request;$/;"	t	struct:roscpp::SetLoggerLevel	access:public
+RequestType	/opt/ros/fuerte/include/roscpp/Empty.h	/^typedef Request RequestType;$/;"	t	struct:roscpp::Empty	access:public
+RequestType	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^typedef Request RequestType;$/;"	t	struct:roscpp::GetLoggers	access:public
+RequestType	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^typedef Request RequestType;$/;"	t	struct:roscpp::SetLoggerLevel	access:public
+Response	/opt/ros/fuerte/include/roscpp/Empty.h	/^typedef EmptyResponse Response;$/;"	t	struct:roscpp::Empty	access:public
+Response	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^typedef GetLoggersResponse Response;$/;"	t	struct:roscpp::GetLoggers	access:public
+Response	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^typedef SetLoggerLevelResponse Response;$/;"	t	struct:roscpp::SetLoggerLevel	access:public
+ResponseType	/opt/ros/fuerte/include/roscpp/Empty.h	/^typedef Response ResponseType;$/;"	t	struct:roscpp::Empty	access:public
+ResponseType	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^typedef Response ResponseType;$/;"	t	struct:roscpp::GetLoggers	access:public
+ResponseType	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^typedef Response ResponseType;$/;"	t	struct:roscpp::SetLoggerLevel	access:public
+Serializer	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^  template<class ContainerAllocator> struct Serializer< ::roscpp::EmptyRequest_<ContainerAllocator> >$/;"	s	namespace:ros::serialization
+Serializer	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^  template<class ContainerAllocator> struct Serializer< ::roscpp::EmptyResponse_<ContainerAllocator> >$/;"	s	namespace:ros::serialization
+Serializer	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^  template<class ContainerAllocator> struct Serializer< ::roscpp::GetLoggersRequest_<ContainerAllocator> >$/;"	s	namespace:ros::serialization
+Serializer	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^  template<class ContainerAllocator> struct Serializer< ::roscpp::GetLoggersResponse_<ContainerAllocator> >$/;"	s	namespace:ros::serialization
+Serializer	/opt/ros/fuerte/include/roscpp/Logger.h	/^  template<class ContainerAllocator> struct Serializer< ::roscpp::Logger_<ContainerAllocator> >$/;"	s	namespace:ros::serialization
+Serializer	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  template<class ContainerAllocator> struct Serializer< ::roscpp::SetLoggerLevelRequest_<ContainerAllocator> >$/;"	s	namespace:ros::serialization
+Serializer	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^  template<class ContainerAllocator> struct Serializer< ::roscpp::SetLoggerLevelResponse_<ContainerAllocator> >$/;"	s	namespace:ros::serialization
+SetLoggerLevel	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^struct SetLoggerLevel$/;"	s	namespace:roscpp
+SetLoggerLevelRequest	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^typedef ::roscpp::SetLoggerLevelRequest_<std::allocator<void> > SetLoggerLevelRequest;$/;"	t	namespace:roscpp
+SetLoggerLevelRequestConstPtr	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^typedef boost::shared_ptr< ::roscpp::SetLoggerLevelRequest const> SetLoggerLevelRequestConstPtr;$/;"	t	namespace:roscpp
+SetLoggerLevelRequestPtr	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^typedef boost::shared_ptr< ::roscpp::SetLoggerLevelRequest > SetLoggerLevelRequestPtr;$/;"	t	namespace:roscpp
+SetLoggerLevelRequest_	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  SetLoggerLevelRequest_()$/;"	f	struct:roscpp::SetLoggerLevelRequest_	access:public	signature:()
+SetLoggerLevelRequest_	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  SetLoggerLevelRequest_(const ContainerAllocator& _alloc)$/;"	f	struct:roscpp::SetLoggerLevelRequest_	access:public	signature:(const ContainerAllocator& _alloc)
+SetLoggerLevelRequest_	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^struct SetLoggerLevelRequest_$/;"	s	namespace:roscpp
+SetLoggerLevelResponse	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^typedef ::roscpp::SetLoggerLevelResponse_<std::allocator<void> > SetLoggerLevelResponse;$/;"	t	namespace:roscpp
+SetLoggerLevelResponseConstPtr	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^typedef boost::shared_ptr< ::roscpp::SetLoggerLevelResponse const> SetLoggerLevelResponseConstPtr;$/;"	t	namespace:roscpp
+SetLoggerLevelResponsePtr	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^typedef boost::shared_ptr< ::roscpp::SetLoggerLevelResponse > SetLoggerLevelResponsePtr;$/;"	t	namespace:roscpp
+SetLoggerLevelResponse_	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^  SetLoggerLevelResponse_()$/;"	f	struct:roscpp::SetLoggerLevelResponse_	access:public	signature:()
+SetLoggerLevelResponse_	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^  SetLoggerLevelResponse_(const ContainerAllocator& _alloc)$/;"	f	struct:roscpp::SetLoggerLevelResponse_	access:public	signature:(const ContainerAllocator& _alloc)
+SetLoggerLevelResponse_	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^struct SetLoggerLevelResponse_$/;"	s	namespace:roscpp
+Type	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^  typedef EmptyRequest_<ContainerAllocator> Type;$/;"	t	struct:roscpp::EmptyRequest_	access:public
+Type	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^  typedef EmptyResponse_<ContainerAllocator> Type;$/;"	t	struct:roscpp::EmptyResponse_	access:public
+Type	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^  typedef GetLoggersRequest_<ContainerAllocator> Type;$/;"	t	struct:roscpp::GetLoggersRequest_	access:public
+Type	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^  typedef GetLoggersResponse_<ContainerAllocator> Type;$/;"	t	struct:roscpp::GetLoggersResponse_	access:public
+Type	/opt/ros/fuerte/include/roscpp/Logger.h	/^  typedef Logger_<ContainerAllocator> Type;$/;"	t	struct:roscpp::Logger_	access:public
+Type	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  typedef SetLoggerLevelRequest_<ContainerAllocator> Type;$/;"	t	struct:roscpp::SetLoggerLevelRequest_	access:public
+Type	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^  typedef SetLoggerLevelResponse_<ContainerAllocator> Type;$/;"	t	struct:roscpp::SetLoggerLevelResponse_	access:public
+__connection_header	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^  boost::shared_ptr<std::map<std::string, std::string> > __connection_header;$/;"	m	struct:roscpp::EmptyRequest_	access:public
+__connection_header	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^  boost::shared_ptr<std::map<std::string, std::string> > __connection_header;$/;"	m	struct:roscpp::EmptyResponse_	access:public
+__connection_header	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^  boost::shared_ptr<std::map<std::string, std::string> > __connection_header;$/;"	m	struct:roscpp::GetLoggersRequest_	access:public
+__connection_header	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^  boost::shared_ptr<std::map<std::string, std::string> > __connection_header;$/;"	m	struct:roscpp::GetLoggersResponse_	access:public
+__connection_header	/opt/ros/fuerte/include/roscpp/Logger.h	/^  boost::shared_ptr<std::map<std::string, std::string> > __connection_header;$/;"	m	struct:roscpp::Logger_	access:public
+__connection_header	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  boost::shared_ptr<std::map<std::string, std::string> > __connection_header;$/;"	m	struct:roscpp::SetLoggerLevelRequest_	access:public
+__connection_header	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^  boost::shared_ptr<std::map<std::string, std::string> > __connection_header;$/;"	m	struct:roscpp::SetLoggerLevelResponse_	access:public
+_level_type	/opt/ros/fuerte/include/roscpp/Logger.h	/^   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _level_type;$/;"	t	struct:roscpp::Logger_	access:public
+_level_type	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _level_type;$/;"	t	struct:roscpp::SetLoggerLevelRequest_	access:public
+_logger_type	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _logger_type;$/;"	t	struct:roscpp::SetLoggerLevelRequest_	access:public
+_loggers_type	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^   typedef std::vector< ::roscpp::Logger_<ContainerAllocator> , typename ContainerAllocator::template rebind< ::roscpp::Logger_<ContainerAllocator> >::other >  _loggers_type;$/;"	t	struct:roscpp::GetLoggersResponse_	access:public
+_name_type	/opt/ros/fuerte/include/roscpp/Logger.h	/^   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _name_type;$/;"	t	struct:roscpp::Logger_	access:public
+allInOne	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^    template<typename Stream, typename T> inline static void allInOne(Stream& stream, T m)$/;"	f	struct:ros::serialization::Serializer	access:public	signature:(Stream& stream, T m)
+allInOne	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^    template<typename Stream, typename T> inline static void allInOne(Stream& stream, T m)$/;"	f	struct:ros::serialization::Serializer	access:public	signature:(Stream& stream, T m)
+allInOne	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^    template<typename Stream, typename T> inline static void allInOne(Stream& stream, T m)$/;"	f	struct:ros::serialization::Serializer	access:public	signature:(Stream& stream, T m)
+allInOne	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^    template<typename Stream, typename T> inline static void allInOne(Stream& stream, T m)$/;"	f	struct:ros::serialization::Serializer	access:public	signature:(Stream& stream, T m)
+allInOne	/opt/ros/fuerte/include/roscpp/Logger.h	/^    template<typename Stream, typename T> inline static void allInOne(Stream& stream, T m)$/;"	f	struct:ros::serialization::Serializer	access:public	signature:(Stream& stream, T m)
+allInOne	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^    template<typename Stream, typename T> inline static void allInOne(Stream& stream, T m)$/;"	f	struct:ros::serialization::Serializer	access:public	signature:(Stream& stream, T m)
+allInOne	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^    template<typename Stream, typename T> inline static void allInOne(Stream& stream, T m)$/;"	f	struct:ros::serialization::Serializer	access:public	signature:(Stream& stream, T m)
+level	/opt/ros/fuerte/include/roscpp/Logger.h	/^  _level_type level;$/;"	m	struct:roscpp::Logger_	access:public
+level	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  _level_type level;$/;"	m	struct:roscpp::SetLoggerLevelRequest_	access:public
+logger	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  _logger_type logger;$/;"	m	struct:roscpp::SetLoggerLevelRequest_	access:public
+loggers	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^  _loggers_type loggers;$/;"	m	struct:roscpp::GetLoggersResponse_	access:public
+message_operations	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^namespace message_operations$/;"	n	namespace:ros
+message_operations	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^namespace message_operations$/;"	n	namespace:ros
+message_operations	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^namespace message_operations$/;"	n	namespace:ros
+message_operations	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^namespace message_operations$/;"	n	namespace:ros
+message_operations	/opt/ros/fuerte/include/roscpp/Logger.h	/^namespace message_operations$/;"	n	namespace:ros
+message_operations	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^namespace message_operations$/;"	n	namespace:ros
+message_operations	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^namespace message_operations$/;"	n	namespace:ros
+message_traits	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^namespace message_traits$/;"	n	namespace:ros
+message_traits	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^namespace message_traits$/;"	n	namespace:ros
+message_traits	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^namespace message_traits$/;"	n	namespace:ros
+message_traits	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^namespace message_traits$/;"	n	namespace:ros
+message_traits	/opt/ros/fuerte/include/roscpp/Logger.h	/^namespace message_traits$/;"	n	namespace:ros
+message_traits	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^namespace message_traits$/;"	n	namespace:ros
+message_traits	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^namespace message_traits$/;"	n	namespace:ros
+name	/opt/ros/fuerte/include/roscpp/Logger.h	/^  _name_type name;$/;"	m	struct:roscpp::Logger_	access:public
+operator <<	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^std::ostream& operator<<(std::ostream& s, const ::roscpp::EmptyRequest_<ContainerAllocator> & v)$/;"	f	namespace:roscpp	signature:(std::ostream& s, const ::roscpp::EmptyRequest_<ContainerAllocator> & v)
+operator <<	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^std::ostream& operator<<(std::ostream& s, const ::roscpp::EmptyResponse_<ContainerAllocator> & v)$/;"	f	namespace:roscpp	signature:(std::ostream& s, const ::roscpp::EmptyResponse_<ContainerAllocator> & v)
+operator <<	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^std::ostream& operator<<(std::ostream& s, const ::roscpp::GetLoggersRequest_<ContainerAllocator> & v)$/;"	f	namespace:roscpp	signature:(std::ostream& s, const ::roscpp::GetLoggersRequest_<ContainerAllocator> & v)
+operator <<	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^std::ostream& operator<<(std::ostream& s, const ::roscpp::GetLoggersResponse_<ContainerAllocator> & v)$/;"	f	namespace:roscpp	signature:(std::ostream& s, const ::roscpp::GetLoggersResponse_<ContainerAllocator> & v)
+operator <<	/opt/ros/fuerte/include/roscpp/Logger.h	/^std::ostream& operator<<(std::ostream& s, const ::roscpp::Logger_<ContainerAllocator> & v)$/;"	f	namespace:roscpp	signature:(std::ostream& s, const ::roscpp::Logger_<ContainerAllocator> & v)
+operator <<	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^std::ostream& operator<<(std::ostream& s, const ::roscpp::SetLoggerLevelRequest_<ContainerAllocator> & v)$/;"	f	namespace:roscpp	signature:(std::ostream& s, const ::roscpp::SetLoggerLevelRequest_<ContainerAllocator> & v)
+operator <<	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^std::ostream& operator<<(std::ostream& s, const ::roscpp::SetLoggerLevelResponse_<ContainerAllocator> & v)$/;"	f	namespace:roscpp	signature:(std::ostream& s, const ::roscpp::SetLoggerLevelResponse_<ContainerAllocator> & v)
+request	/opt/ros/fuerte/include/roscpp/Empty.h	/^Request request;$/;"	m	struct:roscpp::Empty	access:public
+request	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^Request request;$/;"	m	struct:roscpp::GetLoggers	access:public
+request	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^Request request;$/;"	m	struct:roscpp::SetLoggerLevel	access:public
+response	/opt/ros/fuerte/include/roscpp/Empty.h	/^Response response;$/;"	m	struct:roscpp::Empty	access:public
+response	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^Response response;$/;"	m	struct:roscpp::GetLoggers	access:public
+response	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^Response response;$/;"	m	struct:roscpp::SetLoggerLevel	access:public
+ros	/opt/ros/fuerte/include/roscpp/Empty.h	/^namespace ros$/;"	n
+ros	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^namespace ros$/;"	n
+ros	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^namespace ros$/;"	n
+ros	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^namespace ros$/;"	n
+ros	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^namespace ros$/;"	n
+ros	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^namespace ros$/;"	n
+ros	/opt/ros/fuerte/include/roscpp/Logger.h	/^namespace ros$/;"	n
+ros	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^namespace ros$/;"	n
+ros	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^namespace ros$/;"	n
+ros	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^namespace ros$/;"	n
+ros::message_operations	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^namespace message_operations$/;"	n	namespace:ros
+ros::message_operations	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^namespace message_operations$/;"	n	namespace:ros
+ros::message_operations	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^namespace message_operations$/;"	n	namespace:ros
+ros::message_operations	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^namespace message_operations$/;"	n	namespace:ros
+ros::message_operations	/opt/ros/fuerte/include/roscpp/Logger.h	/^namespace message_operations$/;"	n	namespace:ros
+ros::message_operations	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^namespace message_operations$/;"	n	namespace:ros
+ros::message_operations	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^namespace message_operations$/;"	n	namespace:ros
+ros::message_operations::Printer	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^struct Printer< ::roscpp::EmptyRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_operations
+ros::message_operations::Printer	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^struct Printer< ::roscpp::EmptyResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_operations
+ros::message_operations::Printer	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^struct Printer< ::roscpp::GetLoggersRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_operations
+ros::message_operations::Printer	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^struct Printer< ::roscpp::GetLoggersResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_operations
+ros::message_operations::Printer	/opt/ros/fuerte/include/roscpp/Logger.h	/^struct Printer< ::roscpp::Logger_<ContainerAllocator> >$/;"	s	namespace:ros::message_operations
+ros::message_operations::Printer	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^struct Printer< ::roscpp::SetLoggerLevelRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_operations
+ros::message_operations::Printer	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^struct Printer< ::roscpp::SetLoggerLevelResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_operations
+ros::message_operations::Printer::stream	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^  template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::roscpp::EmptyRequest_<ContainerAllocator>& v)$/;"	f	struct:ros::message_operations::Printer	access:public	signature:(Stream& s, const std::string& indent, const ::roscpp::EmptyRequest_<ContainerAllocator>& v)
+ros::message_operations::Printer::stream	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^  template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::roscpp::EmptyResponse_<ContainerAllocator>& v)$/;"	f	struct:ros::message_operations::Printer	access:public	signature:(Stream& s, const std::string& indent, const ::roscpp::EmptyResponse_<ContainerAllocator>& v)
+ros::message_operations::Printer::stream	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^  template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::roscpp::GetLoggersRequest_<ContainerAllocator>& v)$/;"	f	struct:ros::message_operations::Printer	access:public	signature:(Stream& s, const std::string& indent, const ::roscpp::GetLoggersRequest_<ContainerAllocator>& v)
+ros::message_operations::Printer::stream	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^  template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::roscpp::GetLoggersResponse_<ContainerAllocator>& v)$/;"	f	struct:ros::message_operations::Printer	access:public	signature:(Stream& s, const std::string& indent, const ::roscpp::GetLoggersResponse_<ContainerAllocator>& v)
+ros::message_operations::Printer::stream	/opt/ros/fuerte/include/roscpp/Logger.h	/^  template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::roscpp::Logger_<ContainerAllocator>& v)$/;"	f	struct:ros::message_operations::Printer	access:public	signature:(Stream& s, const std::string& indent, const ::roscpp::Logger_<ContainerAllocator>& v)
+ros::message_operations::Printer::stream	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::roscpp::SetLoggerLevelRequest_<ContainerAllocator>& v)$/;"	f	struct:ros::message_operations::Printer	access:public	signature:(Stream& s, const std::string& indent, const ::roscpp::SetLoggerLevelRequest_<ContainerAllocator>& v)
+ros::message_operations::Printer::stream	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^  template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::roscpp::SetLoggerLevelResponse_<ContainerAllocator>& v)$/;"	f	struct:ros::message_operations::Printer	access:public	signature:(Stream& s, const std::string& indent, const ::roscpp::SetLoggerLevelResponse_<ContainerAllocator>& v)
+ros::message_traits	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^namespace message_traits$/;"	n	namespace:ros
+ros::message_traits	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^namespace message_traits$/;"	n	namespace:ros
+ros::message_traits	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^namespace message_traits$/;"	n	namespace:ros
+ros::message_traits	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^namespace message_traits$/;"	n	namespace:ros
+ros::message_traits	/opt/ros/fuerte/include/roscpp/Logger.h	/^namespace message_traits$/;"	n	namespace:ros
+ros::message_traits	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^namespace message_traits$/;"	n	namespace:ros
+ros::message_traits	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^namespace message_traits$/;"	n	namespace:ros
+ros::message_traits::DataType	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^struct DataType< ::roscpp::EmptyRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+ros::message_traits::DataType	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^struct DataType< ::roscpp::EmptyResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+ros::message_traits::DataType	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^struct DataType< ::roscpp::GetLoggersRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+ros::message_traits::DataType	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^struct DataType< ::roscpp::GetLoggersResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+ros::message_traits::DataType	/opt/ros/fuerte/include/roscpp/Logger.h	/^struct DataType< ::roscpp::Logger_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+ros::message_traits::DataType	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^struct DataType< ::roscpp::SetLoggerLevelRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+ros::message_traits::DataType	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^struct DataType< ::roscpp::SetLoggerLevelResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+ros::message_traits::DataType::value	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::DataType	access:public	signature:()
+ros::message_traits::DataType::value	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^  static const char* value(const ::roscpp::EmptyRequest_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::DataType	access:public	signature:(const ::roscpp::EmptyRequest_<ContainerAllocator>&)
+ros::message_traits::DataType::value	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::DataType	access:public	signature:()
+ros::message_traits::DataType::value	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^  static const char* value(const ::roscpp::EmptyResponse_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::DataType	access:public	signature:(const ::roscpp::EmptyResponse_<ContainerAllocator>&)
+ros::message_traits::DataType::value	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::DataType	access:public	signature:()
+ros::message_traits::DataType::value	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^  static const char* value(const ::roscpp::GetLoggersRequest_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::DataType	access:public	signature:(const ::roscpp::GetLoggersRequest_<ContainerAllocator>&)
+ros::message_traits::DataType::value	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::DataType	access:public	signature:()
+ros::message_traits::DataType::value	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^  static const char* value(const ::roscpp::GetLoggersResponse_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::DataType	access:public	signature:(const ::roscpp::GetLoggersResponse_<ContainerAllocator>&)
+ros::message_traits::DataType::value	/opt/ros/fuerte/include/roscpp/Logger.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::DataType	access:public	signature:()
+ros::message_traits::DataType::value	/opt/ros/fuerte/include/roscpp/Logger.h	/^  static const char* value(const ::roscpp::Logger_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::DataType	access:public	signature:(const ::roscpp::Logger_<ContainerAllocator>&)
+ros::message_traits::DataType::value	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::DataType	access:public	signature:()
+ros::message_traits::DataType::value	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  static const char* value(const ::roscpp::SetLoggerLevelRequest_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::DataType	access:public	signature:(const ::roscpp::SetLoggerLevelRequest_<ContainerAllocator>&)
+ros::message_traits::DataType::value	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::DataType	access:public	signature:()
+ros::message_traits::DataType::value	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^  static const char* value(const ::roscpp::SetLoggerLevelResponse_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::DataType	access:public	signature:(const ::roscpp::SetLoggerLevelResponse_<ContainerAllocator>&)
+ros::message_traits::Definition	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^struct Definition< ::roscpp::EmptyRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+ros::message_traits::Definition	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^struct Definition< ::roscpp::EmptyResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+ros::message_traits::Definition	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^struct Definition< ::roscpp::GetLoggersRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+ros::message_traits::Definition	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^struct Definition< ::roscpp::GetLoggersResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+ros::message_traits::Definition	/opt/ros/fuerte/include/roscpp/Logger.h	/^struct Definition< ::roscpp::Logger_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+ros::message_traits::Definition	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^struct Definition< ::roscpp::SetLoggerLevelRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+ros::message_traits::Definition	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^struct Definition< ::roscpp::SetLoggerLevelResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+ros::message_traits::Definition::value	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::Definition	access:public	signature:()
+ros::message_traits::Definition::value	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^  static const char* value(const ::roscpp::EmptyRequest_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::Definition	access:public	signature:(const ::roscpp::EmptyRequest_<ContainerAllocator>&)
+ros::message_traits::Definition::value	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::Definition	access:public	signature:()
+ros::message_traits::Definition::value	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^  static const char* value(const ::roscpp::EmptyResponse_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::Definition	access:public	signature:(const ::roscpp::EmptyResponse_<ContainerAllocator>&)
+ros::message_traits::Definition::value	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::Definition	access:public	signature:()
+ros::message_traits::Definition::value	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^  static const char* value(const ::roscpp::GetLoggersRequest_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::Definition	access:public	signature:(const ::roscpp::GetLoggersRequest_<ContainerAllocator>&)
+ros::message_traits::Definition::value	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::Definition	access:public	signature:()
+ros::message_traits::Definition::value	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^  static const char* value(const ::roscpp::GetLoggersResponse_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::Definition	access:public	signature:(const ::roscpp::GetLoggersResponse_<ContainerAllocator>&)
+ros::message_traits::Definition::value	/opt/ros/fuerte/include/roscpp/Logger.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::Definition	access:public	signature:()
+ros::message_traits::Definition::value	/opt/ros/fuerte/include/roscpp/Logger.h	/^  static const char* value(const ::roscpp::Logger_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::Definition	access:public	signature:(const ::roscpp::Logger_<ContainerAllocator>&)
+ros::message_traits::Definition::value	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::Definition	access:public	signature:()
+ros::message_traits::Definition::value	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  static const char* value(const ::roscpp::SetLoggerLevelRequest_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::Definition	access:public	signature:(const ::roscpp::SetLoggerLevelRequest_<ContainerAllocator>&)
+ros::message_traits::Definition::value	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::Definition	access:public	signature:()
+ros::message_traits::Definition::value	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^  static const char* value(const ::roscpp::SetLoggerLevelResponse_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::Definition	access:public	signature:(const ::roscpp::SetLoggerLevelResponse_<ContainerAllocator>&)
+ros::message_traits::HasHeader	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^struct HasHeader< ::roscpp::EmptyRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:FalseType
+ros::message_traits::HasHeader	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^struct HasHeader< ::roscpp::EmptyRequest_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:FalseType
+ros::message_traits::HasHeader	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^struct HasHeader< ::roscpp::EmptyResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:FalseType
+ros::message_traits::HasHeader	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^struct HasHeader< ::roscpp::EmptyResponse_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:FalseType
+ros::message_traits::HasHeader	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^struct HasHeader< ::roscpp::GetLoggersRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:FalseType
+ros::message_traits::HasHeader	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^struct HasHeader< ::roscpp::GetLoggersRequest_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:FalseType
+ros::message_traits::HasHeader	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^struct HasHeader< ::roscpp::GetLoggersResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:FalseType
+ros::message_traits::HasHeader	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^struct HasHeader< ::roscpp::GetLoggersResponse_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:FalseType
+ros::message_traits::HasHeader	/opt/ros/fuerte/include/roscpp/Logger.h	/^struct HasHeader< ::roscpp::Logger_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:FalseType
+ros::message_traits::HasHeader	/opt/ros/fuerte/include/roscpp/Logger.h	/^struct HasHeader< ::roscpp::Logger_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:FalseType
+ros::message_traits::HasHeader	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^struct HasHeader< ::roscpp::SetLoggerLevelRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:FalseType
+ros::message_traits::HasHeader	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^struct HasHeader< ::roscpp::SetLoggerLevelRequest_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:FalseType
+ros::message_traits::HasHeader	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^struct HasHeader< ::roscpp::SetLoggerLevelResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:FalseType
+ros::message_traits::HasHeader	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^struct HasHeader< ::roscpp::SetLoggerLevelResponse_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:FalseType
+ros::message_traits::IsFixedSize	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^struct IsFixedSize< ::roscpp::EmptyRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:TrueType
+ros::message_traits::IsFixedSize	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^struct IsFixedSize< ::roscpp::EmptyRequest_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:TrueType
+ros::message_traits::IsFixedSize	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^struct IsFixedSize< ::roscpp::EmptyResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:TrueType
+ros::message_traits::IsFixedSize	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^struct IsFixedSize< ::roscpp::EmptyResponse_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:TrueType
+ros::message_traits::IsFixedSize	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^struct IsFixedSize< ::roscpp::GetLoggersRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:TrueType
+ros::message_traits::IsFixedSize	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^struct IsFixedSize< ::roscpp::GetLoggersRequest_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:TrueType
+ros::message_traits::IsFixedSize	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^struct IsFixedSize< ::roscpp::GetLoggersResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:FalseType
+ros::message_traits::IsFixedSize	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^struct IsFixedSize< ::roscpp::GetLoggersResponse_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:FalseType
+ros::message_traits::IsFixedSize	/opt/ros/fuerte/include/roscpp/Logger.h	/^struct IsFixedSize< ::roscpp::Logger_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:FalseType
+ros::message_traits::IsFixedSize	/opt/ros/fuerte/include/roscpp/Logger.h	/^struct IsFixedSize< ::roscpp::Logger_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:FalseType
+ros::message_traits::IsFixedSize	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^struct IsFixedSize< ::roscpp::SetLoggerLevelRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:FalseType
+ros::message_traits::IsFixedSize	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^struct IsFixedSize< ::roscpp::SetLoggerLevelRequest_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:FalseType
+ros::message_traits::IsFixedSize	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^struct IsFixedSize< ::roscpp::SetLoggerLevelResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:TrueType
+ros::message_traits::IsFixedSize	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^struct IsFixedSize< ::roscpp::SetLoggerLevelResponse_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:TrueType
+ros::message_traits::IsMessage	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^struct IsMessage< ::roscpp::EmptyRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:TrueType
+ros::message_traits::IsMessage	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^struct IsMessage< ::roscpp::EmptyRequest_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:TrueType
+ros::message_traits::IsMessage	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^struct IsMessage< ::roscpp::EmptyResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:TrueType
+ros::message_traits::IsMessage	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^struct IsMessage< ::roscpp::EmptyResponse_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:TrueType
+ros::message_traits::IsMessage	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^struct IsMessage< ::roscpp::GetLoggersRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:TrueType
+ros::message_traits::IsMessage	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^struct IsMessage< ::roscpp::GetLoggersRequest_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:TrueType
+ros::message_traits::IsMessage	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^struct IsMessage< ::roscpp::GetLoggersResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:TrueType
+ros::message_traits::IsMessage	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^struct IsMessage< ::roscpp::GetLoggersResponse_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:TrueType
+ros::message_traits::IsMessage	/opt/ros/fuerte/include/roscpp/Logger.h	/^struct IsMessage< ::roscpp::Logger_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:TrueType
+ros::message_traits::IsMessage	/opt/ros/fuerte/include/roscpp/Logger.h	/^struct IsMessage< ::roscpp::Logger_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:TrueType
+ros::message_traits::IsMessage	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^struct IsMessage< ::roscpp::SetLoggerLevelRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:TrueType
+ros::message_traits::IsMessage	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^struct IsMessage< ::roscpp::SetLoggerLevelRequest_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:TrueType
+ros::message_traits::IsMessage	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^struct IsMessage< ::roscpp::SetLoggerLevelResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits	inherits:TrueType
+ros::message_traits::IsMessage	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^struct IsMessage< ::roscpp::SetLoggerLevelResponse_<ContainerAllocator> const>$/;"	s	namespace:ros::message_traits	inherits:TrueType
+ros::message_traits::MD5Sum	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^struct MD5Sum< ::roscpp::EmptyRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+ros::message_traits::MD5Sum	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^struct MD5Sum< ::roscpp::EmptyResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+ros::message_traits::MD5Sum	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^struct MD5Sum< ::roscpp::GetLoggersRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+ros::message_traits::MD5Sum	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^struct MD5Sum< ::roscpp::GetLoggersResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+ros::message_traits::MD5Sum	/opt/ros/fuerte/include/roscpp/Logger.h	/^struct MD5Sum< ::roscpp::Logger_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+ros::message_traits::MD5Sum	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^struct MD5Sum< ::roscpp::SetLoggerLevelRequest_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+ros::message_traits::MD5Sum	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^struct MD5Sum< ::roscpp::SetLoggerLevelResponse_<ContainerAllocator> >$/;"	s	namespace:ros::message_traits
+ros::message_traits::MD5Sum::static_value1	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^  static const uint64_t static_value1 = 0xd41d8cd98f00b204ULL;$/;"	m	struct:ros::message_traits::MD5Sum	access:public
+ros::message_traits::MD5Sum::static_value1	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^  static const uint64_t static_value1 = 0xd41d8cd98f00b204ULL;$/;"	m	struct:ros::message_traits::MD5Sum	access:public
+ros::message_traits::MD5Sum::static_value1	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^  static const uint64_t static_value1 = 0xd41d8cd98f00b204ULL;$/;"	m	struct:ros::message_traits::MD5Sum	access:public
+ros::message_traits::MD5Sum::static_value1	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^  static const uint64_t static_value1 = 0x32e97e85527d4678ULL;$/;"	m	struct:ros::message_traits::MD5Sum	access:public
+ros::message_traits::MD5Sum::static_value1	/opt/ros/fuerte/include/roscpp/Logger.h	/^  static const uint64_t static_value1 = 0xa6069a2ff40db7bdULL;$/;"	m	struct:ros::message_traits::MD5Sum	access:public
+ros::message_traits::MD5Sum::static_value1	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  static const uint64_t static_value1 = 0x51da076440d78ca1ULL;$/;"	m	struct:ros::message_traits::MD5Sum	access:public
+ros::message_traits::MD5Sum::static_value1	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^  static const uint64_t static_value1 = 0xd41d8cd98f00b204ULL;$/;"	m	struct:ros::message_traits::MD5Sum	access:public
+ros::message_traits::MD5Sum::static_value2	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^  static const uint64_t static_value2 = 0xe9800998ecf8427eULL;$/;"	m	struct:ros::message_traits::MD5Sum	access:public
+ros::message_traits::MD5Sum::static_value2	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^  static const uint64_t static_value2 = 0xe9800998ecf8427eULL;$/;"	m	struct:ros::message_traits::MD5Sum	access:public
+ros::message_traits::MD5Sum::static_value2	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^  static const uint64_t static_value2 = 0xe9800998ecf8427eULL;$/;"	m	struct:ros::message_traits::MD5Sum	access:public
+ros::message_traits::MD5Sum::static_value2	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^  static const uint64_t static_value2 = 0xa8f9279894bb64b0ULL;$/;"	m	struct:ros::message_traits::MD5Sum	access:public
+ros::message_traits::MD5Sum::static_value2	/opt/ros/fuerte/include/roscpp/Logger.h	/^  static const uint64_t static_value2 = 0x32143dd66e1f408eULL;$/;"	m	struct:ros::message_traits::MD5Sum	access:public
+ros::message_traits::MD5Sum::static_value2	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  static const uint64_t static_value2 = 0x684d36c868df61eaULL;$/;"	m	struct:ros::message_traits::MD5Sum	access:public
+ros::message_traits::MD5Sum::static_value2	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^  static const uint64_t static_value2 = 0xe9800998ecf8427eULL;$/;"	m	struct:ros::message_traits::MD5Sum	access:public
+ros::message_traits::MD5Sum::value	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::MD5Sum	access:public	signature:()
+ros::message_traits::MD5Sum::value	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^  static const char* value(const ::roscpp::EmptyRequest_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::MD5Sum	access:public	signature:(const ::roscpp::EmptyRequest_<ContainerAllocator>&)
+ros::message_traits::MD5Sum::value	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::MD5Sum	access:public	signature:()
+ros::message_traits::MD5Sum::value	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^  static const char* value(const ::roscpp::EmptyResponse_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::MD5Sum	access:public	signature:(const ::roscpp::EmptyResponse_<ContainerAllocator>&)
+ros::message_traits::MD5Sum::value	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::MD5Sum	access:public	signature:()
+ros::message_traits::MD5Sum::value	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^  static const char* value(const ::roscpp::GetLoggersRequest_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::MD5Sum	access:public	signature:(const ::roscpp::GetLoggersRequest_<ContainerAllocator>&)
+ros::message_traits::MD5Sum::value	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::MD5Sum	access:public	signature:()
+ros::message_traits::MD5Sum::value	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^  static const char* value(const ::roscpp::GetLoggersResponse_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::MD5Sum	access:public	signature:(const ::roscpp::GetLoggersResponse_<ContainerAllocator>&)
+ros::message_traits::MD5Sum::value	/opt/ros/fuerte/include/roscpp/Logger.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::MD5Sum	access:public	signature:()
+ros::message_traits::MD5Sum::value	/opt/ros/fuerte/include/roscpp/Logger.h	/^  static const char* value(const ::roscpp::Logger_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::MD5Sum	access:public	signature:(const ::roscpp::Logger_<ContainerAllocator>&)
+ros::message_traits::MD5Sum::value	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::MD5Sum	access:public	signature:()
+ros::message_traits::MD5Sum::value	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  static const char* value(const ::roscpp::SetLoggerLevelRequest_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::MD5Sum	access:public	signature:(const ::roscpp::SetLoggerLevelRequest_<ContainerAllocator>&)
+ros::message_traits::MD5Sum::value	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::MD5Sum	access:public	signature:()
+ros::message_traits::MD5Sum::value	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^  static const char* value(const ::roscpp::SetLoggerLevelResponse_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::MD5Sum	access:public	signature:(const ::roscpp::SetLoggerLevelResponse_<ContainerAllocator>&)
+ros::serialization	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^namespace serialization$/;"	n	namespace:ros
+ros::serialization	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^namespace serialization$/;"	n	namespace:ros
+ros::serialization	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^namespace serialization$/;"	n	namespace:ros
+ros::serialization	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^namespace serialization$/;"	n	namespace:ros
+ros::serialization	/opt/ros/fuerte/include/roscpp/Logger.h	/^namespace serialization$/;"	n	namespace:ros
+ros::serialization	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^namespace serialization$/;"	n	namespace:ros
+ros::serialization	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^namespace serialization$/;"	n	namespace:ros
+ros::serialization::Serializer	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^  template<class ContainerAllocator> struct Serializer< ::roscpp::EmptyRequest_<ContainerAllocator> >$/;"	s	namespace:ros::serialization
+ros::serialization::Serializer	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^  template<class ContainerAllocator> struct Serializer< ::roscpp::EmptyResponse_<ContainerAllocator> >$/;"	s	namespace:ros::serialization
+ros::serialization::Serializer	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^  template<class ContainerAllocator> struct Serializer< ::roscpp::GetLoggersRequest_<ContainerAllocator> >$/;"	s	namespace:ros::serialization
+ros::serialization::Serializer	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^  template<class ContainerAllocator> struct Serializer< ::roscpp::GetLoggersResponse_<ContainerAllocator> >$/;"	s	namespace:ros::serialization
+ros::serialization::Serializer	/opt/ros/fuerte/include/roscpp/Logger.h	/^  template<class ContainerAllocator> struct Serializer< ::roscpp::Logger_<ContainerAllocator> >$/;"	s	namespace:ros::serialization
+ros::serialization::Serializer	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  template<class ContainerAllocator> struct Serializer< ::roscpp::SetLoggerLevelRequest_<ContainerAllocator> >$/;"	s	namespace:ros::serialization
+ros::serialization::Serializer	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^  template<class ContainerAllocator> struct Serializer< ::roscpp::SetLoggerLevelResponse_<ContainerAllocator> >$/;"	s	namespace:ros::serialization
+ros::serialization::Serializer::ROS_DECLARE_ALLINONE_SERIALIZER	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^    ROS_DECLARE_ALLINONE_SERIALIZER;$/;"	m	struct:ros::serialization::Serializer	access:public
+ros::serialization::Serializer::ROS_DECLARE_ALLINONE_SERIALIZER	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^    ROS_DECLARE_ALLINONE_SERIALIZER;$/;"	m	struct:ros::serialization::Serializer	access:public
+ros::serialization::Serializer::ROS_DECLARE_ALLINONE_SERIALIZER	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^    ROS_DECLARE_ALLINONE_SERIALIZER;$/;"	m	struct:ros::serialization::Serializer	access:public
+ros::serialization::Serializer::ROS_DECLARE_ALLINONE_SERIALIZER	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^    ROS_DECLARE_ALLINONE_SERIALIZER;$/;"	m	struct:ros::serialization::Serializer	access:public
+ros::serialization::Serializer::ROS_DECLARE_ALLINONE_SERIALIZER	/opt/ros/fuerte/include/roscpp/Logger.h	/^    ROS_DECLARE_ALLINONE_SERIALIZER;$/;"	m	struct:ros::serialization::Serializer	access:public
+ros::serialization::Serializer::ROS_DECLARE_ALLINONE_SERIALIZER	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^    ROS_DECLARE_ALLINONE_SERIALIZER;$/;"	m	struct:ros::serialization::Serializer	access:public
+ros::serialization::Serializer::ROS_DECLARE_ALLINONE_SERIALIZER	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^    ROS_DECLARE_ALLINONE_SERIALIZER;$/;"	m	struct:ros::serialization::Serializer	access:public
+ros::serialization::Serializer::allInOne	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^    template<typename Stream, typename T> inline static void allInOne(Stream& stream, T m)$/;"	f	struct:ros::serialization::Serializer	access:public	signature:(Stream& stream, T m)
+ros::serialization::Serializer::allInOne	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^    template<typename Stream, typename T> inline static void allInOne(Stream& stream, T m)$/;"	f	struct:ros::serialization::Serializer	access:public	signature:(Stream& stream, T m)
+ros::serialization::Serializer::allInOne	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^    template<typename Stream, typename T> inline static void allInOne(Stream& stream, T m)$/;"	f	struct:ros::serialization::Serializer	access:public	signature:(Stream& stream, T m)
+ros::serialization::Serializer::allInOne	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^    template<typename Stream, typename T> inline static void allInOne(Stream& stream, T m)$/;"	f	struct:ros::serialization::Serializer	access:public	signature:(Stream& stream, T m)
+ros::serialization::Serializer::allInOne	/opt/ros/fuerte/include/roscpp/Logger.h	/^    template<typename Stream, typename T> inline static void allInOne(Stream& stream, T m)$/;"	f	struct:ros::serialization::Serializer	access:public	signature:(Stream& stream, T m)
+ros::serialization::Serializer::allInOne	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^    template<typename Stream, typename T> inline static void allInOne(Stream& stream, T m)$/;"	f	struct:ros::serialization::Serializer	access:public	signature:(Stream& stream, T m)
+ros::serialization::Serializer::allInOne	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^    template<typename Stream, typename T> inline static void allInOne(Stream& stream, T m)$/;"	f	struct:ros::serialization::Serializer	access:public	signature:(Stream& stream, T m)
+ros::service_traits	/opt/ros/fuerte/include/roscpp/Empty.h	/^namespace service_traits$/;"	n	namespace:ros
+ros::service_traits	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^namespace service_traits$/;"	n	namespace:ros
+ros::service_traits	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^namespace service_traits$/;"	n	namespace:ros
+ros::service_traits::DataType	/opt/ros/fuerte/include/roscpp/Empty.h	/^struct DataType< ::roscpp::Empty > {$/;"	s	namespace:ros::service_traits
+ros::service_traits::DataType	/opt/ros/fuerte/include/roscpp/Empty.h	/^struct DataType< ::roscpp::EmptyRequest>$/;"	s	namespace:ros::service_traits
+ros::service_traits::DataType	/opt/ros/fuerte/include/roscpp/Empty.h	/^struct DataType< ::roscpp::EmptyResponse>$/;"	s	namespace:ros::service_traits
+ros::service_traits::DataType	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^struct DataType< ::roscpp::GetLoggers > {$/;"	s	namespace:ros::service_traits
+ros::service_traits::DataType	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^struct DataType< ::roscpp::GetLoggersRequest>$/;"	s	namespace:ros::service_traits
+ros::service_traits::DataType	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^struct DataType< ::roscpp::GetLoggersResponse>$/;"	s	namespace:ros::service_traits
+ros::service_traits::DataType	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^struct DataType< ::roscpp::SetLoggerLevel > {$/;"	s	namespace:ros::service_traits
+ros::service_traits::DataType	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^struct DataType< ::roscpp::SetLoggerLevelRequest>$/;"	s	namespace:ros::service_traits
+ros::service_traits::DataType	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^struct DataType< ::roscpp::SetLoggerLevelResponse>$/;"	s	namespace:ros::service_traits
+ros::service_traits::DataType::value	/opt/ros/fuerte/include/roscpp/Empty.h	/^  static const char* value()$/;"	f	struct:ros::service_traits::DataType	access:public	signature:()
+ros::service_traits::DataType::value	/opt/ros/fuerte/include/roscpp/Empty.h	/^  static const char* value(const ::roscpp::Empty&) { return value(); }$/;"	f	struct:ros::service_traits::DataType	access:public	signature:(const ::roscpp::Empty&)
+ros::service_traits::DataType::value	/opt/ros/fuerte/include/roscpp/Empty.h	/^  static const char* value(const ::roscpp::EmptyRequest&)$/;"	f	struct:ros::service_traits::DataType	access:public	signature:(const ::roscpp::EmptyRequest&)
+ros::service_traits::DataType::value	/opt/ros/fuerte/include/roscpp/Empty.h	/^  static const char* value(const ::roscpp::EmptyResponse&)$/;"	f	struct:ros::service_traits::DataType	access:public	signature:(const ::roscpp::EmptyResponse&)
+ros::service_traits::DataType::value	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^  static const char* value()$/;"	f	struct:ros::service_traits::DataType	access:public	signature:()
+ros::service_traits::DataType::value	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^  static const char* value(const ::roscpp::GetLoggers&) { return value(); }$/;"	f	struct:ros::service_traits::DataType	access:public	signature:(const ::roscpp::GetLoggers&)
+ros::service_traits::DataType::value	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^  static const char* value(const ::roscpp::GetLoggersRequest&)$/;"	f	struct:ros::service_traits::DataType	access:public	signature:(const ::roscpp::GetLoggersRequest&)
+ros::service_traits::DataType::value	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^  static const char* value(const ::roscpp::GetLoggersResponse&)$/;"	f	struct:ros::service_traits::DataType	access:public	signature:(const ::roscpp::GetLoggersResponse&)
+ros::service_traits::DataType::value	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^  static const char* value()$/;"	f	struct:ros::service_traits::DataType	access:public	signature:()
+ros::service_traits::DataType::value	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^  static const char* value(const ::roscpp::SetLoggerLevel&) { return value(); }$/;"	f	struct:ros::service_traits::DataType	access:public	signature:(const ::roscpp::SetLoggerLevel&)
+ros::service_traits::DataType::value	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^  static const char* value(const ::roscpp::SetLoggerLevelRequest&)$/;"	f	struct:ros::service_traits::DataType	access:public	signature:(const ::roscpp::SetLoggerLevelRequest&)
+ros::service_traits::DataType::value	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^  static const char* value(const ::roscpp::SetLoggerLevelResponse&)$/;"	f	struct:ros::service_traits::DataType	access:public	signature:(const ::roscpp::SetLoggerLevelResponse&)
+ros::service_traits::MD5Sum	/opt/ros/fuerte/include/roscpp/Empty.h	/^struct MD5Sum< ::roscpp::Empty > {$/;"	s	namespace:ros::service_traits
+ros::service_traits::MD5Sum	/opt/ros/fuerte/include/roscpp/Empty.h	/^struct MD5Sum< ::roscpp::EmptyRequest>$/;"	s	namespace:ros::service_traits
+ros::service_traits::MD5Sum	/opt/ros/fuerte/include/roscpp/Empty.h	/^struct MD5Sum< ::roscpp::EmptyResponse>$/;"	s	namespace:ros::service_traits
+ros::service_traits::MD5Sum	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^struct MD5Sum< ::roscpp::GetLoggers > {$/;"	s	namespace:ros::service_traits
+ros::service_traits::MD5Sum	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^struct MD5Sum< ::roscpp::GetLoggersRequest>$/;"	s	namespace:ros::service_traits
+ros::service_traits::MD5Sum	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^struct MD5Sum< ::roscpp::GetLoggersResponse>$/;"	s	namespace:ros::service_traits
+ros::service_traits::MD5Sum	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^struct MD5Sum< ::roscpp::SetLoggerLevel > {$/;"	s	namespace:ros::service_traits
+ros::service_traits::MD5Sum	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^struct MD5Sum< ::roscpp::SetLoggerLevelRequest>$/;"	s	namespace:ros::service_traits
+ros::service_traits::MD5Sum	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^struct MD5Sum< ::roscpp::SetLoggerLevelResponse>$/;"	s	namespace:ros::service_traits
+ros::service_traits::MD5Sum::value	/opt/ros/fuerte/include/roscpp/Empty.h	/^  static const char* value()$/;"	f	struct:ros::service_traits::MD5Sum	access:public	signature:()
+ros::service_traits::MD5Sum::value	/opt/ros/fuerte/include/roscpp/Empty.h	/^  static const char* value(const ::roscpp::Empty&) { return value(); }$/;"	f	struct:ros::service_traits::MD5Sum	access:public	signature:(const ::roscpp::Empty&)
+ros::service_traits::MD5Sum::value	/opt/ros/fuerte/include/roscpp/Empty.h	/^  static const char* value(const ::roscpp::EmptyRequest&)$/;"	f	struct:ros::service_traits::MD5Sum	access:public	signature:(const ::roscpp::EmptyRequest&)
+ros::service_traits::MD5Sum::value	/opt/ros/fuerte/include/roscpp/Empty.h	/^  static const char* value(const ::roscpp::EmptyResponse&)$/;"	f	struct:ros::service_traits::MD5Sum	access:public	signature:(const ::roscpp::EmptyResponse&)
+ros::service_traits::MD5Sum::value	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^  static const char* value()$/;"	f	struct:ros::service_traits::MD5Sum	access:public	signature:()
+ros::service_traits::MD5Sum::value	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^  static const char* value(const ::roscpp::GetLoggers&) { return value(); }$/;"	f	struct:ros::service_traits::MD5Sum	access:public	signature:(const ::roscpp::GetLoggers&)
+ros::service_traits::MD5Sum::value	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^  static const char* value(const ::roscpp::GetLoggersRequest&)$/;"	f	struct:ros::service_traits::MD5Sum	access:public	signature:(const ::roscpp::GetLoggersRequest&)
+ros::service_traits::MD5Sum::value	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^  static const char* value(const ::roscpp::GetLoggersResponse&)$/;"	f	struct:ros::service_traits::MD5Sum	access:public	signature:(const ::roscpp::GetLoggersResponse&)
+ros::service_traits::MD5Sum::value	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^  static const char* value()$/;"	f	struct:ros::service_traits::MD5Sum	access:public	signature:()
+ros::service_traits::MD5Sum::value	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^  static const char* value(const ::roscpp::SetLoggerLevel&) { return value(); }$/;"	f	struct:ros::service_traits::MD5Sum	access:public	signature:(const ::roscpp::SetLoggerLevel&)
+ros::service_traits::MD5Sum::value	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^  static const char* value(const ::roscpp::SetLoggerLevelRequest&)$/;"	f	struct:ros::service_traits::MD5Sum	access:public	signature:(const ::roscpp::SetLoggerLevelRequest&)
+ros::service_traits::MD5Sum::value	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^  static const char* value(const ::roscpp::SetLoggerLevelResponse&)$/;"	f	struct:ros::service_traits::MD5Sum	access:public	signature:(const ::roscpp::SetLoggerLevelResponse&)
+roscpp	/opt/ros/fuerte/include/roscpp/Empty.h	/^namespace roscpp$/;"	n
+roscpp	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^namespace roscpp$/;"	n
+roscpp	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^namespace roscpp$/;"	n
+roscpp	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^namespace roscpp$/;"	n
+roscpp	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^namespace roscpp$/;"	n
+roscpp	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^namespace roscpp$/;"	n
+roscpp	/opt/ros/fuerte/include/roscpp/Logger.h	/^namespace roscpp$/;"	n
+roscpp	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^namespace roscpp$/;"	n
+roscpp	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^namespace roscpp$/;"	n
+roscpp	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^namespace roscpp$/;"	n
+roscpp::Empty	/opt/ros/fuerte/include/roscpp/Empty.h	/^struct Empty$/;"	s	namespace:roscpp
+roscpp::Empty::Request	/opt/ros/fuerte/include/roscpp/Empty.h	/^typedef EmptyRequest Request;$/;"	t	struct:roscpp::Empty	access:public
+roscpp::Empty::RequestType	/opt/ros/fuerte/include/roscpp/Empty.h	/^typedef Request RequestType;$/;"	t	struct:roscpp::Empty	access:public
+roscpp::Empty::Response	/opt/ros/fuerte/include/roscpp/Empty.h	/^typedef EmptyResponse Response;$/;"	t	struct:roscpp::Empty	access:public
+roscpp::Empty::ResponseType	/opt/ros/fuerte/include/roscpp/Empty.h	/^typedef Response ResponseType;$/;"	t	struct:roscpp::Empty	access:public
+roscpp::Empty::request	/opt/ros/fuerte/include/roscpp/Empty.h	/^Request request;$/;"	m	struct:roscpp::Empty	access:public
+roscpp::Empty::response	/opt/ros/fuerte/include/roscpp/Empty.h	/^Response response;$/;"	m	struct:roscpp::Empty	access:public
+roscpp::EmptyRequest	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^typedef ::roscpp::EmptyRequest_<std::allocator<void> > EmptyRequest;$/;"	t	namespace:roscpp
+roscpp::EmptyRequestConstPtr	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^typedef boost::shared_ptr< ::roscpp::EmptyRequest const> EmptyRequestConstPtr;$/;"	t	namespace:roscpp
+roscpp::EmptyRequestPtr	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^typedef boost::shared_ptr< ::roscpp::EmptyRequest > EmptyRequestPtr;$/;"	t	namespace:roscpp
+roscpp::EmptyRequest_	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^struct EmptyRequest_$/;"	s	namespace:roscpp
+roscpp::EmptyRequest_::ConstPtr	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^  typedef boost::shared_ptr< ::roscpp::EmptyRequest_<ContainerAllocator> const> ConstPtr;$/;"	t	struct:roscpp::EmptyRequest_	access:public
+roscpp::EmptyRequest_::EmptyRequest_	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^  EmptyRequest_()$/;"	f	struct:roscpp::EmptyRequest_	access:public	signature:()
+roscpp::EmptyRequest_::EmptyRequest_	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^  EmptyRequest_(const ContainerAllocator& _alloc)$/;"	f	struct:roscpp::EmptyRequest_	access:public	signature:(const ContainerAllocator& _alloc)
+roscpp::EmptyRequest_::Ptr	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^  typedef boost::shared_ptr< ::roscpp::EmptyRequest_<ContainerAllocator> > Ptr;$/;"	t	struct:roscpp::EmptyRequest_	access:public
+roscpp::EmptyRequest_::Type	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^  typedef EmptyRequest_<ContainerAllocator> Type;$/;"	t	struct:roscpp::EmptyRequest_	access:public
+roscpp::EmptyRequest_::__connection_header	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^  boost::shared_ptr<std::map<std::string, std::string> > __connection_header;$/;"	m	struct:roscpp::EmptyRequest_	access:public
+roscpp::EmptyResponse	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^typedef ::roscpp::EmptyResponse_<std::allocator<void> > EmptyResponse;$/;"	t	namespace:roscpp
+roscpp::EmptyResponseConstPtr	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^typedef boost::shared_ptr< ::roscpp::EmptyResponse const> EmptyResponseConstPtr;$/;"	t	namespace:roscpp
+roscpp::EmptyResponsePtr	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^typedef boost::shared_ptr< ::roscpp::EmptyResponse > EmptyResponsePtr;$/;"	t	namespace:roscpp
+roscpp::EmptyResponse_	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^struct EmptyResponse_$/;"	s	namespace:roscpp
+roscpp::EmptyResponse_::ConstPtr	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^  typedef boost::shared_ptr< ::roscpp::EmptyResponse_<ContainerAllocator> const> ConstPtr;$/;"	t	struct:roscpp::EmptyResponse_	access:public
+roscpp::EmptyResponse_::EmptyResponse_	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^  EmptyResponse_()$/;"	f	struct:roscpp::EmptyResponse_	access:public	signature:()
+roscpp::EmptyResponse_::EmptyResponse_	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^  EmptyResponse_(const ContainerAllocator& _alloc)$/;"	f	struct:roscpp::EmptyResponse_	access:public	signature:(const ContainerAllocator& _alloc)
+roscpp::EmptyResponse_::Ptr	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^  typedef boost::shared_ptr< ::roscpp::EmptyResponse_<ContainerAllocator> > Ptr;$/;"	t	struct:roscpp::EmptyResponse_	access:public
+roscpp::EmptyResponse_::Type	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^  typedef EmptyResponse_<ContainerAllocator> Type;$/;"	t	struct:roscpp::EmptyResponse_	access:public
+roscpp::EmptyResponse_::__connection_header	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^  boost::shared_ptr<std::map<std::string, std::string> > __connection_header;$/;"	m	struct:roscpp::EmptyResponse_	access:public
+roscpp::GetLoggers	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^struct GetLoggers$/;"	s	namespace:roscpp
+roscpp::GetLoggers::Request	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^typedef GetLoggersRequest Request;$/;"	t	struct:roscpp::GetLoggers	access:public
+roscpp::GetLoggers::RequestType	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^typedef Request RequestType;$/;"	t	struct:roscpp::GetLoggers	access:public
+roscpp::GetLoggers::Response	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^typedef GetLoggersResponse Response;$/;"	t	struct:roscpp::GetLoggers	access:public
+roscpp::GetLoggers::ResponseType	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^typedef Response ResponseType;$/;"	t	struct:roscpp::GetLoggers	access:public
+roscpp::GetLoggers::request	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^Request request;$/;"	m	struct:roscpp::GetLoggers	access:public
+roscpp::GetLoggers::response	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^Response response;$/;"	m	struct:roscpp::GetLoggers	access:public
+roscpp::GetLoggersRequest	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^typedef ::roscpp::GetLoggersRequest_<std::allocator<void> > GetLoggersRequest;$/;"	t	namespace:roscpp
+roscpp::GetLoggersRequestConstPtr	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^typedef boost::shared_ptr< ::roscpp::GetLoggersRequest const> GetLoggersRequestConstPtr;$/;"	t	namespace:roscpp
+roscpp::GetLoggersRequestPtr	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^typedef boost::shared_ptr< ::roscpp::GetLoggersRequest > GetLoggersRequestPtr;$/;"	t	namespace:roscpp
+roscpp::GetLoggersRequest_	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^struct GetLoggersRequest_$/;"	s	namespace:roscpp
+roscpp::GetLoggersRequest_::ConstPtr	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^  typedef boost::shared_ptr< ::roscpp::GetLoggersRequest_<ContainerAllocator> const> ConstPtr;$/;"	t	struct:roscpp::GetLoggersRequest_	access:public
+roscpp::GetLoggersRequest_::GetLoggersRequest_	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^  GetLoggersRequest_()$/;"	f	struct:roscpp::GetLoggersRequest_	access:public	signature:()
+roscpp::GetLoggersRequest_::GetLoggersRequest_	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^  GetLoggersRequest_(const ContainerAllocator& _alloc)$/;"	f	struct:roscpp::GetLoggersRequest_	access:public	signature:(const ContainerAllocator& _alloc)
+roscpp::GetLoggersRequest_::Ptr	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^  typedef boost::shared_ptr< ::roscpp::GetLoggersRequest_<ContainerAllocator> > Ptr;$/;"	t	struct:roscpp::GetLoggersRequest_	access:public
+roscpp::GetLoggersRequest_::Type	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^  typedef GetLoggersRequest_<ContainerAllocator> Type;$/;"	t	struct:roscpp::GetLoggersRequest_	access:public
+roscpp::GetLoggersRequest_::__connection_header	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^  boost::shared_ptr<std::map<std::string, std::string> > __connection_header;$/;"	m	struct:roscpp::GetLoggersRequest_	access:public
+roscpp::GetLoggersResponse	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^typedef ::roscpp::GetLoggersResponse_<std::allocator<void> > GetLoggersResponse;$/;"	t	namespace:roscpp
+roscpp::GetLoggersResponseConstPtr	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^typedef boost::shared_ptr< ::roscpp::GetLoggersResponse const> GetLoggersResponseConstPtr;$/;"	t	namespace:roscpp
+roscpp::GetLoggersResponsePtr	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^typedef boost::shared_ptr< ::roscpp::GetLoggersResponse > GetLoggersResponsePtr;$/;"	t	namespace:roscpp
+roscpp::GetLoggersResponse_	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^struct GetLoggersResponse_$/;"	s	namespace:roscpp
+roscpp::GetLoggersResponse_::ConstPtr	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^  typedef boost::shared_ptr< ::roscpp::GetLoggersResponse_<ContainerAllocator> const> ConstPtr;$/;"	t	struct:roscpp::GetLoggersResponse_	access:public
+roscpp::GetLoggersResponse_::GetLoggersResponse_	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^  GetLoggersResponse_()$/;"	f	struct:roscpp::GetLoggersResponse_	access:public	signature:()
+roscpp::GetLoggersResponse_::GetLoggersResponse_	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^  GetLoggersResponse_(const ContainerAllocator& _alloc)$/;"	f	struct:roscpp::GetLoggersResponse_	access:public	signature:(const ContainerAllocator& _alloc)
+roscpp::GetLoggersResponse_::Ptr	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^  typedef boost::shared_ptr< ::roscpp::GetLoggersResponse_<ContainerAllocator> > Ptr;$/;"	t	struct:roscpp::GetLoggersResponse_	access:public
+roscpp::GetLoggersResponse_::Type	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^  typedef GetLoggersResponse_<ContainerAllocator> Type;$/;"	t	struct:roscpp::GetLoggersResponse_	access:public
+roscpp::GetLoggersResponse_::__connection_header	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^  boost::shared_ptr<std::map<std::string, std::string> > __connection_header;$/;"	m	struct:roscpp::GetLoggersResponse_	access:public
+roscpp::GetLoggersResponse_::_loggers_type	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^   typedef std::vector< ::roscpp::Logger_<ContainerAllocator> , typename ContainerAllocator::template rebind< ::roscpp::Logger_<ContainerAllocator> >::other >  _loggers_type;$/;"	t	struct:roscpp::GetLoggersResponse_	access:public
+roscpp::GetLoggersResponse_::loggers	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^  _loggers_type loggers;$/;"	m	struct:roscpp::GetLoggersResponse_	access:public
+roscpp::Logger	/opt/ros/fuerte/include/roscpp/Logger.h	/^typedef ::roscpp::Logger_<std::allocator<void> > Logger;$/;"	t	namespace:roscpp
+roscpp::LoggerConstPtr	/opt/ros/fuerte/include/roscpp/Logger.h	/^typedef boost::shared_ptr< ::roscpp::Logger const> LoggerConstPtr;$/;"	t	namespace:roscpp
+roscpp::LoggerPtr	/opt/ros/fuerte/include/roscpp/Logger.h	/^typedef boost::shared_ptr< ::roscpp::Logger > LoggerPtr;$/;"	t	namespace:roscpp
+roscpp::Logger_	/opt/ros/fuerte/include/roscpp/Logger.h	/^struct Logger_$/;"	s	namespace:roscpp
+roscpp::Logger_::ConstPtr	/opt/ros/fuerte/include/roscpp/Logger.h	/^  typedef boost::shared_ptr< ::roscpp::Logger_<ContainerAllocator> const> ConstPtr;$/;"	t	struct:roscpp::Logger_	access:public
+roscpp::Logger_::Logger_	/opt/ros/fuerte/include/roscpp/Logger.h	/^  Logger_()$/;"	f	struct:roscpp::Logger_	access:public	signature:()
+roscpp::Logger_::Logger_	/opt/ros/fuerte/include/roscpp/Logger.h	/^  Logger_(const ContainerAllocator& _alloc)$/;"	f	struct:roscpp::Logger_	access:public	signature:(const ContainerAllocator& _alloc)
+roscpp::Logger_::Ptr	/opt/ros/fuerte/include/roscpp/Logger.h	/^  typedef boost::shared_ptr< ::roscpp::Logger_<ContainerAllocator> > Ptr;$/;"	t	struct:roscpp::Logger_	access:public
+roscpp::Logger_::Type	/opt/ros/fuerte/include/roscpp/Logger.h	/^  typedef Logger_<ContainerAllocator> Type;$/;"	t	struct:roscpp::Logger_	access:public
+roscpp::Logger_::__connection_header	/opt/ros/fuerte/include/roscpp/Logger.h	/^  boost::shared_ptr<std::map<std::string, std::string> > __connection_header;$/;"	m	struct:roscpp::Logger_	access:public
+roscpp::Logger_::_level_type	/opt/ros/fuerte/include/roscpp/Logger.h	/^   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _level_type;$/;"	t	struct:roscpp::Logger_	access:public
+roscpp::Logger_::_name_type	/opt/ros/fuerte/include/roscpp/Logger.h	/^   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _name_type;$/;"	t	struct:roscpp::Logger_	access:public
+roscpp::Logger_::level	/opt/ros/fuerte/include/roscpp/Logger.h	/^  _level_type level;$/;"	m	struct:roscpp::Logger_	access:public
+roscpp::Logger_::name	/opt/ros/fuerte/include/roscpp/Logger.h	/^  _name_type name;$/;"	m	struct:roscpp::Logger_	access:public
+roscpp::SetLoggerLevel	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^struct SetLoggerLevel$/;"	s	namespace:roscpp
+roscpp::SetLoggerLevel::Request	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^typedef SetLoggerLevelRequest Request;$/;"	t	struct:roscpp::SetLoggerLevel	access:public
+roscpp::SetLoggerLevel::RequestType	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^typedef Request RequestType;$/;"	t	struct:roscpp::SetLoggerLevel	access:public
+roscpp::SetLoggerLevel::Response	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^typedef SetLoggerLevelResponse Response;$/;"	t	struct:roscpp::SetLoggerLevel	access:public
+roscpp::SetLoggerLevel::ResponseType	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^typedef Response ResponseType;$/;"	t	struct:roscpp::SetLoggerLevel	access:public
+roscpp::SetLoggerLevel::request	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^Request request;$/;"	m	struct:roscpp::SetLoggerLevel	access:public
+roscpp::SetLoggerLevel::response	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^Response response;$/;"	m	struct:roscpp::SetLoggerLevel	access:public
+roscpp::SetLoggerLevelRequest	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^typedef ::roscpp::SetLoggerLevelRequest_<std::allocator<void> > SetLoggerLevelRequest;$/;"	t	namespace:roscpp
+roscpp::SetLoggerLevelRequestConstPtr	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^typedef boost::shared_ptr< ::roscpp::SetLoggerLevelRequest const> SetLoggerLevelRequestConstPtr;$/;"	t	namespace:roscpp
+roscpp::SetLoggerLevelRequestPtr	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^typedef boost::shared_ptr< ::roscpp::SetLoggerLevelRequest > SetLoggerLevelRequestPtr;$/;"	t	namespace:roscpp
+roscpp::SetLoggerLevelRequest_	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^struct SetLoggerLevelRequest_$/;"	s	namespace:roscpp
+roscpp::SetLoggerLevelRequest_::ConstPtr	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  typedef boost::shared_ptr< ::roscpp::SetLoggerLevelRequest_<ContainerAllocator> const> ConstPtr;$/;"	t	struct:roscpp::SetLoggerLevelRequest_	access:public
+roscpp::SetLoggerLevelRequest_::Ptr	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  typedef boost::shared_ptr< ::roscpp::SetLoggerLevelRequest_<ContainerAllocator> > Ptr;$/;"	t	struct:roscpp::SetLoggerLevelRequest_	access:public
+roscpp::SetLoggerLevelRequest_::SetLoggerLevelRequest_	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  SetLoggerLevelRequest_()$/;"	f	struct:roscpp::SetLoggerLevelRequest_	access:public	signature:()
+roscpp::SetLoggerLevelRequest_::SetLoggerLevelRequest_	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  SetLoggerLevelRequest_(const ContainerAllocator& _alloc)$/;"	f	struct:roscpp::SetLoggerLevelRequest_	access:public	signature:(const ContainerAllocator& _alloc)
+roscpp::SetLoggerLevelRequest_::Type	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  typedef SetLoggerLevelRequest_<ContainerAllocator> Type;$/;"	t	struct:roscpp::SetLoggerLevelRequest_	access:public
+roscpp::SetLoggerLevelRequest_::__connection_header	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  boost::shared_ptr<std::map<std::string, std::string> > __connection_header;$/;"	m	struct:roscpp::SetLoggerLevelRequest_	access:public
+roscpp::SetLoggerLevelRequest_::_level_type	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _level_type;$/;"	t	struct:roscpp::SetLoggerLevelRequest_	access:public
+roscpp::SetLoggerLevelRequest_::_logger_type	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _logger_type;$/;"	t	struct:roscpp::SetLoggerLevelRequest_	access:public
+roscpp::SetLoggerLevelRequest_::level	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  _level_type level;$/;"	m	struct:roscpp::SetLoggerLevelRequest_	access:public
+roscpp::SetLoggerLevelRequest_::logger	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  _logger_type logger;$/;"	m	struct:roscpp::SetLoggerLevelRequest_	access:public
+roscpp::SetLoggerLevelResponse	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^typedef ::roscpp::SetLoggerLevelResponse_<std::allocator<void> > SetLoggerLevelResponse;$/;"	t	namespace:roscpp
+roscpp::SetLoggerLevelResponseConstPtr	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^typedef boost::shared_ptr< ::roscpp::SetLoggerLevelResponse const> SetLoggerLevelResponseConstPtr;$/;"	t	namespace:roscpp
+roscpp::SetLoggerLevelResponsePtr	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^typedef boost::shared_ptr< ::roscpp::SetLoggerLevelResponse > SetLoggerLevelResponsePtr;$/;"	t	namespace:roscpp
+roscpp::SetLoggerLevelResponse_	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^struct SetLoggerLevelResponse_$/;"	s	namespace:roscpp
+roscpp::SetLoggerLevelResponse_::ConstPtr	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^  typedef boost::shared_ptr< ::roscpp::SetLoggerLevelResponse_<ContainerAllocator> const> ConstPtr;$/;"	t	struct:roscpp::SetLoggerLevelResponse_	access:public
+roscpp::SetLoggerLevelResponse_::Ptr	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^  typedef boost::shared_ptr< ::roscpp::SetLoggerLevelResponse_<ContainerAllocator> > Ptr;$/;"	t	struct:roscpp::SetLoggerLevelResponse_	access:public
+roscpp::SetLoggerLevelResponse_::SetLoggerLevelResponse_	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^  SetLoggerLevelResponse_()$/;"	f	struct:roscpp::SetLoggerLevelResponse_	access:public	signature:()
+roscpp::SetLoggerLevelResponse_::SetLoggerLevelResponse_	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^  SetLoggerLevelResponse_(const ContainerAllocator& _alloc)$/;"	f	struct:roscpp::SetLoggerLevelResponse_	access:public	signature:(const ContainerAllocator& _alloc)
+roscpp::SetLoggerLevelResponse_::Type	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^  typedef SetLoggerLevelResponse_<ContainerAllocator> Type;$/;"	t	struct:roscpp::SetLoggerLevelResponse_	access:public
+roscpp::SetLoggerLevelResponse_::__connection_header	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^  boost::shared_ptr<std::map<std::string, std::string> > __connection_header;$/;"	m	struct:roscpp::SetLoggerLevelResponse_	access:public
+roscpp::operator <<	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^std::ostream& operator<<(std::ostream& s, const ::roscpp::EmptyRequest_<ContainerAllocator> & v)$/;"	f	namespace:roscpp	signature:(std::ostream& s, const ::roscpp::EmptyRequest_<ContainerAllocator> & v)
+roscpp::operator <<	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^std::ostream& operator<<(std::ostream& s, const ::roscpp::EmptyResponse_<ContainerAllocator> & v)$/;"	f	namespace:roscpp	signature:(std::ostream& s, const ::roscpp::EmptyResponse_<ContainerAllocator> & v)
+roscpp::operator <<	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^std::ostream& operator<<(std::ostream& s, const ::roscpp::GetLoggersRequest_<ContainerAllocator> & v)$/;"	f	namespace:roscpp	signature:(std::ostream& s, const ::roscpp::GetLoggersRequest_<ContainerAllocator> & v)
+roscpp::operator <<	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^std::ostream& operator<<(std::ostream& s, const ::roscpp::GetLoggersResponse_<ContainerAllocator> & v)$/;"	f	namespace:roscpp	signature:(std::ostream& s, const ::roscpp::GetLoggersResponse_<ContainerAllocator> & v)
+roscpp::operator <<	/opt/ros/fuerte/include/roscpp/Logger.h	/^std::ostream& operator<<(std::ostream& s, const ::roscpp::Logger_<ContainerAllocator> & v)$/;"	f	namespace:roscpp	signature:(std::ostream& s, const ::roscpp::Logger_<ContainerAllocator> & v)
+roscpp::operator <<	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^std::ostream& operator<<(std::ostream& s, const ::roscpp::SetLoggerLevelRequest_<ContainerAllocator> & v)$/;"	f	namespace:roscpp	signature:(std::ostream& s, const ::roscpp::SetLoggerLevelRequest_<ContainerAllocator> & v)
+roscpp::operator <<	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^std::ostream& operator<<(std::ostream& s, const ::roscpp::SetLoggerLevelResponse_<ContainerAllocator> & v)$/;"	f	namespace:roscpp	signature:(std::ostream& s, const ::roscpp::SetLoggerLevelResponse_<ContainerAllocator> & v)
+serialization	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^namespace serialization$/;"	n	namespace:ros
+serialization	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^namespace serialization$/;"	n	namespace:ros
+serialization	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^namespace serialization$/;"	n	namespace:ros
+serialization	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^namespace serialization$/;"	n	namespace:ros
+serialization	/opt/ros/fuerte/include/roscpp/Logger.h	/^namespace serialization$/;"	n	namespace:ros
+serialization	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^namespace serialization$/;"	n	namespace:ros
+serialization	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^namespace serialization$/;"	n	namespace:ros
+service_traits	/opt/ros/fuerte/include/roscpp/Empty.h	/^namespace service_traits$/;"	n	namespace:ros
+service_traits	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^namespace service_traits$/;"	n	namespace:ros
+service_traits	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^namespace service_traits$/;"	n	namespace:ros
+static_value1	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^  static const uint64_t static_value1 = 0xd41d8cd98f00b204ULL;$/;"	m	struct:ros::message_traits::MD5Sum	access:public
+static_value1	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^  static const uint64_t static_value1 = 0xd41d8cd98f00b204ULL;$/;"	m	struct:ros::message_traits::MD5Sum	access:public
+static_value1	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^  static const uint64_t static_value1 = 0xd41d8cd98f00b204ULL;$/;"	m	struct:ros::message_traits::MD5Sum	access:public
+static_value1	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^  static const uint64_t static_value1 = 0x32e97e85527d4678ULL;$/;"	m	struct:ros::message_traits::MD5Sum	access:public
+static_value1	/opt/ros/fuerte/include/roscpp/Logger.h	/^  static const uint64_t static_value1 = 0xa6069a2ff40db7bdULL;$/;"	m	struct:ros::message_traits::MD5Sum	access:public
+static_value1	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  static const uint64_t static_value1 = 0x51da076440d78ca1ULL;$/;"	m	struct:ros::message_traits::MD5Sum	access:public
+static_value1	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^  static const uint64_t static_value1 = 0xd41d8cd98f00b204ULL;$/;"	m	struct:ros::message_traits::MD5Sum	access:public
+static_value2	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^  static const uint64_t static_value2 = 0xe9800998ecf8427eULL;$/;"	m	struct:ros::message_traits::MD5Sum	access:public
+static_value2	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^  static const uint64_t static_value2 = 0xe9800998ecf8427eULL;$/;"	m	struct:ros::message_traits::MD5Sum	access:public
+static_value2	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^  static const uint64_t static_value2 = 0xe9800998ecf8427eULL;$/;"	m	struct:ros::message_traits::MD5Sum	access:public
+static_value2	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^  static const uint64_t static_value2 = 0xa8f9279894bb64b0ULL;$/;"	m	struct:ros::message_traits::MD5Sum	access:public
+static_value2	/opt/ros/fuerte/include/roscpp/Logger.h	/^  static const uint64_t static_value2 = 0x32143dd66e1f408eULL;$/;"	m	struct:ros::message_traits::MD5Sum	access:public
+static_value2	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  static const uint64_t static_value2 = 0x684d36c868df61eaULL;$/;"	m	struct:ros::message_traits::MD5Sum	access:public
+static_value2	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^  static const uint64_t static_value2 = 0xe9800998ecf8427eULL;$/;"	m	struct:ros::message_traits::MD5Sum	access:public
+stream	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^  template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::roscpp::EmptyRequest_<ContainerAllocator>& v)$/;"	f	struct:ros::message_operations::Printer	access:public	signature:(Stream& s, const std::string& indent, const ::roscpp::EmptyRequest_<ContainerAllocator>& v)
+stream	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^  template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::roscpp::EmptyResponse_<ContainerAllocator>& v)$/;"	f	struct:ros::message_operations::Printer	access:public	signature:(Stream& s, const std::string& indent, const ::roscpp::EmptyResponse_<ContainerAllocator>& v)
+stream	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^  template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::roscpp::GetLoggersRequest_<ContainerAllocator>& v)$/;"	f	struct:ros::message_operations::Printer	access:public	signature:(Stream& s, const std::string& indent, const ::roscpp::GetLoggersRequest_<ContainerAllocator>& v)
+stream	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^  template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::roscpp::GetLoggersResponse_<ContainerAllocator>& v)$/;"	f	struct:ros::message_operations::Printer	access:public	signature:(Stream& s, const std::string& indent, const ::roscpp::GetLoggersResponse_<ContainerAllocator>& v)
+stream	/opt/ros/fuerte/include/roscpp/Logger.h	/^  template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::roscpp::Logger_<ContainerAllocator>& v)$/;"	f	struct:ros::message_operations::Printer	access:public	signature:(Stream& s, const std::string& indent, const ::roscpp::Logger_<ContainerAllocator>& v)
+stream	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::roscpp::SetLoggerLevelRequest_<ContainerAllocator>& v)$/;"	f	struct:ros::message_operations::Printer	access:public	signature:(Stream& s, const std::string& indent, const ::roscpp::SetLoggerLevelRequest_<ContainerAllocator>& v)
+stream	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^  template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::roscpp::SetLoggerLevelResponse_<ContainerAllocator>& v)$/;"	f	struct:ros::message_operations::Printer	access:public	signature:(Stream& s, const std::string& indent, const ::roscpp::SetLoggerLevelResponse_<ContainerAllocator>& v)
+value	/opt/ros/fuerte/include/roscpp/Empty.h	/^  static const char* value()$/;"	f	struct:ros::service_traits::DataType	access:public	signature:()
+value	/opt/ros/fuerte/include/roscpp/Empty.h	/^  static const char* value()$/;"	f	struct:ros::service_traits::MD5Sum	access:public	signature:()
+value	/opt/ros/fuerte/include/roscpp/Empty.h	/^  static const char* value(const ::roscpp::Empty&) { return value(); }$/;"	f	struct:ros::service_traits::DataType	access:public	signature:(const ::roscpp::Empty&)
+value	/opt/ros/fuerte/include/roscpp/Empty.h	/^  static const char* value(const ::roscpp::Empty&) { return value(); }$/;"	f	struct:ros::service_traits::MD5Sum	access:public	signature:(const ::roscpp::Empty&)
+value	/opt/ros/fuerte/include/roscpp/Empty.h	/^  static const char* value(const ::roscpp::EmptyRequest&)$/;"	f	struct:ros::service_traits::DataType	access:public	signature:(const ::roscpp::EmptyRequest&)
+value	/opt/ros/fuerte/include/roscpp/Empty.h	/^  static const char* value(const ::roscpp::EmptyRequest&)$/;"	f	struct:ros::service_traits::MD5Sum	access:public	signature:(const ::roscpp::EmptyRequest&)
+value	/opt/ros/fuerte/include/roscpp/Empty.h	/^  static const char* value(const ::roscpp::EmptyResponse&)$/;"	f	struct:ros::service_traits::DataType	access:public	signature:(const ::roscpp::EmptyResponse&)
+value	/opt/ros/fuerte/include/roscpp/Empty.h	/^  static const char* value(const ::roscpp::EmptyResponse&)$/;"	f	struct:ros::service_traits::MD5Sum	access:public	signature:(const ::roscpp::EmptyResponse&)
+value	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::DataType	access:public	signature:()
+value	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::Definition	access:public	signature:()
+value	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::MD5Sum	access:public	signature:()
+value	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^  static const char* value(const ::roscpp::EmptyRequest_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::DataType	access:public	signature:(const ::roscpp::EmptyRequest_<ContainerAllocator>&)
+value	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^  static const char* value(const ::roscpp::EmptyRequest_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::Definition	access:public	signature:(const ::roscpp::EmptyRequest_<ContainerAllocator>&)
+value	/opt/ros/fuerte/include/roscpp/EmptyRequest.h	/^  static const char* value(const ::roscpp::EmptyRequest_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::MD5Sum	access:public	signature:(const ::roscpp::EmptyRequest_<ContainerAllocator>&)
+value	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::DataType	access:public	signature:()
+value	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::Definition	access:public	signature:()
+value	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::MD5Sum	access:public	signature:()
+value	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^  static const char* value(const ::roscpp::EmptyResponse_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::DataType	access:public	signature:(const ::roscpp::EmptyResponse_<ContainerAllocator>&)
+value	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^  static const char* value(const ::roscpp::EmptyResponse_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::Definition	access:public	signature:(const ::roscpp::EmptyResponse_<ContainerAllocator>&)
+value	/opt/ros/fuerte/include/roscpp/EmptyResponse.h	/^  static const char* value(const ::roscpp::EmptyResponse_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::MD5Sum	access:public	signature:(const ::roscpp::EmptyResponse_<ContainerAllocator>&)
+value	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^  static const char* value()$/;"	f	struct:ros::service_traits::DataType	access:public	signature:()
+value	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^  static const char* value()$/;"	f	struct:ros::service_traits::MD5Sum	access:public	signature:()
+value	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^  static const char* value(const ::roscpp::GetLoggers&) { return value(); }$/;"	f	struct:ros::service_traits::DataType	access:public	signature:(const ::roscpp::GetLoggers&)
+value	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^  static const char* value(const ::roscpp::GetLoggers&) { return value(); }$/;"	f	struct:ros::service_traits::MD5Sum	access:public	signature:(const ::roscpp::GetLoggers&)
+value	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^  static const char* value(const ::roscpp::GetLoggersRequest&)$/;"	f	struct:ros::service_traits::DataType	access:public	signature:(const ::roscpp::GetLoggersRequest&)
+value	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^  static const char* value(const ::roscpp::GetLoggersRequest&)$/;"	f	struct:ros::service_traits::MD5Sum	access:public	signature:(const ::roscpp::GetLoggersRequest&)
+value	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^  static const char* value(const ::roscpp::GetLoggersResponse&)$/;"	f	struct:ros::service_traits::DataType	access:public	signature:(const ::roscpp::GetLoggersResponse&)
+value	/opt/ros/fuerte/include/roscpp/GetLoggers.h	/^  static const char* value(const ::roscpp::GetLoggersResponse&)$/;"	f	struct:ros::service_traits::MD5Sum	access:public	signature:(const ::roscpp::GetLoggersResponse&)
+value	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::DataType	access:public	signature:()
+value	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::Definition	access:public	signature:()
+value	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::MD5Sum	access:public	signature:()
+value	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^  static const char* value(const ::roscpp::GetLoggersRequest_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::DataType	access:public	signature:(const ::roscpp::GetLoggersRequest_<ContainerAllocator>&)
+value	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^  static const char* value(const ::roscpp::GetLoggersRequest_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::Definition	access:public	signature:(const ::roscpp::GetLoggersRequest_<ContainerAllocator>&)
+value	/opt/ros/fuerte/include/roscpp/GetLoggersRequest.h	/^  static const char* value(const ::roscpp::GetLoggersRequest_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::MD5Sum	access:public	signature:(const ::roscpp::GetLoggersRequest_<ContainerAllocator>&)
+value	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::DataType	access:public	signature:()
+value	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::Definition	access:public	signature:()
+value	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::MD5Sum	access:public	signature:()
+value	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^  static const char* value(const ::roscpp::GetLoggersResponse_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::DataType	access:public	signature:(const ::roscpp::GetLoggersResponse_<ContainerAllocator>&)
+value	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^  static const char* value(const ::roscpp::GetLoggersResponse_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::Definition	access:public	signature:(const ::roscpp::GetLoggersResponse_<ContainerAllocator>&)
+value	/opt/ros/fuerte/include/roscpp/GetLoggersResponse.h	/^  static const char* value(const ::roscpp::GetLoggersResponse_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::MD5Sum	access:public	signature:(const ::roscpp::GetLoggersResponse_<ContainerAllocator>&)
+value	/opt/ros/fuerte/include/roscpp/Logger.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::DataType	access:public	signature:()
+value	/opt/ros/fuerte/include/roscpp/Logger.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::Definition	access:public	signature:()
+value	/opt/ros/fuerte/include/roscpp/Logger.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::MD5Sum	access:public	signature:()
+value	/opt/ros/fuerte/include/roscpp/Logger.h	/^  static const char* value(const ::roscpp::Logger_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::DataType	access:public	signature:(const ::roscpp::Logger_<ContainerAllocator>&)
+value	/opt/ros/fuerte/include/roscpp/Logger.h	/^  static const char* value(const ::roscpp::Logger_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::Definition	access:public	signature:(const ::roscpp::Logger_<ContainerAllocator>&)
+value	/opt/ros/fuerte/include/roscpp/Logger.h	/^  static const char* value(const ::roscpp::Logger_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::MD5Sum	access:public	signature:(const ::roscpp::Logger_<ContainerAllocator>&)
+value	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^  static const char* value()$/;"	f	struct:ros::service_traits::DataType	access:public	signature:()
+value	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^  static const char* value()$/;"	f	struct:ros::service_traits::MD5Sum	access:public	signature:()
+value	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^  static const char* value(const ::roscpp::SetLoggerLevel&) { return value(); }$/;"	f	struct:ros::service_traits::DataType	access:public	signature:(const ::roscpp::SetLoggerLevel&)
+value	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^  static const char* value(const ::roscpp::SetLoggerLevel&) { return value(); }$/;"	f	struct:ros::service_traits::MD5Sum	access:public	signature:(const ::roscpp::SetLoggerLevel&)
+value	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^  static const char* value(const ::roscpp::SetLoggerLevelRequest&)$/;"	f	struct:ros::service_traits::DataType	access:public	signature:(const ::roscpp::SetLoggerLevelRequest&)
+value	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^  static const char* value(const ::roscpp::SetLoggerLevelRequest&)$/;"	f	struct:ros::service_traits::MD5Sum	access:public	signature:(const ::roscpp::SetLoggerLevelRequest&)
+value	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^  static const char* value(const ::roscpp::SetLoggerLevelResponse&)$/;"	f	struct:ros::service_traits::DataType	access:public	signature:(const ::roscpp::SetLoggerLevelResponse&)
+value	/opt/ros/fuerte/include/roscpp/SetLoggerLevel.h	/^  static const char* value(const ::roscpp::SetLoggerLevelResponse&)$/;"	f	struct:ros::service_traits::MD5Sum	access:public	signature:(const ::roscpp::SetLoggerLevelResponse&)
+value	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::DataType	access:public	signature:()
+value	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::Definition	access:public	signature:()
+value	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::MD5Sum	access:public	signature:()
+value	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  static const char* value(const ::roscpp::SetLoggerLevelRequest_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::DataType	access:public	signature:(const ::roscpp::SetLoggerLevelRequest_<ContainerAllocator>&)
+value	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  static const char* value(const ::roscpp::SetLoggerLevelRequest_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::Definition	access:public	signature:(const ::roscpp::SetLoggerLevelRequest_<ContainerAllocator>&)
+value	/opt/ros/fuerte/include/roscpp/SetLoggerLevelRequest.h	/^  static const char* value(const ::roscpp::SetLoggerLevelRequest_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::MD5Sum	access:public	signature:(const ::roscpp::SetLoggerLevelRequest_<ContainerAllocator>&)
+value	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::DataType	access:public	signature:()
+value	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::Definition	access:public	signature:()
+value	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^  static const char* value()$/;"	f	struct:ros::message_traits::MD5Sum	access:public	signature:()
+value	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^  static const char* value(const ::roscpp::SetLoggerLevelResponse_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::DataType	access:public	signature:(const ::roscpp::SetLoggerLevelResponse_<ContainerAllocator>&)
+value	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^  static const char* value(const ::roscpp::SetLoggerLevelResponse_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::Definition	access:public	signature:(const ::roscpp::SetLoggerLevelResponse_<ContainerAllocator>&)
+value	/opt/ros/fuerte/include/roscpp/SetLoggerLevelResponse.h	/^  static const char* value(const ::roscpp::SetLoggerLevelResponse_<ContainerAllocator>&) { return value(); }$/;"	f	struct:ros::message_traits::MD5Sum	access:public	signature:(const ::roscpp::SetLoggerLevelResponse_<ContainerAllocator>&)

@@ -1,0 +1,1115 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Append	/opt/ros/fuerte/include/rosbag/bag.h	/^        Append  = 4$/;"	e	enum:rosbag::bagmode::BagMode
+BZ2	/opt/ros/fuerte/include/rosbag/stream.h	/^        BZ2          = 1,$/;"	e	enum:rosbag::compression::CompressionType
+BZ2Stream	/opt/ros/fuerte/include/rosbag/stream.h	/^    BZ2Stream(ChunkedFile* file);$/;"	p	class:rosbag::BZ2Stream	access:public	signature:(ChunkedFile* file)
+BZ2Stream	/opt/ros/fuerte/include/rosbag/stream.h	/^class BZ2Stream : public Stream$/;"	c	namespace:rosbag	inherits:Stream
+Bag	/opt/ros/fuerte/include/rosbag/bag.h	/^    Bag();$/;"	p	class:rosbag::Bag	access:public	signature:()
+Bag	/opt/ros/fuerte/include/rosbag/bag.h	/^    Bag(std::string const& filename, uint32_t mode = bagmode::Read);$/;"	p	class:rosbag::Bag	access:public	signature:(std::string const& filename, uint32_t mode = bagmode::Read)
+Bag	/opt/ros/fuerte/include/rosbag/bag.h	/^class Bag$/;"	c	namespace:rosbag
+BagException	/opt/ros/fuerte/include/rosbag/exceptions.h	/^    BagException(std::string const& msg) : ros::Exception(msg) { }$/;"	f	class:rosbag::BagException	access:public	signature:(std::string const& msg)
+BagException	/opt/ros/fuerte/include/rosbag/exceptions.h	/^class BagException : public ros::Exception$/;"	c	namespace:rosbag	inherits:ros::Exception
+BagFormatException	/opt/ros/fuerte/include/rosbag/exceptions.h	/^    BagFormatException(std::string const& msg) : BagException(msg) { }$/;"	f	class:rosbag::BagFormatException	access:public	signature:(std::string const& msg)
+BagFormatException	/opt/ros/fuerte/include/rosbag/exceptions.h	/^class BagFormatException : public BagException$/;"	c	namespace:rosbag	inherits:BagException
+BagIOException	/opt/ros/fuerte/include/rosbag/exceptions.h	/^    BagIOException(std::string const& msg) : BagException(msg) { }$/;"	f	class:rosbag::BagIOException	access:public	signature:(std::string const& msg)
+BagIOException	/opt/ros/fuerte/include/rosbag/exceptions.h	/^class BagIOException : public BagException$/;"	c	namespace:rosbag	inherits:BagException
+BagMode	/opt/ros/fuerte/include/rosbag/bag.h	/^    enum BagMode$/;"	g	namespace:rosbag::bagmode
+BagMode	/opt/ros/fuerte/include/rosbag/bag.h	/^typedef bagmode::BagMode BagMode;$/;"	t	namespace:rosbag
+BagQuery	/opt/ros/fuerte/include/rosbag/query.h	/^    BagQuery(Bag const* _bag, Query const& _query, uint32_t _bag_revision);$/;"	p	struct:rosbag::BagQuery	access:public	signature:(Bag const* _bag, Query const& _query, uint32_t _bag_revision)
+BagQuery	/opt/ros/fuerte/include/rosbag/query.h	/^struct BagQuery$/;"	s	namespace:rosbag
+BagUnindexedException	/opt/ros/fuerte/include/rosbag/exceptions.h	/^    BagUnindexedException() : BagException("Bag unindexed") { }$/;"	f	class:rosbag::BagUnindexedException	access:public	signature:()
+BagUnindexedException	/opt/ros/fuerte/include/rosbag/exceptions.h	/^class BagUnindexedException : public BagException$/;"	c	namespace:rosbag	inherits:BagException
+Buffer	/opt/ros/fuerte/include/rosbag/buffer.h	/^    Buffer();$/;"	p	class:rosbag::Buffer	access:public	signature:()
+Buffer	/opt/ros/fuerte/include/rosbag/buffer.h	/^class Buffer$/;"	c	namespace:rosbag
+CALLERID_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string CALLERID_FIELD_NAME = "callerid";      \/\/ <2.0$/;"	m	namespace:rosbag
+CHUNK_COUNT_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string CHUNK_COUNT_FIELD_NAME      = "chunk_count";   \/\/ 2.0+$/;"	m	namespace:rosbag
+CHUNK_INFO_VERSION	/opt/ros/fuerte/include/rosbag/constants.h	/^static const uint32_t CHUNK_INFO_VERSION = 1;$/;"	m	namespace:rosbag
+CHUNK_POS_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string CHUNK_POS_FIELD_NAME        = "chunk_pos";     \/\/ 2.0+$/;"	m	namespace:rosbag
+COMPRESSION_BZ2	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string COMPRESSION_BZ2  = "bz2";$/;"	m	namespace:rosbag
+COMPRESSION_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string COMPRESSION_FIELD_NAME      = "compression";   \/\/ 2.0+$/;"	m	namespace:rosbag
+COMPRESSION_NONE	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string COMPRESSION_NONE = "none";$/;"	m	namespace:rosbag
+CONNECTION_COUNT_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string CONNECTION_COUNT_FIELD_NAME = "conn_count";    \/\/ 2.0+$/;"	m	namespace:rosbag
+CONNECTION_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string CONNECTION_FIELD_NAME       = "conn";          \/\/ 2.0+$/;"	m	namespace:rosbag
+COUNT_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string COUNT_FIELD_NAME            = "count";$/;"	m	namespace:rosbag
+ChunkHeader	/opt/ros/fuerte/include/rosbag/structures.h	/^struct ChunkHeader$/;"	s	namespace:rosbag
+ChunkInfo	/opt/ros/fuerte/include/rosbag/structures.h	/^struct ChunkInfo$/;"	s	namespace:rosbag
+ChunkedFile	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    ChunkedFile();$/;"	p	class:rosbag::ChunkedFile	access:public	signature:()
+ChunkedFile	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^class ChunkedFile$/;"	c	namespace:rosbag
+CompressionType	/opt/ros/fuerte/include/rosbag/stream.h	/^    enum CompressionType$/;"	g	namespace:rosbag::compression
+CompressionType	/opt/ros/fuerte/include/rosbag/stream.h	/^typedef compression::CompressionType CompressionType;$/;"	t	namespace:rosbag
+ConnectionInfo	/opt/ros/fuerte/include/rosbag/structures.h	/^    ConnectionInfo() : id(-1) { }$/;"	f	struct:rosbag::ConnectionInfo	access:public	signature:()
+ConnectionInfo	/opt/ros/fuerte/include/rosbag/structures.h	/^struct ConnectionInfo$/;"	s	namespace:rosbag
+DEF_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string DEF_FIELD_NAME      = "def";           \/\/ <2.0$/;"	m	namespace:rosbag
+DataType	/opt/ros/fuerte/include/rosbag/message_instance.h	/^struct DataType<rosbag::MessageInstance>$/;"	s	namespace:ros::message_traits
+Definition	/opt/ros/fuerte/include/rosbag/message_instance.h	/^struct Definition<rosbag::MessageInstance>$/;"	s	namespace:ros::message_traits
+END_TIME_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string END_TIME_FIELD_NAME         = "end_time";      \/\/ 2.0+$/;"	m	namespace:rosbag
+FIELD_DELIM	/opt/ros/fuerte/include/rosbag/constants.h	/^static const unsigned char FIELD_DELIM = '=';$/;"	m	namespace:rosbag
+FILE_HEADER_LENGTH	/opt/ros/fuerte/include/rosbag/constants.h	/^static const uint32_t FILE_HEADER_LENGTH = 4 * 1024;$/;"	m	namespace:rosbag
+INDEX_POS_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string INDEX_POS_FIELD_NAME        = "index_pos";     \/\/ 1.2+$/;"	m	namespace:rosbag
+INDEX_VERSION	/opt/ros/fuerte/include/rosbag/constants.h	/^static const uint32_t INDEX_VERSION = 1;$/;"	m	namespace:rosbag
+IndexEntry	/opt/ros/fuerte/include/rosbag/structures.h	/^struct IndexEntry$/;"	s	namespace:rosbag
+IndexEntryCompare	/opt/ros/fuerte/include/rosbag/structures.h	/^struct IndexEntryCompare$/;"	s	namespace:rosbag
+LATCHING_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string LATCHING_FIELD_NAME = "latching";      \/\/ <2.0$/;"	m	namespace:rosbag
+MD5Sum	/opt/ros/fuerte/include/rosbag/message_instance.h	/^struct MD5Sum<rosbag::MessageInstance>$/;"	s	namespace:ros::message_traits
+MD5_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string MD5_FIELD_NAME      = "md5";           \/\/ <2.0$/;"	m	namespace:rosbag
+MessageInstance	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    MessageInstance(ConnectionInfo const* connection_info, IndexEntry const& index, Bag const& bag);$/;"	p	class:rosbag::MessageInstance	access:private	signature:(ConnectionInfo const* connection_info, IndexEntry const& index, Bag const& bag)
+MessageInstance	/opt/ros/fuerte/include/rosbag/message_instance.h	/^class MessageInstance$/;"	c	namespace:rosbag
+MessageRange	/opt/ros/fuerte/include/rosbag/query.h	/^    MessageRange(std::multiset<IndexEntry>::const_iterator const& _begin,$/;"	p	struct:rosbag::MessageRange	access:public	signature:(std::multiset<IndexEntry>::const_iterator const& _begin, std::multiset<IndexEntry>::const_iterator const& _end, ConnectionInfo const* _connection_info, BagQuery const* _bag_query)
+MessageRange	/opt/ros/fuerte/include/rosbag/query.h	/^struct MessageRange$/;"	s	namespace:rosbag
+NSEC_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string NSEC_FIELD_NAME     = "nsec";          \/\/ <2.0$/;"	m	namespace:rosbag
+OP_CHUNK	/opt/ros/fuerte/include/rosbag/constants.h	/^static const unsigned char OP_CHUNK       = 0x05;$/;"	m	namespace:rosbag
+OP_CHUNK_INFO	/opt/ros/fuerte/include/rosbag/constants.h	/^static const unsigned char OP_CHUNK_INFO  = 0x06;$/;"	m	namespace:rosbag
+OP_CONNECTION	/opt/ros/fuerte/include/rosbag/constants.h	/^static const unsigned char OP_CONNECTION  = 0x07;$/;"	m	namespace:rosbag
+OP_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string OP_FIELD_NAME               = "op";$/;"	m	namespace:rosbag
+OP_FILE_HEADER	/opt/ros/fuerte/include/rosbag/constants.h	/^static const unsigned char OP_FILE_HEADER = 0x03;$/;"	m	namespace:rosbag
+OP_INDEX_DATA	/opt/ros/fuerte/include/rosbag/constants.h	/^static const unsigned char OP_INDEX_DATA  = 0x04;$/;"	m	namespace:rosbag
+OP_MSG_DATA	/opt/ros/fuerte/include/rosbag/constants.h	/^static const unsigned char OP_MSG_DATA    = 0x02;$/;"	m	namespace:rosbag
+OP_MSG_DEF	/opt/ros/fuerte/include/rosbag/constants.h	/^static const unsigned char OP_MSG_DEF     = 0x01;$/;"	m	namespace:rosbag
+OutgoingMessage	/opt/ros/fuerte/include/rosbag/recorder.h	/^    OutgoingMessage(std::string const& _topic, topic_tools::ShapeShifter::ConstPtr _msg, boost::shared_ptr<ros::M_string> _connection_header, ros::Time _time);$/;"	p	class:rosbag::OutgoingMessage	access:public	signature:(std::string const& _topic, topic_tools::ShapeShifter::ConstPtr _msg, boost::shared_ptr<ros::M_string> _connection_header, ros::Time _time)
+OutgoingMessage	/opt/ros/fuerte/include/rosbag/recorder.h	/^class OutgoingMessage$/;"	c	namespace:rosbag
+OutgoingQueue	/opt/ros/fuerte/include/rosbag/recorder.h	/^    OutgoingQueue(std::string const& _filename, std::queue<OutgoingMessage>* _queue, ros::Time _time);$/;"	p	class:rosbag::OutgoingQueue	access:public	signature:(std::string const& _filename, std::queue<OutgoingMessage>* _queue, ros::Time _time)
+OutgoingQueue	/opt/ros/fuerte/include/rosbag/recorder.h	/^class OutgoingQueue$/;"	c	namespace:rosbag
+Player	/opt/ros/fuerte/include/rosbag/player.h	/^    Player(PlayerOptions const& options);$/;"	p	class:rosbag::Player	access:public	signature:(PlayerOptions const& options)
+Player	/opt/ros/fuerte/include/rosbag/player.h	/^class Player$/;"	c	namespace:rosbag
+PlayerOptions	/opt/ros/fuerte/include/rosbag/player.h	/^    PlayerOptions();$/;"	p	struct:rosbag::PlayerOptions	access:public	signature:()
+PlayerOptions	/opt/ros/fuerte/include/rosbag/player.h	/^struct PlayerOptions$/;"	s	namespace:rosbag
+Query	/opt/ros/fuerte/include/rosbag/query.h	/^    Query(boost::function<bool(ConnectionInfo const*)>& query,$/;"	p	class:rosbag::Query	access:public	signature:(boost::function<bool(ConnectionInfo const*)>& query, ros::Time const& start_time = ros::TIME_MIN, ros::Time const& end_time = ros::TIME_MAX)
+Query	/opt/ros/fuerte/include/rosbag/query.h	/^class Query$/;"	c	namespace:rosbag
+ROSBAG_BAG_H	/opt/ros/fuerte/include/rosbag/bag.h	36;"	d
+ROSBAG_BUFFER_H	/opt/ros/fuerte/include/rosbag/buffer.h	36;"	d
+ROSBAG_CHUNKED_FILE_H	/opt/ros/fuerte/include/rosbag/chunked_file.h	36;"	d
+ROSBAG_CONSTANTS_H	/opt/ros/fuerte/include/rosbag/constants.h	36;"	d
+ROSBAG_EXCEPTIONS_H	/opt/ros/fuerte/include/rosbag/exceptions.h	36;"	d
+ROSBAG_MESSAGE_INSTANCE_H	/opt/ros/fuerte/include/rosbag/message_instance.h	36;"	d
+ROSBAG_PLAYER_H	/opt/ros/fuerte/include/rosbag/player.h	36;"	d
+ROSBAG_QUERY_H	/opt/ros/fuerte/include/rosbag/query.h	36;"	d
+ROSBAG_RECORDER_H	/opt/ros/fuerte/include/rosbag/recorder.h	36;"	d
+ROSBAG_STREAM_H	/opt/ros/fuerte/include/rosbag/stream.h	36;"	d
+ROSBAG_STRUCTURES_H	/opt/ros/fuerte/include/rosbag/structures.h	36;"	d
+ROSBAG_TIME_TRANSLATOR_H	/opt/ros/fuerte/include/rosbag/time_translator.h	36;"	d
+ROSBAG_VIEW_H	/opt/ros/fuerte/include/rosbag/view.h	36;"	d
+Read	/opt/ros/fuerte/include/rosbag/bag.h	/^        Read    = 2,$/;"	e	enum:rosbag::bagmode::BagMode
+Recorder	/opt/ros/fuerte/include/rosbag/recorder.h	/^    Recorder(RecorderOptions const& options);$/;"	p	class:rosbag::Recorder	access:public	signature:(RecorderOptions const& options)
+Recorder	/opt/ros/fuerte/include/rosbag/recorder.h	/^class Recorder$/;"	c	namespace:rosbag
+RecorderOptions	/opt/ros/fuerte/include/rosbag/recorder.h	/^    RecorderOptions();$/;"	p	struct:rosbag::RecorderOptions	access:public	signature:()
+RecorderOptions	/opt/ros/fuerte/include/rosbag/recorder.h	/^struct RecorderOptions$/;"	s	namespace:rosbag
+SEC_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string SEC_FIELD_NAME      = "sec";           \/\/ <2.0$/;"	m	namespace:rosbag
+SIZE_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string SIZE_FIELD_NAME             = "size";          \/\/ 2.0+$/;"	m	namespace:rosbag
+START_TIME_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string START_TIME_FIELD_NAME       = "start_time";    \/\/ 2.0+$/;"	m	namespace:rosbag
+Serializer	/opt/ros/fuerte/include/rosbag/message_instance.h	/^struct Serializer<rosbag::MessageInstance>$/;"	s	namespace:ros::serialization
+Stream	/opt/ros/fuerte/include/rosbag/stream.h	/^    Stream(ChunkedFile* file);$/;"	p	class:rosbag::Stream	access:public	signature:(ChunkedFile* file)
+Stream	/opt/ros/fuerte/include/rosbag/stream.h	/^class Stream$/;"	c	namespace:rosbag
+StreamFactory	/opt/ros/fuerte/include/rosbag/stream.h	/^    StreamFactory(ChunkedFile* file);$/;"	p	class:rosbag::StreamFactory	access:public	signature:(ChunkedFile* file)
+StreamFactory	/opt/ros/fuerte/include/rosbag/stream.h	/^class StreamFactory$/;"	c	namespace:rosbag
+TIME_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string TIME_FIELD_NAME             = "time";          \/\/ 2.0+$/;"	m	namespace:rosbag
+TOPIC_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string TOPIC_FIELD_NAME            = "topic";$/;"	m	namespace:rosbag
+TYPE_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string TYPE_FIELD_NAME     = "type";          \/\/ <2.0$/;"	m	namespace:rosbag
+TimePublisher	/opt/ros/fuerte/include/rosbag/player.h	/^    TimePublisher();$/;"	p	class:rosbag::TimePublisher	access:public	signature:()
+TimePublisher	/opt/ros/fuerte/include/rosbag/player.h	/^class TimePublisher {$/;"	c	namespace:rosbag
+TimeTranslator	/opt/ros/fuerte/include/rosbag/time_translator.h	/^    TimeTranslator();$/;"	p	class:rosbag::TimeTranslator	access:public	signature:()
+TimeTranslator	/opt/ros/fuerte/include/rosbag/time_translator.h	/^class TimeTranslator$/;"	c	namespace:rosbag
+TopicQuery	/opt/ros/fuerte/include/rosbag/query.h	/^    TopicQuery(std::string const& topic);$/;"	p	class:rosbag::TopicQuery	access:public	signature:(std::string const& topic)
+TopicQuery	/opt/ros/fuerte/include/rosbag/query.h	/^    TopicQuery(std::vector<std::string> const& topics);$/;"	p	class:rosbag::TopicQuery	access:public	signature:(std::vector<std::string> const& topics)
+TopicQuery	/opt/ros/fuerte/include/rosbag/query.h	/^class TopicQuery$/;"	c	namespace:rosbag
+TrueQuery	/opt/ros/fuerte/include/rosbag/view.h	/^    struct TrueQuery {$/;"	s	class:rosbag::View	access:public
+TypeQuery	/opt/ros/fuerte/include/rosbag/query.h	/^    TypeQuery(std::string const& type);$/;"	p	class:rosbag::TypeQuery	access:public	signature:(std::string const& type)
+TypeQuery	/opt/ros/fuerte/include/rosbag/query.h	/^    TypeQuery(std::vector<std::string> const& types);$/;"	p	class:rosbag::TypeQuery	access:public	signature:(std::vector<std::string> const& types)
+TypeQuery	/opt/ros/fuerte/include/rosbag/query.h	/^class TypeQuery$/;"	c	namespace:rosbag
+Uncompressed	/opt/ros/fuerte/include/rosbag/stream.h	/^        Uncompressed = 0,$/;"	e	enum:rosbag::compression::CompressionType
+UncompressedStream	/opt/ros/fuerte/include/rosbag/stream.h	/^    UncompressedStream(ChunkedFile* file);$/;"	p	class:rosbag::UncompressedStream	access:public	signature:(ChunkedFile* file)
+UncompressedStream	/opt/ros/fuerte/include/rosbag/stream.h	/^class UncompressedStream : public Stream$/;"	c	namespace:rosbag	inherits:Stream
+VERSION	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string VERSION = "2.0";$/;"	m	namespace:rosbag
+VER_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string VER_FIELD_NAME              = "ver";$/;"	m	namespace:rosbag
+View	/opt/ros/fuerte/include/rosbag/view.h	/^    View(Bag const& bag, boost::function<bool(ConnectionInfo const*)> query,$/;"	p	class:rosbag::View	access:public	signature:(Bag const& bag, boost::function<bool(ConnectionInfo const*)> query, ros::Time const& start_time = ros::TIME_MIN, ros::Time const& end_time = ros::TIME_MAX, bool const& reduce_overlap = false)
+View	/opt/ros/fuerte/include/rosbag/view.h	/^    View(Bag const& bag, ros::Time const& start_time = ros::TIME_MIN, ros::Time const& end_time = ros::TIME_MAX, bool const& reduce_overlap = false);$/;"	p	class:rosbag::View	access:public	signature:(Bag const& bag, ros::Time const& start_time = ros::TIME_MIN, ros::Time const& end_time = ros::TIME_MAX, bool const& reduce_overlap = false)
+View	/opt/ros/fuerte/include/rosbag/view.h	/^    View(View const& view);$/;"	p	class:rosbag::View	access:private	signature:(View const& view)
+View	/opt/ros/fuerte/include/rosbag/view.h	/^    View(bool const& reduce_overlap = false);$/;"	p	class:rosbag::View	access:public	signature:(bool const& reduce_overlap = false)
+View	/opt/ros/fuerte/include/rosbag/view.h	/^class View$/;"	c	namespace:rosbag
+ViewIterHelper	/opt/ros/fuerte/include/rosbag/query.h	/^    ViewIterHelper(std::multiset<IndexEntry>::const_iterator _iter, MessageRange const* _range);$/;"	p	struct:rosbag::ViewIterHelper	access:public	signature:(std::multiset<IndexEntry>::const_iterator _iter, MessageRange const* _range)
+ViewIterHelper	/opt/ros/fuerte/include/rosbag/query.h	/^struct ViewIterHelper$/;"	s	namespace:rosbag
+ViewIterHelperCompare	/opt/ros/fuerte/include/rosbag/query.h	/^struct ViewIterHelperCompare$/;"	s	namespace:rosbag
+Write	/opt/ros/fuerte/include/rosbag/bag.h	/^        Write   = 1,$/;"	e	enum:rosbag::bagmode::BagMode
+addQuery	/opt/ros/fuerte/include/rosbag/view.h	/^    void addQuery(Bag const& bag, boost::function<bool(ConnectionInfo const*)> query,$/;"	p	class:rosbag::View	access:public	signature:(Bag const& bag, boost::function<bool(ConnectionInfo const*)> query, ros::Time const& start_time = ros::TIME_MIN, ros::Time const& end_time = ros::TIME_MAX)
+addQuery	/opt/ros/fuerte/include/rosbag/view.h	/^    void addQuery(Bag const& bag, ros::Time const& start_time = ros::TIME_MIN, ros::Time const& end_time = ros::TIME_MAX);$/;"	p	class:rosbag::View	access:public	signature:(Bag const& bag, ros::Time const& start_time = ros::TIME_MIN, ros::Time const& end_time = ros::TIME_MAX)
+advanceOffset	/opt/ros/fuerte/include/rosbag/stream.h	/^    void     advanceOffset(uint64_t nbytes);$/;"	p	class:rosbag::Stream	access:protected	signature:(uint64_t nbytes)
+advertise_sleep	/opt/ros/fuerte/include/rosbag/player.h	/^    ros::WallDuration advertise_sleep;$/;"	m	struct:rosbag::PlayerOptions	access:public
+appendConnectionRecordToBuffer	/opt/ros/fuerte/include/rosbag/bag.h	/^    void appendConnectionRecordToBuffer(Buffer& buf, ConnectionInfo const* connection_info);$/;"	p	class:rosbag::Bag	access:private	signature:(Buffer& buf, ConnectionInfo const* connection_info)
+appendDataLengthToBuffer	/opt/ros/fuerte/include/rosbag/bag.h	/^    void appendDataLengthToBuffer(Buffer& buf, uint32_t data_len);$/;"	p	class:rosbag::Bag	access:private	signature:(Buffer& buf, uint32_t data_len)
+appendHeaderToBuffer	/opt/ros/fuerte/include/rosbag/bag.h	/^    void appendHeaderToBuffer(Buffer& buf, ros::M_string const& fields);$/;"	p	class:rosbag::Bag	access:private	signature:(Buffer& buf, ros::M_string const& fields)
+append_date	/opt/ros/fuerte/include/rosbag/recorder.h	/^    bool            append_date;$/;"	m	struct:rosbag::RecorderOptions	access:public
+at_once	/opt/ros/fuerte/include/rosbag/player.h	/^    bool     at_once;$/;"	m	struct:rosbag::PlayerOptions	access:public
+bag	/opt/ros/fuerte/include/rosbag/query.h	/^    Bag const* bag;$/;"	m	struct:rosbag::BagQuery	access:public
+bag_	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    Bag const*            bag_;$/;"	m	class:rosbag::MessageInstance	access:private
+bag_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    Bag                           bag_;$/;"	m	class:rosbag::Recorder	access:private
+bag_length_	/opt/ros/fuerte/include/rosbag/player.h	/^    ros::Duration bag_length_;$/;"	m	class:rosbag::Player	access:private
+bag_query	/opt/ros/fuerte/include/rosbag/query.h	/^    BagQuery const* bag_query;           \/\/!< pointer to vector of queries in View$/;"	m	struct:rosbag::MessageRange	access:public
+bag_revision	/opt/ros/fuerte/include/rosbag/query.h	/^    uint32_t   bag_revision;$/;"	m	struct:rosbag::BagQuery	access:public
+bag_revision_	/opt/ros/fuerte/include/rosbag/bag.h	/^    uint32_t            bag_revision_;$/;"	m	class:rosbag::Bag	access:private
+bag_time	/opt/ros/fuerte/include/rosbag/player.h	/^    bool     bag_time;$/;"	m	struct:rosbag::PlayerOptions	access:public
+bag_time_frequency	/opt/ros/fuerte/include/rosbag/player.h	/^    double   bag_time_frequency;$/;"	m	struct:rosbag::PlayerOptions	access:public
+bagmode	/opt/ros/fuerte/include/rosbag/bag.h	/^namespace bagmode$/;"	n	namespace:rosbag
+bags	/opt/ros/fuerte/include/rosbag/player.h	/^    std::vector<std::string> bags;$/;"	m	struct:rosbag::PlayerOptions	access:public
+bags_	/opt/ros/fuerte/include/rosbag/player.h	/^    std::vector<boost::shared_ptr<Bag> >  bags_;$/;"	m	class:rosbag::Player	access:private
+begin	/opt/ros/fuerte/include/rosbag/query.h	/^    std::multiset<IndexEntry>::const_iterator begin;$/;"	m	struct:rosbag::MessageRange	access:public
+begin	/opt/ros/fuerte/include/rosbag/view.h	/^    iterator begin();$/;"	p	class:rosbag::View	access:public	signature:()
+block_size_100k_	/opt/ros/fuerte/include/rosbag/stream.h	/^    int     block_size_100k_;  \/\/!< compression block size (1-9; 9 default). 9 is best compression, most memory$/;"	m	class:rosbag::BZ2Stream	access:private
+buffer_	/opt/ros/fuerte/include/rosbag/buffer.h	/^    uint8_t* buffer_;$/;"	m	class:rosbag::Buffer	access:private
+buffer_size	/opt/ros/fuerte/include/rosbag/recorder.h	/^    uint32_t        buffer_size;$/;"	m	struct:rosbag::RecorderOptions	access:public
+bz2_stream_	/opt/ros/fuerte/include/rosbag/stream.h	/^    boost::shared_ptr<Stream> bz2_stream_;$/;"	m	class:rosbag::StreamFactory	access:private
+bzerror_	/opt/ros/fuerte/include/rosbag/stream.h	/^    int     bzerror_;          \/\/!< last error from bzlib$/;"	m	class:rosbag::BZ2Stream	access:private
+bzfile_	/opt/ros/fuerte/include/rosbag/stream.h	/^    BZFILE* bzfile_;           \/\/!< bzlib compressed file stream$/;"	m	class:rosbag::BZ2Stream	access:private
+capacity_	/opt/ros/fuerte/include/rosbag/buffer.h	/^    uint32_t capacity_;$/;"	m	class:rosbag::Buffer	access:private
+check	/opt/ros/fuerte/include/rosbag/player.h	/^    void check();$/;"	p	struct:rosbag::PlayerOptions	access:public	signature:()
+checkDisk	/opt/ros/fuerte/include/rosbag/recorder.h	/^    bool checkDisk();$/;"	p	class:rosbag::Recorder	access:private	signature:()
+checkDuration	/opt/ros/fuerte/include/rosbag/recorder.h	/^    bool checkDuration(const ros::Time&);$/;"	p	class:rosbag::Recorder	access:private	signature:(const ros::Time&)
+checkField	/opt/ros/fuerte/include/rosbag/bag.h	/^    ros::M_string::const_iterator checkField(ros::M_string const& fields, std::string const& field,$/;"	p	class:rosbag::Bag	access:private	signature:(ros::M_string const& fields, std::string const& field, unsigned int min_len, unsigned int max_len, bool required) const
+checkLogging	/opt/ros/fuerte/include/rosbag/recorder.h	/^    bool checkLogging();$/;"	p	class:rosbag::Recorder	access:private	signature:()
+checkSize	/opt/ros/fuerte/include/rosbag/recorder.h	/^    bool checkSize();$/;"	p	class:rosbag::Recorder	access:private	signature:()
+check_disk_mutex_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    boost::mutex                  check_disk_mutex_;$/;"	m	class:rosbag::Recorder	access:private
+check_disk_next_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    ros::WallTime                 check_disk_next_;$/;"	m	class:rosbag::Recorder	access:private
+chunk_buffer_	/opt/ros/fuerte/include/rosbag/bag.h	/^    mutable Buffer   chunk_buffer_;            \/\/!< reusable buffer to read chunk into$/;"	m	class:rosbag::Bag	access:private
+chunk_count_	/opt/ros/fuerte/include/rosbag/bag.h	/^    uint32_t chunk_count_;$/;"	m	class:rosbag::Bag	access:private
+chunk_open_	/opt/ros/fuerte/include/rosbag/bag.h	/^    bool      chunk_open_;$/;"	m	class:rosbag::Bag	access:private
+chunk_pos	/opt/ros/fuerte/include/rosbag/structures.h	/^    uint64_t  chunk_pos;       \/\/! absolute byte offset of the chunk record containing the message$/;"	m	struct:rosbag::IndexEntry	access:public
+chunk_threshold_	/opt/ros/fuerte/include/rosbag/bag.h	/^    uint32_t            chunk_threshold_;$/;"	m	class:rosbag::Bag	access:private
+chunks_	/opt/ros/fuerte/include/rosbag/bag.h	/^    std::vector<ChunkInfo>                         chunks_;$/;"	m	class:rosbag::Bag	access:private
+clearUnused	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    void clearUnused();$/;"	p	class:rosbag::ChunkedFile	access:private	signature:()
+clearUnused	/opt/ros/fuerte/include/rosbag/stream.h	/^    void     clearUnused();$/;"	p	class:rosbag::Stream	access:protected	signature:()
+close	/opt/ros/fuerte/include/rosbag/bag.h	/^    void close();$/;"	p	class:rosbag::Bag	access:public	signature:()
+close	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    void close();                                               \/\/!< close the file$/;"	p	class:rosbag::ChunkedFile	access:public	signature:()
+closeWrite	/opt/ros/fuerte/include/rosbag/bag.h	/^    void closeWrite();$/;"	p	class:rosbag::Bag	access:private	signature:()
+compressed_in_	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    uint64_t    compressed_in_;  \/\/!< number of bytes written to current compressed stream$/;"	m	class:rosbag::ChunkedFile	access:private
+compressed_size	/opt/ros/fuerte/include/rosbag/structures.h	/^    uint32_t    compressed_size;      \/\/! compressed size of the chunk in bytes$/;"	m	struct:rosbag::ChunkHeader	access:public
+compression	/opt/ros/fuerte/include/rosbag/recorder.h	/^    CompressionType compression;$/;"	m	struct:rosbag::RecorderOptions	access:public
+compression	/opt/ros/fuerte/include/rosbag/stream.h	/^namespace compression$/;"	n	namespace:rosbag
+compression	/opt/ros/fuerte/include/rosbag/structures.h	/^    std::string compression;          \/\/! chunk compression type, e.g. "none" or "bz2" (see constants.h)$/;"	m	struct:rosbag::ChunkHeader	access:public
+compression_	/opt/ros/fuerte/include/rosbag/bag.h	/^    CompressionType     compression_;$/;"	m	class:rosbag::Bag	access:private
+connection_count_	/opt/ros/fuerte/include/rosbag/bag.h	/^    uint32_t connection_count_;$/;"	m	class:rosbag::Bag	access:private
+connection_counts	/opt/ros/fuerte/include/rosbag/structures.h	/^    std::map<uint32_t, uint32_t> connection_counts;   \/\/! number of messages in each connection stored in the chunk$/;"	m	struct:rosbag::ChunkInfo	access:public
+connection_header	/opt/ros/fuerte/include/rosbag/recorder.h	/^    boost::shared_ptr<ros::M_string>    connection_header;$/;"	m	class:rosbag::OutgoingMessage	access:public
+connection_indexes_	/opt/ros/fuerte/include/rosbag/bag.h	/^    std::map<uint32_t, std::multiset<IndexEntry> > connection_indexes_;$/;"	m	class:rosbag::Bag	access:private
+connection_info	/opt/ros/fuerte/include/rosbag/query.h	/^    ConnectionInfo const* connection_info;$/;"	m	struct:rosbag::MessageRange	access:public
+connection_info_	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    ConnectionInfo const* connection_info_;$/;"	m	class:rosbag::MessageInstance	access:private
+connections_	/opt/ros/fuerte/include/rosbag/bag.h	/^    std::map<uint32_t, ConnectionInfo*>            connections_;$/;"	m	class:rosbag::Bag	access:private
+const_iterator	/opt/ros/fuerte/include/rosbag/view.h	/^    typedef iterator const_iterator;$/;"	t	class:rosbag::View	access:public
+createAdvertiseOptions	/opt/ros/fuerte/include/rosbag/message_instance.h	/^ros::AdvertiseOptions createAdvertiseOptions(MessageInstance const& msg, uint32_t queue_size);$/;"	p	namespace:rosbag	signature:(MessageInstance const& msg, uint32_t queue_size)
+createAdvertiseOptions	/opt/ros/fuerte/include/rosbag/structures.h	/^ros::AdvertiseOptions createAdvertiseOptions(const ConnectionInfo* c, uint32_t queue_size);$/;"	p	namespace:rosbag	signature:(const ConnectionInfo* c, uint32_t queue_size)
+curr_chunk_connection_indexes_	/opt/ros/fuerte/include/rosbag/bag.h	/^    std::map<uint32_t, std::multiset<IndexEntry> > curr_chunk_connection_indexes_;$/;"	m	class:rosbag::Bag	access:private
+curr_chunk_data_pos_	/opt/ros/fuerte/include/rosbag/bag.h	/^    uint64_t  curr_chunk_data_pos_;$/;"	m	class:rosbag::Bag	access:private
+curr_chunk_info_	/opt/ros/fuerte/include/rosbag/bag.h	/^    ChunkInfo curr_chunk_info_;$/;"	m	class:rosbag::Bag	access:private
+current_	/opt/ros/fuerte/include/rosbag/player.h	/^    ros::Time current_;$/;"	m	class:rosbag::TimePublisher	access:private
+current_buffer_	/opt/ros/fuerte/include/rosbag/bag.h	/^    mutable Buffer*  current_buffer_;$/;"	m	class:rosbag::Bag	access:private
+currently_recording_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    std::set<std::string>         currently_recording_;  \/\/!< set of currenly recording topics$/;"	m	class:rosbag::Recorder	access:private
+datatype	/opt/ros/fuerte/include/rosbag/structures.h	/^    std::string datatype;$/;"	m	struct:rosbag::ConnectionInfo	access:public
+decompress	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    void        decompress(CompressionType compression, uint8_t* dest, unsigned int dest_len, uint8_t* source, unsigned int source_len);$/;"	p	class:rosbag::ChunkedFile	access:public	signature:(CompressionType compression, uint8_t* dest, unsigned int dest_len, uint8_t* source, unsigned int source_len)
+decompress	/opt/ros/fuerte/include/rosbag/stream.h	/^    virtual void decompress(uint8_t* dest, unsigned int dest_len, uint8_t* source, unsigned int source_len) = 0;$/;"	p	class:rosbag::Stream	access:public	signature:(uint8_t* dest, unsigned int dest_len, uint8_t* source, unsigned int source_len)
+decompress	/opt/ros/fuerte/include/rosbag/stream.h	/^    void decompress(uint8_t* dest, unsigned int dest_len, uint8_t* source, unsigned int source_len);$/;"	p	class:rosbag::BZ2Stream	access:public	signature:(uint8_t* dest, unsigned int dest_len, uint8_t* source, unsigned int source_len)
+decompress	/opt/ros/fuerte/include/rosbag/stream.h	/^    void decompress(uint8_t* dest, unsigned int dest_len, uint8_t* source, unsigned int source_len);$/;"	p	class:rosbag::UncompressedStream	access:public	signature:(uint8_t* dest, unsigned int dest_len, uint8_t* source, unsigned int source_len)
+decompressBz2Chunk	/opt/ros/fuerte/include/rosbag/bag.h	/^    void     decompressBz2Chunk(ChunkHeader const& chunk_header) const;$/;"	p	class:rosbag::Bag	access:private	signature:(ChunkHeader const& chunk_header) const
+decompressChunk	/opt/ros/fuerte/include/rosbag/bag.h	/^    void     decompressChunk(uint64_t chunk_pos) const;$/;"	p	class:rosbag::Bag	access:private	signature:(uint64_t chunk_pos) const
+decompressRawChunk	/opt/ros/fuerte/include/rosbag/bag.h	/^    void     decompressRawChunk(ChunkHeader const& chunk_header) const;$/;"	p	class:rosbag::Bag	access:private	signature:(ChunkHeader const& chunk_header) const
+decompress_buffer_	/opt/ros/fuerte/include/rosbag/bag.h	/^    mutable Buffer   decompress_buffer_;       \/\/!< reusable buffer to decompress chunks into$/;"	m	class:rosbag::Bag	access:private
+decompressed_chunk_	/opt/ros/fuerte/include/rosbag/bag.h	/^    mutable uint64_t decompressed_chunk_;      \/\/!< position of decompressed chunk$/;"	m	class:rosbag::Bag	access:private
+dereference	/opt/ros/fuerte/include/rosbag/view.h	/^        MessageInstance& dereference() const;$/;"	p	class:rosbag::View::iterator	access:private	signature:() const
+doCheckMaster	/opt/ros/fuerte/include/rosbag/recorder.h	/^    void doCheckMaster(ros::TimerEvent const& e, ros::NodeHandle& node_handle);$/;"	p	class:rosbag::Recorder	access:private	signature:(ros::TimerEvent const& e, ros::NodeHandle& node_handle)
+doKeepAlive	/opt/ros/fuerte/include/rosbag/player.h	/^    void doKeepAlive();$/;"	p	class:rosbag::Player	access:private	signature:()
+doPublish	/opt/ros/fuerte/include/rosbag/player.h	/^    void doPublish(rosbag::MessageInstance const& m);$/;"	p	class:rosbag::Player	access:private	signature:(rosbag::MessageInstance const& m)
+doQueue	/opt/ros/fuerte/include/rosbag/recorder.h	/^    void doQueue(ros::MessageEvent<topic_tools::ShapeShifter const> msg_event, std::string const& topic, boost::shared_ptr<ros::Subscriber> subscriber, boost::shared_ptr<int> count);$/;"	p	class:rosbag::Recorder	access:private	signature:(ros::MessageEvent<topic_tools::ShapeShifter const> msg_event, std::string const& topic, boost::shared_ptr<ros::Subscriber> subscriber, boost::shared_ptr<int> count)
+doRecord	/opt/ros/fuerte/include/rosbag/recorder.h	/^    void doRecord();$/;"	p	class:rosbag::Recorder	access:private	signature:()
+doRecordSnapshotter	/opt/ros/fuerte/include/rosbag/recorder.h	/^    void doRecordSnapshotter();$/;"	p	class:rosbag::Recorder	access:private	signature:()
+doTrigger	/opt/ros/fuerte/include/rosbag/recorder.h	/^    void doTrigger();$/;"	p	class:rosbag::Recorder	access:public	signature:()
+doWrite	/opt/ros/fuerte/include/rosbag/bag.h	/^    void doWrite(std::string const& topic, ros::Time const& time, T const& msg, boost::shared_ptr<ros::M_string> const& connection_header);$/;"	p	class:rosbag::Bag	access:private	signature:(std::string const& topic, ros::Time const& time, T const& msg, boost::shared_ptr<ros::M_string> const& connection_header)
+doWrite	/opt/ros/fuerte/include/rosbag/bag.h	/^void Bag::doWrite(std::string const& topic, ros::Time const& time, T const& msg, boost::shared_ptr<ros::M_string> const& connection_header) {$/;"	f	class:rosbag::Bag	signature:(std::string const& topic, ros::Time const& time, T const& msg, boost::shared_ptr<ros::M_string> const& connection_header)
+do_exclude	/opt/ros/fuerte/include/rosbag/recorder.h	/^    bool            do_exclude;$/;"	m	struct:rosbag::RecorderOptions	access:public
+do_publish_	/opt/ros/fuerte/include/rosbag/player.h	/^    bool do_publish_;$/;"	m	class:rosbag::TimePublisher	access:private
+end	/opt/ros/fuerte/include/rosbag/query.h	/^    std::multiset<IndexEntry>::const_iterator end;$/;"	m	struct:rosbag::MessageRange	access:public
+end	/opt/ros/fuerte/include/rosbag/view.h	/^    iterator end();$/;"	p	class:rosbag::View	access:public	signature:()
+end_time	/opt/ros/fuerte/include/rosbag/structures.h	/^    ros::Time   end_time;      \/\/! latest timestamp of a message in the chunk$/;"	m	struct:rosbag::ChunkInfo	access:public
+end_time_	/opt/ros/fuerte/include/rosbag/query.h	/^    ros::Time end_time_;$/;"	m	class:rosbag::Query	access:private
+ensureCapacity	/opt/ros/fuerte/include/rosbag/buffer.h	/^    void ensureCapacity(uint32_t capacity);$/;"	p	class:rosbag::Buffer	access:private	signature:(uint32_t capacity)
+equal	/opt/ros/fuerte/include/rosbag/view.h	/^        bool equal(iterator const& other) const;$/;"	p	class:rosbag::View::iterator	access:private	signature:(iterator const& other) const
+exclude_regex	/opt/ros/fuerte/include/rosbag/recorder.h	/^    boost::regex    exclude_regex;$/;"	m	struct:rosbag::RecorderOptions	access:public
+exit_code_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    int                           exit_code_;            \/\/!< eventual exit code$/;"	m	class:rosbag::Recorder	access:private
+file_	/opt/ros/fuerte/include/rosbag/bag.h	/^    mutable ChunkedFile file_;$/;"	m	class:rosbag::Bag	access:private
+file_	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    FILE*       file_;           \/\/!< file pointer$/;"	m	class:rosbag::ChunkedFile	access:private
+file_	/opt/ros/fuerte/include/rosbag/stream.h	/^    ChunkedFile* file_;$/;"	m	class:rosbag::Stream	access:protected
+file_header_pos_	/opt/ros/fuerte/include/rosbag/bag.h	/^    uint64_t file_header_pos_;$/;"	m	class:rosbag::Bag	access:private
+file_size_	/opt/ros/fuerte/include/rosbag/bag.h	/^    uint64_t file_size_;$/;"	m	class:rosbag::Bag	access:private
+filename	/opt/ros/fuerte/include/rosbag/recorder.h	/^    std::string                  filename;$/;"	m	class:rosbag::OutgoingQueue	access:public
+filename_	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    std::string filename_;       \/\/!< path to file$/;"	m	class:rosbag::ChunkedFile	access:private
+getBeginTime	/opt/ros/fuerte/include/rosbag/view.h	/^    ros::Time getBeginTime();$/;"	p	class:rosbag::View	access:public	signature:()
+getCallerId	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    std::string getCallerId() const;$/;"	p	class:rosbag::MessageInstance	access:public	signature:() const
+getCapacity	/opt/ros/fuerte/include/rosbag/buffer.h	/^    uint32_t getCapacity() const;$/;"	p	class:rosbag::Buffer	access:public	signature:() const
+getChunkOffset	/opt/ros/fuerte/include/rosbag/bag.h	/^    uint32_t getChunkOffset() const;$/;"	p	class:rosbag::Bag	access:private	signature:() const
+getChunkThreshold	/opt/ros/fuerte/include/rosbag/bag.h	/^    uint32_t        getChunkThreshold() const;                    \/\/!< Get the threshold for creating new chunks$/;"	p	class:rosbag::Bag	access:public	signature:() const
+getCompressedBytesIn	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    uint32_t    getCompressedBytesIn() const;                   \/\/!< return the number of bytes written to current compressed stream$/;"	p	class:rosbag::ChunkedFile	access:public	signature:() const
+getCompressedIn	/opt/ros/fuerte/include/rosbag/stream.h	/^    uint64_t getCompressedIn();$/;"	p	class:rosbag::Stream	access:protected	signature:()
+getCompression	/opt/ros/fuerte/include/rosbag/bag.h	/^    CompressionType getCompression() const;                       \/\/!< Get the compression method to use for writing chunks$/;"	p	class:rosbag::Bag	access:public	signature:() const
+getCompressionType	/opt/ros/fuerte/include/rosbag/stream.h	/^    CompressionType getCompressionType() const;$/;"	p	class:rosbag::BZ2Stream	access:public	signature:() const
+getCompressionType	/opt/ros/fuerte/include/rosbag/stream.h	/^    CompressionType getCompressionType() const;$/;"	p	class:rosbag::UncompressedStream	access:public	signature:() const
+getCompressionType	/opt/ros/fuerte/include/rosbag/stream.h	/^    virtual CompressionType getCompressionType() const = 0;$/;"	p	class:rosbag::Stream	access:public	signature:() const
+getConnectionHeader	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    boost::shared_ptr<ros::M_string> getConnectionHeader() const;$/;"	p	class:rosbag::MessageInstance	access:public	signature:() const
+getConnections	/opt/ros/fuerte/include/rosbag/view.h	/^    std::vector<const ConnectionInfo*> getConnections();$/;"	p	class:rosbag::View	access:public	signature:()
+getData	/opt/ros/fuerte/include/rosbag/buffer.h	/^    uint8_t* getData();$/;"	p	class:rosbag::Buffer	access:public	signature:()
+getDataType	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    std::string const& getDataType()          const;$/;"	p	class:rosbag::MessageInstance::std	access:public	signature:() const
+getEndTime	/opt/ros/fuerte/include/rosbag/query.h	/^    ros::Time const& getEndTime()   const; \/\/!< Get the end-time$/;"	p	class:rosbag::Query::ros	access:public	signature:() const
+getEndTime	/opt/ros/fuerte/include/rosbag/view.h	/^    ros::Time getEndTime();$/;"	p	class:rosbag::View	access:public	signature:()
+getFileName	/opt/ros/fuerte/include/rosbag/bag.h	/^    std::string     getFileName()     const;                      \/\/!< Get the filename of the bag$/;"	p	class:rosbag::Bag	access:public	signature:() const
+getFileName	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    std::string getFileName()          const;                   \/\/!< return path of currently open file$/;"	p	class:rosbag::ChunkedFile	access:public	signature:() const
+getFilePointer	/opt/ros/fuerte/include/rosbag/stream.h	/^    FILE*    getFilePointer();$/;"	p	class:rosbag::Stream	access:protected	signature:()
+getMD5Sum	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    std::string const& getMD5Sum()            const;$/;"	p	class:rosbag::MessageInstance::std	access:public	signature:() const
+getMajorVersion	/opt/ros/fuerte/include/rosbag/bag.h	/^    uint32_t        getMajorVersion() const;                      \/\/!< Get the major-version of the open bag file$/;"	p	class:rosbag::Bag	access:public	signature:() const
+getMessageDefinition	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    std::string const& getMessageDefinition() const;$/;"	p	class:rosbag::MessageInstance::std	access:public	signature:() const
+getMinorVersion	/opt/ros/fuerte/include/rosbag/bag.h	/^    uint32_t        getMinorVersion() const;                      \/\/!< Get the minor-version of the open bag file$/;"	p	class:rosbag::Bag	access:public	signature:() const
+getMode	/opt/ros/fuerte/include/rosbag/bag.h	/^    BagMode         getMode()         const;                      \/\/!< Get the mode the bag is in$/;"	p	class:rosbag::Bag	access:public	signature:() const
+getOffset	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    uint64_t    getOffset()            const;                   \/\/!< return current offset from the beginning of the file$/;"	p	class:rosbag::ChunkedFile	access:public	signature:() const
+getQuery	/opt/ros/fuerte/include/rosbag/query.h	/^    boost::function<bool(ConnectionInfo const*)> const& getQuery() const;  \/\/!< Get the query functor$/;"	p	class:rosbag::Query::boost	access:public	signature:() const
+getSize	/opt/ros/fuerte/include/rosbag/bag.h	/^    uint64_t        getSize()         const;                      \/\/!< Get the current size of the bag file (a lower bound)$/;"	p	class:rosbag::Bag	access:public	signature:() const
+getSize	/opt/ros/fuerte/include/rosbag/buffer.h	/^    uint32_t getSize()     const;$/;"	p	class:rosbag::Buffer	access:public	signature:() const
+getStartTime	/opt/ros/fuerte/include/rosbag/query.h	/^    ros::Time const& getStartTime() const; \/\/!< Get the start-time$/;"	p	class:rosbag::Query::ros	access:public	signature:() const
+getStream	/opt/ros/fuerte/include/rosbag/stream.h	/^    boost::shared_ptr<Stream> getStream(CompressionType type) const;$/;"	p	class:rosbag::StreamFactory	access:public	signature:(CompressionType type) const
+getTime	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    ros::Time   const& getTime()              const;$/;"	p	class:rosbag::MessageInstance::ros	access:public	signature:() const
+getTime	/opt/ros/fuerte/include/rosbag/player.h	/^    ros::Time const& getTime() const;$/;"	p	class:rosbag::TimePublisher::ros	access:public	signature:() const
+getTopic	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    std::string const& getTopic()             const;$/;"	p	class:rosbag::MessageInstance::std	access:public	signature:() const
+getUnused	/opt/ros/fuerte/include/rosbag/stream.h	/^    char*    getUnused();$/;"	p	class:rosbag::Stream	access:protected	signature:()
+getUnusedLength	/opt/ros/fuerte/include/rosbag/stream.h	/^    int      getUnusedLength();$/;"	p	class:rosbag::Stream	access:protected	signature:()
+getline	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    std::string getline();$/;"	p	class:rosbag::ChunkedFile	access:public	signature:()
+good	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    bool        good()                 const;                   \/\/!< return true if hasn't reached end-of-file and no error$/;"	p	class:rosbag::ChunkedFile	access:public	signature:() const
+has_time	/opt/ros/fuerte/include/rosbag/player.h	/^    bool     has_time;$/;"	m	struct:rosbag::PlayerOptions	access:public
+header	/opt/ros/fuerte/include/rosbag/structures.h	/^    boost::shared_ptr<ros::M_string> header;$/;"	m	struct:rosbag::ConnectionInfo	access:public
+header_buffer_	/opt/ros/fuerte/include/rosbag/bag.h	/^    mutable Buffer   header_buffer_;           \/\/!< reusable buffer in which to assemble the record header before writing to file$/;"	m	class:rosbag::Bag	access:private
+header_connection_ids_	/opt/ros/fuerte/include/rosbag/bag.h	/^    std::map<ros::M_string, uint32_t>              header_connection_ids_;$/;"	m	class:rosbag::Bag	access:private
+horizonReached	/opt/ros/fuerte/include/rosbag/player.h	/^    bool horizonReached();$/;"	p	class:rosbag::TimePublisher	access:public	signature:()
+horizon_	/opt/ros/fuerte/include/rosbag/player.h	/^    ros::Time horizon_;$/;"	m	class:rosbag::TimePublisher	access:private
+id	/opt/ros/fuerte/include/rosbag/structures.h	/^    uint32_t    id;$/;"	m	struct:rosbag::ConnectionInfo	access:public
+increment	/opt/ros/fuerte/include/rosbag/view.h	/^        void increment();$/;"	p	class:rosbag::View::iterator	access:private	signature:()
+index_data_pos_	/opt/ros/fuerte/include/rosbag/bag.h	/^    uint64_t index_data_pos_;$/;"	m	class:rosbag::Bag	access:private
+index_entry_	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    IndexEntry const      index_entry_;$/;"	m	class:rosbag::MessageInstance	access:private
+instantiate	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    boost::shared_ptr<T> instantiate() const;$/;"	p	class:rosbag::MessageInstance	access:public	signature:() const
+instantiate	/opt/ros/fuerte/include/rosbag/message_instance.h	/^boost::shared_ptr<T> MessageInstance::instantiate() const {$/;"	f	class:rosbag::MessageInstance	signature:() const
+instantiateBuffer	/opt/ros/fuerte/include/rosbag/bag.h	/^    boost::shared_ptr<T> instantiateBuffer(IndexEntry const& index_entry) const;  \/\/!< deserializes the message held in record_buffer_$/;"	p	class:rosbag::Bag	access:private	signature:(IndexEntry const& index_entry) const
+instantiateBuffer	/opt/ros/fuerte/include/rosbag/bag.h	/^boost::shared_ptr<T> Bag::instantiateBuffer(IndexEntry const& index_entry) const {$/;"	f	class:rosbag::Bag	signature:(IndexEntry const& index_entry) const
+isLatching	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    bool        isLatching()  const;$/;"	p	class:rosbag::MessageInstance	access:public	signature:() const
+isOp	/opt/ros/fuerte/include/rosbag/bag.h	/^    bool isOp(ros::M_string& fields, uint8_t reqOp) const;$/;"	p	class:rosbag::Bag	access:private	signature:(ros::M_string& fields, uint8_t reqOp) const
+isOpen	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    bool        isOpen()               const;                   \/\/!< return true if file is open for reading or writing$/;"	p	class:rosbag::ChunkedFile	access:public	signature:() const
+isSubscribed	/opt/ros/fuerte/include/rosbag/recorder.h	/^    bool isSubscribed(std::string const& topic) const;$/;"	p	class:rosbag::Recorder	access:public	signature:(std::string const& topic) const
+isType	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    bool isType() const;$/;"	p	class:rosbag::MessageInstance	access:public	signature:() const
+isType	/opt/ros/fuerte/include/rosbag/message_instance.h	/^bool MessageInstance::isType() const {$/;"	f	class:rosbag::MessageInstance	signature:() const
+iter	/opt/ros/fuerte/include/rosbag/query.h	/^    std::multiset<IndexEntry>::const_iterator iter;$/;"	m	struct:rosbag::ViewIterHelper	access:public
+iterator	/opt/ros/fuerte/include/rosbag/view.h	/^        iterator();$/;"	p	class:rosbag::View::iterator	access:public	signature:()
+iterator	/opt/ros/fuerte/include/rosbag/view.h	/^        iterator(View* view, bool end = false);$/;"	p	class:rosbag::View::iterator	access:protected	signature:(View* view, bool end = false)
+iterator	/opt/ros/fuerte/include/rosbag/view.h	/^        iterator(iterator const& i);$/;"	p	class:rosbag::View::iterator	access:public	signature:(iterator const& i)
+iterator	/opt/ros/fuerte/include/rosbag/view.h	/^    class iterator : public boost::iterator_facade<iterator,$/;"	c	class:rosbag::View	inherits:boost::iterator_facade	access:public
+iters_	/opt/ros/fuerte/include/rosbag/view.h	/^        std::vector<ViewIterHelper> iters_;$/;"	m	class:rosbag::View::iterator	access:private
+keep_alive	/opt/ros/fuerte/include/rosbag/player.h	/^    bool     keep_alive;$/;"	m	struct:rosbag::PlayerOptions	access:public
+last_buffer_warn_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    ros::Time                     last_buffer_warn_;$/;"	m	class:rosbag::Recorder	access:private
+limit	/opt/ros/fuerte/include/rosbag/recorder.h	/^    uint32_t        limit;$/;"	m	struct:rosbag::RecorderOptions	access:public
+loop	/opt/ros/fuerte/include/rosbag/player.h	/^    bool     loop;$/;"	m	struct:rosbag::PlayerOptions	access:public
+max_duration	/opt/ros/fuerte/include/rosbag/recorder.h	/^    ros::Duration   max_duration;$/;"	m	struct:rosbag::RecorderOptions	access:public
+max_queue_size_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    uint64_t                      max_queue_size_;       \/\/!< max queue size$/;"	m	class:rosbag::Recorder	access:private
+max_size	/opt/ros/fuerte/include/rosbag/recorder.h	/^    uint32_t        max_size;$/;"	m	struct:rosbag::RecorderOptions	access:public
+maxfd_	/opt/ros/fuerte/include/rosbag/player.h	/^    int     maxfd_;$/;"	m	class:rosbag::Player	access:private
+md5sum	/opt/ros/fuerte/include/rosbag/structures.h	/^    std::string md5sum;$/;"	m	struct:rosbag::ConnectionInfo	access:public
+message_instance_	/opt/ros/fuerte/include/rosbag/view.h	/^        mutable MessageInstance* message_instance_;$/;"	m	class:rosbag::View::iterator	access:private
+message_traits	/opt/ros/fuerte/include/rosbag/message_instance.h	/^namespace message_traits {$/;"	n	namespace:ros
+mode_	/opt/ros/fuerte/include/rosbag/bag.h	/^    BagMode             mode_;$/;"	m	class:rosbag::Bag	access:private
+msg	/opt/ros/fuerte/include/rosbag/recorder.h	/^    topic_tools::ShapeShifter::ConstPtr msg;$/;"	m	class:rosbag::OutgoingMessage	access:public
+msg_def	/opt/ros/fuerte/include/rosbag/structures.h	/^    std::string msg_def;$/;"	m	struct:rosbag::ConnectionInfo	access:public
+nUnused_	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    int         nUnused_;        \/\/!< number of bytes of extra data read by compressed stream$/;"	m	class:rosbag::ChunkedFile	access:private
+name	/opt/ros/fuerte/include/rosbag/recorder.h	/^    std::string     name;$/;"	m	struct:rosbag::RecorderOptions	access:public
+newMessageInstance	/opt/ros/fuerte/include/rosbag/view.h	/^    MessageInstance* newMessageInstance(ConnectionInfo const* connection_info, IndexEntry const& index, Bag const& bag);$/;"	p	class:rosbag::View	access:protected	signature:(ConnectionInfo const* connection_info, IndexEntry const& index, Bag const& bag)
+next_pub_	/opt/ros/fuerte/include/rosbag/player.h	/^    ros::WallTime next_pub_;$/;"	m	class:rosbag::TimePublisher	access:private
+node	/opt/ros/fuerte/include/rosbag/recorder.h	/^    std::string     node;$/;"	m	struct:rosbag::RecorderOptions	access:public
+node_handle_	/opt/ros/fuerte/include/rosbag/player.h	/^    ros::NodeHandle node_handle_;$/;"	m	class:rosbag::Player	access:private
+node_handle_	/opt/ros/fuerte/include/rosbag/player.h	/^    ros::NodeHandle node_handle_;$/;"	m	class:rosbag::TimePublisher	access:private
+num_subscribers_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    int                           num_subscribers_;      \/\/!< used for book-keeping of our number of subscribers$/;"	m	class:rosbag::Recorder	access:private
+offset	/opt/ros/fuerte/include/rosbag/structures.h	/^    uint32_t  offset;          \/\/! relative byte offset of the message record (either definition or data) in the chunk$/;"	m	struct:rosbag::IndexEntry	access:public
+offset_	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    uint64_t    offset_;         \/\/!< current position in the file$/;"	m	class:rosbag::ChunkedFile	access:private
+open	/opt/ros/fuerte/include/rosbag/bag.h	/^    void open(std::string const& filename, uint32_t mode = bagmode::Read);$/;"	p	class:rosbag::Bag	access:public	signature:(std::string const& filename, uint32_t mode = bagmode::Read)
+open	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    void open(std::string const& filename, std::string const& mode);$/;"	p	class:rosbag::ChunkedFile	access:private	signature:(std::string const& filename, std::string const& mode)
+openAppend	/opt/ros/fuerte/include/rosbag/bag.h	/^    void openAppend(std::string const& filename);$/;"	p	class:rosbag::Bag	access:private	signature:(std::string const& filename)
+openRead	/opt/ros/fuerte/include/rosbag/bag.h	/^    void openRead  (std::string const& filename);$/;"	p	class:rosbag::Bag	access:private	signature:(std::string const& filename)
+openRead	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    void openRead     (std::string const& filename);            \/\/!< open file for reading$/;"	p	class:rosbag::ChunkedFile	access:public	signature:(std::string const& filename)
+openReadWrite	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    void openReadWrite(std::string const& filename);            \/\/!< open file for reading & writing$/;"	p	class:rosbag::ChunkedFile	access:public	signature:(std::string const& filename)
+openWrite	/opt/ros/fuerte/include/rosbag/bag.h	/^    void openWrite (std::string const& filename);$/;"	p	class:rosbag::Bag	access:private	signature:(std::string const& filename)
+openWrite	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    void openWrite    (std::string const& filename);            \/\/!< open file for writing$/;"	p	class:rosbag::ChunkedFile	access:public	signature:(std::string const& filename)
+operator ()	/opt/ros/fuerte/include/rosbag/query.h	/^    bool operator()(ConnectionInfo const*) const;$/;"	p	class:rosbag::TopicQuery	access:public	signature:(ConnectionInfo const*) const
+operator ()	/opt/ros/fuerte/include/rosbag/query.h	/^    bool operator()(ConnectionInfo const*) const;$/;"	p	class:rosbag::TypeQuery	access:public	signature:(ConnectionInfo const*) const
+operator ()	/opt/ros/fuerte/include/rosbag/query.h	/^    bool operator()(ViewIterHelper const& a, ViewIterHelper const& b);$/;"	p	struct:rosbag::ViewIterHelperCompare	access:public	signature:(ViewIterHelper const& a, ViewIterHelper const& b)
+operator ()	/opt/ros/fuerte/include/rosbag/structures.h	/^    bool operator()(IndexEntry const& a, ros::Time const& b) const { return a.time < b; }$/;"	f	struct:rosbag::IndexEntryCompare	access:public	signature:(IndexEntry const& a, ros::Time const& b) const
+operator ()	/opt/ros/fuerte/include/rosbag/structures.h	/^    bool operator()(ros::Time const& a, IndexEntry const& b) const { return a < b.time; }$/;"	f	struct:rosbag::IndexEntryCompare	access:public	signature:(ros::Time const& a, IndexEntry const& b) const
+operator ()	/opt/ros/fuerte/include/rosbag/view.h	/^    	bool operator()(ConnectionInfo const*) const { return true; };$/;"	f	struct:rosbag::View::TrueQuery	access:public	signature:(ConnectionInfo const*) const
+operator <	/opt/ros/fuerte/include/rosbag/structures.h	/^    bool operator<(IndexEntry const& b) const { return time < b.time; }$/;"	f	struct:rosbag::IndexEntry	access:public	signature:(IndexEntry const& b) const
+operator =	/opt/ros/fuerte/include/rosbag/view.h	/^    View& operator=(View const& view);$/;"	p	class:rosbag::View	access:private	signature:(View const& view)
+options_	/opt/ros/fuerte/include/rosbag/player.h	/^    PlayerOptions options_;$/;"	m	class:rosbag::Player	access:private
+options_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    RecorderOptions               options_;$/;"	m	class:rosbag::Recorder	access:private
+orig_flags_	/opt/ros/fuerte/include/rosbag/player.h	/^    termios orig_flags_;$/;"	m	class:rosbag::Player	access:private
+outgoing_chunk_buffer_	/opt/ros/fuerte/include/rosbag/bag.h	/^    mutable Buffer   outgoing_chunk_buffer_;   \/\/!< reusable buffer to read chunk into$/;"	m	class:rosbag::Bag	access:private
+paused_	/opt/ros/fuerte/include/rosbag/player.h	/^    bool paused_;$/;"	m	class:rosbag::Player	access:private
+paused_time_	/opt/ros/fuerte/include/rosbag/player.h	/^    ros::WallTime paused_time_;$/;"	m	class:rosbag::Player	access:private
+populate	/opt/ros/fuerte/include/rosbag/view.h	/^		void populate();$/;"	p	class:rosbag::View::iterator	access:private	signature:()
+populateSeek	/opt/ros/fuerte/include/rosbag/view.h	/^		void populateSeek(std::multiset<IndexEntry>::const_iterator iter);$/;"	p	class:rosbag::View::iterator	access:private	signature:(std::multiset<IndexEntry>::const_iterator iter)
+pos	/opt/ros/fuerte/include/rosbag/structures.h	/^    uint64_t    pos;           \/\/! absolute byte offset of chunk record in bag file$/;"	m	struct:rosbag::ChunkInfo	access:public
+prefix	/opt/ros/fuerte/include/rosbag/recorder.h	/^    std::string     prefix;$/;"	m	struct:rosbag::RecorderOptions	access:public
+printTime	/opt/ros/fuerte/include/rosbag/player.h	/^    void printTime();$/;"	p	class:rosbag::Player	access:private	signature:()
+printUsage	/opt/ros/fuerte/include/rosbag/recorder.h	/^    void printUsage();$/;"	p	class:rosbag::Recorder	access:private	signature:()
+publish	/opt/ros/fuerte/include/rosbag/player.h	/^    void publish();$/;"	p	class:rosbag::Player	access:public	signature:()
+publish_frequency_	/opt/ros/fuerte/include/rosbag/player.h	/^    double publish_frequency_;$/;"	m	class:rosbag::TimePublisher	access:private
+publishers_	/opt/ros/fuerte/include/rosbag/player.h	/^    std::map<std::string, ros::Publisher> publishers_;$/;"	m	class:rosbag::Player	access:private
+queries_	/opt/ros/fuerte/include/rosbag/view.h	/^    std::vector<BagQuery*>     queries_;$/;"	m	class:rosbag::View	access:protected
+query	/opt/ros/fuerte/include/rosbag/query.h	/^    Query      query;$/;"	m	struct:rosbag::BagQuery	access:public
+query_	/opt/ros/fuerte/include/rosbag/query.h	/^    boost::function<bool(ConnectionInfo const*)> query_;$/;"	m	class:rosbag::Query	access:private
+queue	/opt/ros/fuerte/include/rosbag/recorder.h	/^    std::queue<OutgoingMessage>* queue;$/;"	m	class:rosbag::OutgoingQueue	access:public
+queue_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    std::queue<OutgoingMessage>*  queue_;                \/\/!< queue for storing$/;"	m	class:rosbag::Recorder	access:private
+queue_condition_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    boost::condition_variable_any queue_condition_;      \/\/!< conditional variable for queue$/;"	m	class:rosbag::Recorder	access:private
+queue_mutex_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    boost::mutex                  queue_mutex_;          \/\/!< mutex for queue$/;"	m	class:rosbag::Recorder	access:private
+queue_queue_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    std::queue<OutgoingQueue>     queue_queue_;          \/\/!< queue of queues to be used by the snapshot recorders$/;"	m	class:rosbag::Recorder	access:private
+queue_size	/opt/ros/fuerte/include/rosbag/player.h	/^    int      queue_size;$/;"	m	struct:rosbag::PlayerOptions	access:public
+queue_size_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    uint64_t                      queue_size_;           \/\/!< queue size$/;"	m	class:rosbag::Recorder	access:private
+quiet	/opt/ros/fuerte/include/rosbag/player.h	/^    bool     quiet;$/;"	m	struct:rosbag::PlayerOptions	access:public
+quiet	/opt/ros/fuerte/include/rosbag/recorder.h	/^    bool            quiet;$/;"	m	struct:rosbag::RecorderOptions	access:public
+range	/opt/ros/fuerte/include/rosbag/query.h	/^    MessageRange const* range;  \/\/!< pointer to vector of ranges in View$/;"	m	struct:rosbag::ViewIterHelper	access:public
+ranges_	/opt/ros/fuerte/include/rosbag/view.h	/^    std::vector<MessageRange*> ranges_;$/;"	m	class:rosbag::View	access:protected
+read	/opt/ros/fuerte/include/rosbag/bag.h	/^    void read(char* b, std::streamsize n) const;$/;"	p	class:rosbag::Bag	access:private	signature:(char* b, std::streamsize n) const
+read	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    void        read(void* ptr, size_t size);                           \/\/!< read size bytes from the file into ptr$/;"	p	class:rosbag::ChunkedFile	access:public	signature:(void* ptr, size_t size)
+read	/opt/ros/fuerte/include/rosbag/stream.h	/^    virtual void read (void* ptr, size_t size) = 0;$/;"	p	class:rosbag::Stream	access:public	signature:(void* ptr, size_t size)
+read	/opt/ros/fuerte/include/rosbag/stream.h	/^    void read(void* ptr, size_t size);$/;"	p	class:rosbag::BZ2Stream	access:public	signature:(void* ptr, size_t size)
+read	/opt/ros/fuerte/include/rosbag/stream.h	/^    void read(void* ptr, size_t size);$/;"	p	class:rosbag::UncompressedStream	access:public	signature:(void* ptr, size_t size)
+readCharFromStdin	/opt/ros/fuerte/include/rosbag/player.h	/^    char readCharFromStdin();$/;"	p	class:rosbag::Player	access:private	signature:()
+readChunkHeader	/opt/ros/fuerte/include/rosbag/bag.h	/^    void readChunkHeader(ChunkHeader& chunk_header) const;$/;"	p	class:rosbag::Bag	access:private	signature:(ChunkHeader& chunk_header) const
+readChunkInfoRecord	/opt/ros/fuerte/include/rosbag/bag.h	/^    void readChunkInfoRecord();$/;"	p	class:rosbag::Bag	access:private	signature:()
+readConnectionIndexRecord200	/opt/ros/fuerte/include/rosbag/bag.h	/^    void readConnectionIndexRecord200();$/;"	p	class:rosbag::Bag	access:private	signature:()
+readConnectionRecord	/opt/ros/fuerte/include/rosbag/bag.h	/^    void readConnectionRecord();$/;"	p	class:rosbag::Bag	access:private	signature:()
+readDataLength	/opt/ros/fuerte/include/rosbag/bag.h	/^    bool readDataLength(uint32_t& data_size) const;$/;"	p	class:rosbag::Bag	access:private	signature:(uint32_t& data_size) const
+readField	/opt/ros/fuerte/include/rosbag/bag.h	/^    bool readField(ros::M_string const& fields, std::string const& field_name, bool required, T* data) const;$/;"	p	class:rosbag::Bag	access:private	signature:(ros::M_string const& fields, std::string const& field_name, bool required, T* data) const
+readField	/opt/ros/fuerte/include/rosbag/bag.h	/^    bool readField(ros::M_string const& fields, std::string const& field_name, bool required, ros::Time& data) const;$/;"	p	class:rosbag::Bag	access:private	signature:(ros::M_string const& fields, std::string const& field_name, bool required, ros::Time& data) const
+readField	/opt/ros/fuerte/include/rosbag/bag.h	/^    bool readField(ros::M_string const& fields, std::string const& field_name, bool required, std::string& data) const;$/;"	p	class:rosbag::Bag	access:private	signature:(ros::M_string const& fields, std::string const& field_name, bool required, std::string& data) const
+readField	/opt/ros/fuerte/include/rosbag/bag.h	/^    bool readField(ros::M_string const& fields, std::string const& field_name, unsigned int min_len, unsigned int max_len, bool required, std::string& data) const;$/;"	p	class:rosbag::Bag	access:private	signature:(ros::M_string const& fields, std::string const& field_name, unsigned int min_len, unsigned int max_len, bool required, std::string& data) const
+readField	/opt/ros/fuerte/include/rosbag/bag.h	/^bool Bag::readField(ros::M_string const& fields, std::string const& field_name, bool required, T* data) const {$/;"	f	class:rosbag::Bag	signature:(ros::M_string const& fields, std::string const& field_name, bool required, T* data) const
+readFileHeaderRecord	/opt/ros/fuerte/include/rosbag/bag.h	/^    void readFileHeaderRecord();$/;"	p	class:rosbag::Bag	access:private	signature:()
+readHeader	/opt/ros/fuerte/include/rosbag/bag.h	/^    bool readHeader(ros::Header& header) const;$/;"	p	class:rosbag::Bag	access:private	signature:(ros::Header& header) const
+readHeaderFromBuffer	/opt/ros/fuerte/include/rosbag/bag.h	/^    void readHeaderFromBuffer(Buffer& buffer, uint32_t offset, ros::Header& header, uint32_t& data_size, uint32_t& bytes_read) const;$/;"	p	class:rosbag::Bag	access:private	signature:(Buffer& buffer, uint32_t offset, ros::Header& header, uint32_t& data_size, uint32_t& bytes_read) const
+readMessageDataHeader	/opt/ros/fuerte/include/rosbag/bag.h	/^    ros::Header readMessageDataHeader(IndexEntry const& index_entry);$/;"	p	class:rosbag::Bag	access:private	signature:(IndexEntry const& index_entry)
+readMessageDataHeaderFromBuffer	/opt/ros/fuerte/include/rosbag/bag.h	/^    void readMessageDataHeaderFromBuffer(Buffer& buffer, uint32_t offset, ros::Header& header, uint32_t& data_size, uint32_t& bytes_read) const;$/;"	p	class:rosbag::Bag	access:private	signature:(Buffer& buffer, uint32_t offset, ros::Header& header, uint32_t& data_size, uint32_t& bytes_read) const
+readMessageDataIntoStream	/opt/ros/fuerte/include/rosbag/bag.h	/^    void readMessageDataIntoStream(IndexEntry const& index_entry, Stream& stream) const;$/;"	p	class:rosbag::Bag	access:private	signature:(IndexEntry const& index_entry, Stream& stream) const
+readMessageDataIntoStream	/opt/ros/fuerte/include/rosbag/bag.h	/^void Bag::readMessageDataIntoStream(IndexEntry const& index_entry, Stream& stream) const {$/;"	f	class:rosbag::Bag	signature:(IndexEntry const& index_entry, Stream& stream) const
+readMessageDataRecord102	/opt/ros/fuerte/include/rosbag/bag.h	/^    void readMessageDataRecord102(uint64_t offset, ros::Header& header) const;$/;"	p	class:rosbag::Bag	access:private	signature:(uint64_t offset, ros::Header& header) const
+readMessageDataSize	/opt/ros/fuerte/include/rosbag/bag.h	/^    uint32_t    readMessageDataSize(IndexEntry const& index_entry) const;$/;"	p	class:rosbag::Bag	access:private	signature:(IndexEntry const& index_entry) const
+readMessageDefinitionRecord102	/opt/ros/fuerte/include/rosbag/bag.h	/^    void readMessageDefinitionRecord102();$/;"	p	class:rosbag::Bag	access:private	signature:()
+readTopicIndexRecord102	/opt/ros/fuerte/include/rosbag/bag.h	/^    void readTopicIndexRecord102();$/;"	p	class:rosbag::Bag	access:private	signature:()
+readVersion	/opt/ros/fuerte/include/rosbag/bag.h	/^    void readVersion();$/;"	p	class:rosbag::Bag	access:private	signature:()
+read_stream_	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    boost::shared_ptr<Stream> read_stream_;$/;"	m	class:rosbag::ChunkedFile	access:private
+real_start_	/opt/ros/fuerte/include/rosbag/time_translator.h	/^    ros::Time real_start_;$/;"	m	class:rosbag::TimeTranslator	access:private
+record_all	/opt/ros/fuerte/include/rosbag/recorder.h	/^    bool            record_all;$/;"	m	struct:rosbag::RecorderOptions	access:public
+record_buffer_	/opt/ros/fuerte/include/rosbag/bag.h	/^    mutable Buffer   record_buffer_;           \/\/!< reusable buffer in which to assemble the record data before writing to file$/;"	m	class:rosbag::Bag	access:private
+reduce_overlap_	/opt/ros/fuerte/include/rosbag/view.h	/^    bool reduce_overlap_;$/;"	m	class:rosbag::View	access:protected
+regex	/opt/ros/fuerte/include/rosbag/recorder.h	/^    bool            regex;$/;"	m	struct:rosbag::RecorderOptions	access:public
+restoreTerminal	/opt/ros/fuerte/include/rosbag/player.h	/^    void restoreTerminal();$/;"	p	class:rosbag::Player	access:private	signature:()
+ros	/opt/ros/fuerte/include/rosbag/message_instance.h	/^namespace ros {$/;"	n
+ros::message_traits	/opt/ros/fuerte/include/rosbag/message_instance.h	/^namespace message_traits {$/;"	n	namespace:ros
+ros::message_traits::DataType	/opt/ros/fuerte/include/rosbag/message_instance.h	/^struct DataType<rosbag::MessageInstance>$/;"	s	namespace:ros::message_traits
+ros::message_traits::DataType::value	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    static const char* value(const rosbag::MessageInstance& m) { return m.getDataType().c_str(); }$/;"	f	struct:ros::message_traits::DataType	access:public	signature:(const rosbag::MessageInstance& m)
+ros::message_traits::Definition	/opt/ros/fuerte/include/rosbag/message_instance.h	/^struct Definition<rosbag::MessageInstance>$/;"	s	namespace:ros::message_traits
+ros::message_traits::Definition::value	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    static const char* value(const rosbag::MessageInstance& m) { return m.getMessageDefinition().c_str(); }$/;"	f	struct:ros::message_traits::Definition	access:public	signature:(const rosbag::MessageInstance& m)
+ros::message_traits::MD5Sum	/opt/ros/fuerte/include/rosbag/message_instance.h	/^struct MD5Sum<rosbag::MessageInstance>$/;"	s	namespace:ros::message_traits
+ros::message_traits::MD5Sum::value	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    static const char* value(const rosbag::MessageInstance& m) { return m.getMD5Sum().c_str(); }$/;"	f	struct:ros::message_traits::MD5Sum	access:public	signature:(const rosbag::MessageInstance& m)
+ros::serialization	/opt/ros/fuerte/include/rosbag/message_instance.h	/^namespace serialization$/;"	n	namespace:ros
+ros::serialization::Serializer	/opt/ros/fuerte/include/rosbag/message_instance.h	/^struct Serializer<rosbag::MessageInstance>$/;"	s	namespace:ros::serialization
+ros::serialization::Serializer::serializedLength	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    inline static uint32_t serializedLength(const rosbag::MessageInstance& m) {$/;"	f	struct:ros::serialization::Serializer	access:public	signature:(const rosbag::MessageInstance& m)
+ros::serialization::Serializer::write	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    inline static void write(Stream& stream, const rosbag::MessageInstance& m) {$/;"	f	struct:ros::serialization::Serializer	access:public	signature:(Stream& stream, const rosbag::MessageInstance& m)
+rosbag	/opt/ros/fuerte/include/rosbag/bag.h	/^namespace rosbag {$/;"	n
+rosbag	/opt/ros/fuerte/include/rosbag/buffer.h	/^namespace rosbag {$/;"	n
+rosbag	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^namespace rosbag {$/;"	n
+rosbag	/opt/ros/fuerte/include/rosbag/constants.h	/^namespace rosbag {$/;"	n
+rosbag	/opt/ros/fuerte/include/rosbag/exceptions.h	/^namespace rosbag {$/;"	n
+rosbag	/opt/ros/fuerte/include/rosbag/message_instance.h	/^namespace rosbag {$/;"	n
+rosbag	/opt/ros/fuerte/include/rosbag/player.h	/^namespace rosbag {$/;"	n
+rosbag	/opt/ros/fuerte/include/rosbag/query.h	/^namespace rosbag {$/;"	n
+rosbag	/opt/ros/fuerte/include/rosbag/recorder.h	/^namespace rosbag {$/;"	n
+rosbag	/opt/ros/fuerte/include/rosbag/stream.h	/^namespace rosbag {$/;"	n
+rosbag	/opt/ros/fuerte/include/rosbag/structures.h	/^namespace rosbag {$/;"	n
+rosbag	/opt/ros/fuerte/include/rosbag/time_translator.h	/^namespace rosbag {$/;"	n
+rosbag	/opt/ros/fuerte/include/rosbag/view.h	/^namespace rosbag {$/;"	n
+rosbag::BZ2Stream	/opt/ros/fuerte/include/rosbag/stream.h	/^class BZ2Stream : public Stream$/;"	c	namespace:rosbag	inherits:Stream
+rosbag::BZ2Stream::BZ2Stream	/opt/ros/fuerte/include/rosbag/stream.h	/^    BZ2Stream(ChunkedFile* file);$/;"	p	class:rosbag::BZ2Stream	access:public	signature:(ChunkedFile* file)
+rosbag::BZ2Stream::block_size_100k_	/opt/ros/fuerte/include/rosbag/stream.h	/^    int     block_size_100k_;  \/\/!< compression block size (1-9; 9 default). 9 is best compression, most memory$/;"	m	class:rosbag::BZ2Stream	access:private
+rosbag::BZ2Stream::bzerror_	/opt/ros/fuerte/include/rosbag/stream.h	/^    int     bzerror_;          \/\/!< last error from bzlib$/;"	m	class:rosbag::BZ2Stream	access:private
+rosbag::BZ2Stream::bzfile_	/opt/ros/fuerte/include/rosbag/stream.h	/^    BZFILE* bzfile_;           \/\/!< bzlib compressed file stream$/;"	m	class:rosbag::BZ2Stream	access:private
+rosbag::BZ2Stream::decompress	/opt/ros/fuerte/include/rosbag/stream.h	/^    void decompress(uint8_t* dest, unsigned int dest_len, uint8_t* source, unsigned int source_len);$/;"	p	class:rosbag::BZ2Stream	access:public	signature:(uint8_t* dest, unsigned int dest_len, uint8_t* source, unsigned int source_len)
+rosbag::BZ2Stream::getCompressionType	/opt/ros/fuerte/include/rosbag/stream.h	/^    CompressionType getCompressionType() const;$/;"	p	class:rosbag::BZ2Stream	access:public	signature:() const
+rosbag::BZ2Stream::read	/opt/ros/fuerte/include/rosbag/stream.h	/^    void read(void* ptr, size_t size);$/;"	p	class:rosbag::BZ2Stream	access:public	signature:(void* ptr, size_t size)
+rosbag::BZ2Stream::startRead	/opt/ros/fuerte/include/rosbag/stream.h	/^    void startRead();$/;"	p	class:rosbag::BZ2Stream	access:public	signature:()
+rosbag::BZ2Stream::startWrite	/opt/ros/fuerte/include/rosbag/stream.h	/^    void startWrite();$/;"	p	class:rosbag::BZ2Stream	access:public	signature:()
+rosbag::BZ2Stream::stopRead	/opt/ros/fuerte/include/rosbag/stream.h	/^    void stopRead();$/;"	p	class:rosbag::BZ2Stream	access:public	signature:()
+rosbag::BZ2Stream::stopWrite	/opt/ros/fuerte/include/rosbag/stream.h	/^    void stopWrite();$/;"	p	class:rosbag::BZ2Stream	access:public	signature:()
+rosbag::BZ2Stream::verbosity_	/opt/ros/fuerte/include/rosbag/stream.h	/^    int     verbosity_;        \/\/!< level of debugging output (0-4; 0 default). 0 is silent, 4 is max verbose debugging output$/;"	m	class:rosbag::BZ2Stream	access:private
+rosbag::BZ2Stream::work_factor_	/opt/ros/fuerte/include/rosbag/stream.h	/^    int     work_factor_;      \/\/!< compression behavior for worst case, highly repetitive data (0-250; 30 default)$/;"	m	class:rosbag::BZ2Stream	access:private
+rosbag::BZ2Stream::write	/opt/ros/fuerte/include/rosbag/stream.h	/^    void write(void* ptr, size_t size);$/;"	p	class:rosbag::BZ2Stream	access:public	signature:(void* ptr, size_t size)
+rosbag::Bag	/opt/ros/fuerte/include/rosbag/bag.h	/^class Bag$/;"	c	namespace:rosbag
+rosbag::Bag::Bag	/opt/ros/fuerte/include/rosbag/bag.h	/^    Bag();$/;"	p	class:rosbag::Bag	access:public	signature:()
+rosbag::Bag::Bag	/opt/ros/fuerte/include/rosbag/bag.h	/^    Bag(std::string const& filename, uint32_t mode = bagmode::Read);$/;"	p	class:rosbag::Bag	access:public	signature:(std::string const& filename, uint32_t mode = bagmode::Read)
+rosbag::Bag::appendConnectionRecordToBuffer	/opt/ros/fuerte/include/rosbag/bag.h	/^    void appendConnectionRecordToBuffer(Buffer& buf, ConnectionInfo const* connection_info);$/;"	p	class:rosbag::Bag	access:private	signature:(Buffer& buf, ConnectionInfo const* connection_info)
+rosbag::Bag::appendDataLengthToBuffer	/opt/ros/fuerte/include/rosbag/bag.h	/^    void appendDataLengthToBuffer(Buffer& buf, uint32_t data_len);$/;"	p	class:rosbag::Bag	access:private	signature:(Buffer& buf, uint32_t data_len)
+rosbag::Bag::appendHeaderToBuffer	/opt/ros/fuerte/include/rosbag/bag.h	/^    void appendHeaderToBuffer(Buffer& buf, ros::M_string const& fields);$/;"	p	class:rosbag::Bag	access:private	signature:(Buffer& buf, ros::M_string const& fields)
+rosbag::Bag::bag_revision_	/opt/ros/fuerte/include/rosbag/bag.h	/^    uint32_t            bag_revision_;$/;"	m	class:rosbag::Bag	access:private
+rosbag::Bag::checkField	/opt/ros/fuerte/include/rosbag/bag.h	/^    ros::M_string::const_iterator checkField(ros::M_string const& fields, std::string const& field,$/;"	p	class:rosbag::Bag	access:private	signature:(ros::M_string const& fields, std::string const& field, unsigned int min_len, unsigned int max_len, bool required) const
+rosbag::Bag::chunk_buffer_	/opt/ros/fuerte/include/rosbag/bag.h	/^    mutable Buffer   chunk_buffer_;            \/\/!< reusable buffer to read chunk into$/;"	m	class:rosbag::Bag	access:private
+rosbag::Bag::chunk_count_	/opt/ros/fuerte/include/rosbag/bag.h	/^    uint32_t chunk_count_;$/;"	m	class:rosbag::Bag	access:private
+rosbag::Bag::chunk_open_	/opt/ros/fuerte/include/rosbag/bag.h	/^    bool      chunk_open_;$/;"	m	class:rosbag::Bag	access:private
+rosbag::Bag::chunk_threshold_	/opt/ros/fuerte/include/rosbag/bag.h	/^    uint32_t            chunk_threshold_;$/;"	m	class:rosbag::Bag	access:private
+rosbag::Bag::chunks_	/opt/ros/fuerte/include/rosbag/bag.h	/^    std::vector<ChunkInfo>                         chunks_;$/;"	m	class:rosbag::Bag	access:private
+rosbag::Bag::close	/opt/ros/fuerte/include/rosbag/bag.h	/^    void close();$/;"	p	class:rosbag::Bag	access:public	signature:()
+rosbag::Bag::closeWrite	/opt/ros/fuerte/include/rosbag/bag.h	/^    void closeWrite();$/;"	p	class:rosbag::Bag	access:private	signature:()
+rosbag::Bag::compression_	/opt/ros/fuerte/include/rosbag/bag.h	/^    CompressionType     compression_;$/;"	m	class:rosbag::Bag	access:private
+rosbag::Bag::connection_count_	/opt/ros/fuerte/include/rosbag/bag.h	/^    uint32_t connection_count_;$/;"	m	class:rosbag::Bag	access:private
+rosbag::Bag::connection_indexes_	/opt/ros/fuerte/include/rosbag/bag.h	/^    std::map<uint32_t, std::multiset<IndexEntry> > connection_indexes_;$/;"	m	class:rosbag::Bag	access:private
+rosbag::Bag::connections_	/opt/ros/fuerte/include/rosbag/bag.h	/^    std::map<uint32_t, ConnectionInfo*>            connections_;$/;"	m	class:rosbag::Bag	access:private
+rosbag::Bag::curr_chunk_connection_indexes_	/opt/ros/fuerte/include/rosbag/bag.h	/^    std::map<uint32_t, std::multiset<IndexEntry> > curr_chunk_connection_indexes_;$/;"	m	class:rosbag::Bag	access:private
+rosbag::Bag::curr_chunk_data_pos_	/opt/ros/fuerte/include/rosbag/bag.h	/^    uint64_t  curr_chunk_data_pos_;$/;"	m	class:rosbag::Bag	access:private
+rosbag::Bag::curr_chunk_info_	/opt/ros/fuerte/include/rosbag/bag.h	/^    ChunkInfo curr_chunk_info_;$/;"	m	class:rosbag::Bag	access:private
+rosbag::Bag::current_buffer_	/opt/ros/fuerte/include/rosbag/bag.h	/^    mutable Buffer*  current_buffer_;$/;"	m	class:rosbag::Bag	access:private
+rosbag::Bag::decompressBz2Chunk	/opt/ros/fuerte/include/rosbag/bag.h	/^    void     decompressBz2Chunk(ChunkHeader const& chunk_header) const;$/;"	p	class:rosbag::Bag	access:private	signature:(ChunkHeader const& chunk_header) const
+rosbag::Bag::decompressChunk	/opt/ros/fuerte/include/rosbag/bag.h	/^    void     decompressChunk(uint64_t chunk_pos) const;$/;"	p	class:rosbag::Bag	access:private	signature:(uint64_t chunk_pos) const
+rosbag::Bag::decompressRawChunk	/opt/ros/fuerte/include/rosbag/bag.h	/^    void     decompressRawChunk(ChunkHeader const& chunk_header) const;$/;"	p	class:rosbag::Bag	access:private	signature:(ChunkHeader const& chunk_header) const
+rosbag::Bag::decompress_buffer_	/opt/ros/fuerte/include/rosbag/bag.h	/^    mutable Buffer   decompress_buffer_;       \/\/!< reusable buffer to decompress chunks into$/;"	m	class:rosbag::Bag	access:private
+rosbag::Bag::decompressed_chunk_	/opt/ros/fuerte/include/rosbag/bag.h	/^    mutable uint64_t decompressed_chunk_;      \/\/!< position of decompressed chunk$/;"	m	class:rosbag::Bag	access:private
+rosbag::Bag::doWrite	/opt/ros/fuerte/include/rosbag/bag.h	/^    void doWrite(std::string const& topic, ros::Time const& time, T const& msg, boost::shared_ptr<ros::M_string> const& connection_header);$/;"	p	class:rosbag::Bag	access:private	signature:(std::string const& topic, ros::Time const& time, T const& msg, boost::shared_ptr<ros::M_string> const& connection_header)
+rosbag::Bag::doWrite	/opt/ros/fuerte/include/rosbag/bag.h	/^void Bag::doWrite(std::string const& topic, ros::Time const& time, T const& msg, boost::shared_ptr<ros::M_string> const& connection_header) {$/;"	f	class:rosbag::Bag	signature:(std::string const& topic, ros::Time const& time, T const& msg, boost::shared_ptr<ros::M_string> const& connection_header)
+rosbag::Bag::file_	/opt/ros/fuerte/include/rosbag/bag.h	/^    mutable ChunkedFile file_;$/;"	m	class:rosbag::Bag	access:private
+rosbag::Bag::file_header_pos_	/opt/ros/fuerte/include/rosbag/bag.h	/^    uint64_t file_header_pos_;$/;"	m	class:rosbag::Bag	access:private
+rosbag::Bag::file_size_	/opt/ros/fuerte/include/rosbag/bag.h	/^    uint64_t file_size_;$/;"	m	class:rosbag::Bag	access:private
+rosbag::Bag::getChunkOffset	/opt/ros/fuerte/include/rosbag/bag.h	/^    uint32_t getChunkOffset() const;$/;"	p	class:rosbag::Bag	access:private	signature:() const
+rosbag::Bag::getChunkThreshold	/opt/ros/fuerte/include/rosbag/bag.h	/^    uint32_t        getChunkThreshold() const;                    \/\/!< Get the threshold for creating new chunks$/;"	p	class:rosbag::Bag	access:public	signature:() const
+rosbag::Bag::getCompression	/opt/ros/fuerte/include/rosbag/bag.h	/^    CompressionType getCompression() const;                       \/\/!< Get the compression method to use for writing chunks$/;"	p	class:rosbag::Bag	access:public	signature:() const
+rosbag::Bag::getFileName	/opt/ros/fuerte/include/rosbag/bag.h	/^    std::string     getFileName()     const;                      \/\/!< Get the filename of the bag$/;"	p	class:rosbag::Bag	access:public	signature:() const
+rosbag::Bag::getMajorVersion	/opt/ros/fuerte/include/rosbag/bag.h	/^    uint32_t        getMajorVersion() const;                      \/\/!< Get the major-version of the open bag file$/;"	p	class:rosbag::Bag	access:public	signature:() const
+rosbag::Bag::getMinorVersion	/opt/ros/fuerte/include/rosbag/bag.h	/^    uint32_t        getMinorVersion() const;                      \/\/!< Get the minor-version of the open bag file$/;"	p	class:rosbag::Bag	access:public	signature:() const
+rosbag::Bag::getMode	/opt/ros/fuerte/include/rosbag/bag.h	/^    BagMode         getMode()         const;                      \/\/!< Get the mode the bag is in$/;"	p	class:rosbag::Bag	access:public	signature:() const
+rosbag::Bag::getSize	/opt/ros/fuerte/include/rosbag/bag.h	/^    uint64_t        getSize()         const;                      \/\/!< Get the current size of the bag file (a lower bound)$/;"	p	class:rosbag::Bag	access:public	signature:() const
+rosbag::Bag::header_buffer_	/opt/ros/fuerte/include/rosbag/bag.h	/^    mutable Buffer   header_buffer_;           \/\/!< reusable buffer in which to assemble the record header before writing to file$/;"	m	class:rosbag::Bag	access:private
+rosbag::Bag::header_connection_ids_	/opt/ros/fuerte/include/rosbag/bag.h	/^    std::map<ros::M_string, uint32_t>              header_connection_ids_;$/;"	m	class:rosbag::Bag	access:private
+rosbag::Bag::index_data_pos_	/opt/ros/fuerte/include/rosbag/bag.h	/^    uint64_t index_data_pos_;$/;"	m	class:rosbag::Bag	access:private
+rosbag::Bag::instantiateBuffer	/opt/ros/fuerte/include/rosbag/bag.h	/^    boost::shared_ptr<T> instantiateBuffer(IndexEntry const& index_entry) const;  \/\/!< deserializes the message held in record_buffer_$/;"	p	class:rosbag::Bag	access:private	signature:(IndexEntry const& index_entry) const
+rosbag::Bag::instantiateBuffer	/opt/ros/fuerte/include/rosbag/bag.h	/^boost::shared_ptr<T> Bag::instantiateBuffer(IndexEntry const& index_entry) const {$/;"	f	class:rosbag::Bag	signature:(IndexEntry const& index_entry) const
+rosbag::Bag::isOp	/opt/ros/fuerte/include/rosbag/bag.h	/^    bool isOp(ros::M_string& fields, uint8_t reqOp) const;$/;"	p	class:rosbag::Bag	access:private	signature:(ros::M_string& fields, uint8_t reqOp) const
+rosbag::Bag::mode_	/opt/ros/fuerte/include/rosbag/bag.h	/^    BagMode             mode_;$/;"	m	class:rosbag::Bag	access:private
+rosbag::Bag::open	/opt/ros/fuerte/include/rosbag/bag.h	/^    void open(std::string const& filename, uint32_t mode = bagmode::Read);$/;"	p	class:rosbag::Bag	access:public	signature:(std::string const& filename, uint32_t mode = bagmode::Read)
+rosbag::Bag::openAppend	/opt/ros/fuerte/include/rosbag/bag.h	/^    void openAppend(std::string const& filename);$/;"	p	class:rosbag::Bag	access:private	signature:(std::string const& filename)
+rosbag::Bag::openRead	/opt/ros/fuerte/include/rosbag/bag.h	/^    void openRead  (std::string const& filename);$/;"	p	class:rosbag::Bag	access:private	signature:(std::string const& filename)
+rosbag::Bag::openWrite	/opt/ros/fuerte/include/rosbag/bag.h	/^    void openWrite (std::string const& filename);$/;"	p	class:rosbag::Bag	access:private	signature:(std::string const& filename)
+rosbag::Bag::outgoing_chunk_buffer_	/opt/ros/fuerte/include/rosbag/bag.h	/^    mutable Buffer   outgoing_chunk_buffer_;   \/\/!< reusable buffer to read chunk into$/;"	m	class:rosbag::Bag	access:private
+rosbag::Bag::read	/opt/ros/fuerte/include/rosbag/bag.h	/^    void read(char* b, std::streamsize n) const;$/;"	p	class:rosbag::Bag	access:private	signature:(char* b, std::streamsize n) const
+rosbag::Bag::readChunkHeader	/opt/ros/fuerte/include/rosbag/bag.h	/^    void readChunkHeader(ChunkHeader& chunk_header) const;$/;"	p	class:rosbag::Bag	access:private	signature:(ChunkHeader& chunk_header) const
+rosbag::Bag::readChunkInfoRecord	/opt/ros/fuerte/include/rosbag/bag.h	/^    void readChunkInfoRecord();$/;"	p	class:rosbag::Bag	access:private	signature:()
+rosbag::Bag::readConnectionIndexRecord200	/opt/ros/fuerte/include/rosbag/bag.h	/^    void readConnectionIndexRecord200();$/;"	p	class:rosbag::Bag	access:private	signature:()
+rosbag::Bag::readConnectionRecord	/opt/ros/fuerte/include/rosbag/bag.h	/^    void readConnectionRecord();$/;"	p	class:rosbag::Bag	access:private	signature:()
+rosbag::Bag::readDataLength	/opt/ros/fuerte/include/rosbag/bag.h	/^    bool readDataLength(uint32_t& data_size) const;$/;"	p	class:rosbag::Bag	access:private	signature:(uint32_t& data_size) const
+rosbag::Bag::readField	/opt/ros/fuerte/include/rosbag/bag.h	/^    bool readField(ros::M_string const& fields, std::string const& field_name, bool required, T* data) const;$/;"	p	class:rosbag::Bag	access:private	signature:(ros::M_string const& fields, std::string const& field_name, bool required, T* data) const
+rosbag::Bag::readField	/opt/ros/fuerte/include/rosbag/bag.h	/^    bool readField(ros::M_string const& fields, std::string const& field_name, bool required, ros::Time& data) const;$/;"	p	class:rosbag::Bag	access:private	signature:(ros::M_string const& fields, std::string const& field_name, bool required, ros::Time& data) const
+rosbag::Bag::readField	/opt/ros/fuerte/include/rosbag/bag.h	/^    bool readField(ros::M_string const& fields, std::string const& field_name, bool required, std::string& data) const;$/;"	p	class:rosbag::Bag	access:private	signature:(ros::M_string const& fields, std::string const& field_name, bool required, std::string& data) const
+rosbag::Bag::readField	/opt/ros/fuerte/include/rosbag/bag.h	/^    bool readField(ros::M_string const& fields, std::string const& field_name, unsigned int min_len, unsigned int max_len, bool required, std::string& data) const;$/;"	p	class:rosbag::Bag	access:private	signature:(ros::M_string const& fields, std::string const& field_name, unsigned int min_len, unsigned int max_len, bool required, std::string& data) const
+rosbag::Bag::readField	/opt/ros/fuerte/include/rosbag/bag.h	/^bool Bag::readField(ros::M_string const& fields, std::string const& field_name, bool required, T* data) const {$/;"	f	class:rosbag::Bag	signature:(ros::M_string const& fields, std::string const& field_name, bool required, T* data) const
+rosbag::Bag::readFileHeaderRecord	/opt/ros/fuerte/include/rosbag/bag.h	/^    void readFileHeaderRecord();$/;"	p	class:rosbag::Bag	access:private	signature:()
+rosbag::Bag::readHeader	/opt/ros/fuerte/include/rosbag/bag.h	/^    bool readHeader(ros::Header& header) const;$/;"	p	class:rosbag::Bag	access:private	signature:(ros::Header& header) const
+rosbag::Bag::readHeaderFromBuffer	/opt/ros/fuerte/include/rosbag/bag.h	/^    void readHeaderFromBuffer(Buffer& buffer, uint32_t offset, ros::Header& header, uint32_t& data_size, uint32_t& bytes_read) const;$/;"	p	class:rosbag::Bag	access:private	signature:(Buffer& buffer, uint32_t offset, ros::Header& header, uint32_t& data_size, uint32_t& bytes_read) const
+rosbag::Bag::readMessageDataHeader	/opt/ros/fuerte/include/rosbag/bag.h	/^    ros::Header readMessageDataHeader(IndexEntry const& index_entry);$/;"	p	class:rosbag::Bag	access:private	signature:(IndexEntry const& index_entry)
+rosbag::Bag::readMessageDataHeaderFromBuffer	/opt/ros/fuerte/include/rosbag/bag.h	/^    void readMessageDataHeaderFromBuffer(Buffer& buffer, uint32_t offset, ros::Header& header, uint32_t& data_size, uint32_t& bytes_read) const;$/;"	p	class:rosbag::Bag	access:private	signature:(Buffer& buffer, uint32_t offset, ros::Header& header, uint32_t& data_size, uint32_t& bytes_read) const
+rosbag::Bag::readMessageDataIntoStream	/opt/ros/fuerte/include/rosbag/bag.h	/^    void readMessageDataIntoStream(IndexEntry const& index_entry, Stream& stream) const;$/;"	p	class:rosbag::Bag	access:private	signature:(IndexEntry const& index_entry, Stream& stream) const
+rosbag::Bag::readMessageDataIntoStream	/opt/ros/fuerte/include/rosbag/bag.h	/^void Bag::readMessageDataIntoStream(IndexEntry const& index_entry, Stream& stream) const {$/;"	f	class:rosbag::Bag	signature:(IndexEntry const& index_entry, Stream& stream) const
+rosbag::Bag::readMessageDataRecord102	/opt/ros/fuerte/include/rosbag/bag.h	/^    void readMessageDataRecord102(uint64_t offset, ros::Header& header) const;$/;"	p	class:rosbag::Bag	access:private	signature:(uint64_t offset, ros::Header& header) const
+rosbag::Bag::readMessageDataSize	/opt/ros/fuerte/include/rosbag/bag.h	/^    uint32_t    readMessageDataSize(IndexEntry const& index_entry) const;$/;"	p	class:rosbag::Bag	access:private	signature:(IndexEntry const& index_entry) const
+rosbag::Bag::readMessageDefinitionRecord102	/opt/ros/fuerte/include/rosbag/bag.h	/^    void readMessageDefinitionRecord102();$/;"	p	class:rosbag::Bag	access:private	signature:()
+rosbag::Bag::readTopicIndexRecord102	/opt/ros/fuerte/include/rosbag/bag.h	/^    void readTopicIndexRecord102();$/;"	p	class:rosbag::Bag	access:private	signature:()
+rosbag::Bag::readVersion	/opt/ros/fuerte/include/rosbag/bag.h	/^    void readVersion();$/;"	p	class:rosbag::Bag	access:private	signature:()
+rosbag::Bag::record_buffer_	/opt/ros/fuerte/include/rosbag/bag.h	/^    mutable Buffer   record_buffer_;           \/\/!< reusable buffer in which to assemble the record data before writing to file$/;"	m	class:rosbag::Bag	access:private
+rosbag::Bag::seek	/opt/ros/fuerte/include/rosbag/bag.h	/^    void seek(uint64_t pos, int origin = std::ios_base::beg) const;$/;"	p	class:rosbag::Bag	access:private	signature:(uint64_t pos, int origin = std::ios_base::beg) const
+rosbag::Bag::setChunkThreshold	/opt/ros/fuerte/include/rosbag/bag.h	/^    void            setChunkThreshold(uint32_t chunk_threshold);  \/\/!< Set the threshold for creating new chunks$/;"	p	class:rosbag::Bag	access:public	signature:(uint32_t chunk_threshold)
+rosbag::Bag::setCompression	/opt/ros/fuerte/include/rosbag/bag.h	/^    void            setCompression(CompressionType compression);  \/\/!< Set the compression method to use for writing chunks$/;"	p	class:rosbag::Bag	access:public	signature:(CompressionType compression)
+rosbag::Bag::startReadingVersion102	/opt/ros/fuerte/include/rosbag/bag.h	/^    void startReadingVersion102();$/;"	p	class:rosbag::Bag	access:private	signature:()
+rosbag::Bag::startReadingVersion200	/opt/ros/fuerte/include/rosbag/bag.h	/^    void startReadingVersion200();$/;"	p	class:rosbag::Bag	access:private	signature:()
+rosbag::Bag::startWriting	/opt/ros/fuerte/include/rosbag/bag.h	/^    void startWriting();$/;"	p	class:rosbag::Bag	access:private	signature:()
+rosbag::Bag::startWritingChunk	/opt/ros/fuerte/include/rosbag/bag.h	/^    void startWritingChunk(ros::Time time);$/;"	p	class:rosbag::Bag	access:private	signature:(ros::Time time)
+rosbag::Bag::stopWriting	/opt/ros/fuerte/include/rosbag/bag.h	/^    void stopWriting();$/;"	p	class:rosbag::Bag	access:private	signature:()
+rosbag::Bag::stopWritingChunk	/opt/ros/fuerte/include/rosbag/bag.h	/^    void stopWritingChunk();$/;"	p	class:rosbag::Bag	access:private	signature:()
+rosbag::Bag::toHeaderString	/opt/ros/fuerte/include/rosbag/bag.h	/^    std::string toHeaderString(T const* field) const;$/;"	p	class:rosbag::Bag	access:private	signature:(T const* field) const
+rosbag::Bag::toHeaderString	/opt/ros/fuerte/include/rosbag/bag.h	/^    std::string toHeaderString(ros::Time const* field) const;$/;"	p	class:rosbag::Bag	access:private	signature:(ros::Time const* field) const
+rosbag::Bag::toHeaderString	/opt/ros/fuerte/include/rosbag/bag.h	/^std::string Bag::toHeaderString(T const* field) const {$/;"	f	class:rosbag::Bag	signature:(T const* field) const
+rosbag::Bag::topic_connection_ids_	/opt/ros/fuerte/include/rosbag/bag.h	/^    std::map<std::string, uint32_t>                topic_connection_ids_;$/;"	m	class:rosbag::Bag	access:private
+rosbag::Bag::version_	/opt/ros/fuerte/include/rosbag/bag.h	/^    int                 version_;$/;"	m	class:rosbag::Bag	access:private
+rosbag::Bag::write	/opt/ros/fuerte/include/rosbag/bag.h	/^    void write(char const* s, std::streamsize n);$/;"	p	class:rosbag::Bag	access:private	signature:(char const* s, std::streamsize n)
+rosbag::Bag::write	/opt/ros/fuerte/include/rosbag/bag.h	/^    void write(std::string const& s);$/;"	p	class:rosbag::Bag	access:private	signature:(std::string const& s)
+rosbag::Bag::write	/opt/ros/fuerte/include/rosbag/bag.h	/^    void write(std::string const& topic, ros::MessageEvent<T> const& event);$/;"	p	class:rosbag::Bag	access:public	signature:(std::string const& topic, ros::MessageEvent<T> const& event)
+rosbag::Bag::write	/opt/ros/fuerte/include/rosbag/bag.h	/^    void write(std::string const& topic, ros::Time const& time, T const& msg,$/;"	p	class:rosbag::Bag	access:public	signature:(std::string const& topic, ros::Time const& time, T const& msg, boost::shared_ptr<ros::M_string> connection_header = boost::shared_ptr<ros::M_string>())
+rosbag::Bag::write	/opt/ros/fuerte/include/rosbag/bag.h	/^    void write(std::string const& topic, ros::Time const& time, boost::shared_ptr<T const> const& msg,$/;"	p	class:rosbag::Bag	access:public	signature:(std::string const& topic, ros::Time const& time, boost::shared_ptr<T const> const& msg, boost::shared_ptr<ros::M_string> connection_header = boost::shared_ptr<ros::M_string>())
+rosbag::Bag::write	/opt/ros/fuerte/include/rosbag/bag.h	/^    void write(std::string const& topic, ros::Time const& time, boost::shared_ptr<T> const& msg,$/;"	p	class:rosbag::Bag	access:public	signature:(std::string const& topic, ros::Time const& time, boost::shared_ptr<T> const& msg, boost::shared_ptr<ros::M_string> connection_header = boost::shared_ptr<ros::M_string>())
+rosbag::Bag::write	/opt/ros/fuerte/include/rosbag/bag.h	/^void Bag::write(std::string const& topic, ros::MessageEvent<T> const& event) {$/;"	f	class:rosbag::Bag	signature:(std::string const& topic, ros::MessageEvent<T> const& event)
+rosbag::Bag::write	/opt/ros/fuerte/include/rosbag/bag.h	/^void Bag::write(std::string const& topic, ros::Time const& time, T const& msg, boost::shared_ptr<ros::M_string> connection_header) {$/;"	f	class:rosbag::Bag	signature:(std::string const& topic, ros::Time const& time, T const& msg, boost::shared_ptr<ros::M_string> connection_header)
+rosbag::Bag::write	/opt/ros/fuerte/include/rosbag/bag.h	/^void Bag::write(std::string const& topic, ros::Time const& time, boost::shared_ptr<T const> const& msg, boost::shared_ptr<ros::M_string> connection_header) {$/;"	f	class:rosbag::Bag	signature:(std::string const& topic, ros::Time const& time, boost::shared_ptr<T const> const& msg, boost::shared_ptr<ros::M_string> connection_header)
+rosbag::Bag::write	/opt/ros/fuerte/include/rosbag/bag.h	/^void Bag::write(std::string const& topic, ros::Time const& time, boost::shared_ptr<T> const& msg, boost::shared_ptr<ros::M_string> connection_header) {$/;"	f	class:rosbag::Bag	signature:(std::string const& topic, ros::Time const& time, boost::shared_ptr<T> const& msg, boost::shared_ptr<ros::M_string> connection_header)
+rosbag::Bag::writeChunkHeader	/opt/ros/fuerte/include/rosbag/bag.h	/^    void writeChunkHeader(CompressionType compression, uint32_t compressed_size, uint32_t uncompressed_size);$/;"	p	class:rosbag::Bag	access:private	signature:(CompressionType compression, uint32_t compressed_size, uint32_t uncompressed_size)
+rosbag::Bag::writeChunkInfoRecords	/opt/ros/fuerte/include/rosbag/bag.h	/^    void writeChunkInfoRecords();$/;"	p	class:rosbag::Bag	access:private	signature:()
+rosbag::Bag::writeConnectionRecord	/opt/ros/fuerte/include/rosbag/bag.h	/^    void writeConnectionRecord(ConnectionInfo const* connection_info);$/;"	p	class:rosbag::Bag	access:private	signature:(ConnectionInfo const* connection_info)
+rosbag::Bag::writeConnectionRecords	/opt/ros/fuerte/include/rosbag/bag.h	/^    void writeConnectionRecords();$/;"	p	class:rosbag::Bag	access:private	signature:()
+rosbag::Bag::writeDataLength	/opt/ros/fuerte/include/rosbag/bag.h	/^    void writeDataLength(uint32_t data_len);$/;"	p	class:rosbag::Bag	access:private	signature:(uint32_t data_len)
+rosbag::Bag::writeFileHeaderRecord	/opt/ros/fuerte/include/rosbag/bag.h	/^    void writeFileHeaderRecord();$/;"	p	class:rosbag::Bag	access:private	signature:()
+rosbag::Bag::writeHeader	/opt/ros/fuerte/include/rosbag/bag.h	/^    void writeHeader(ros::M_string const& fields);$/;"	p	class:rosbag::Bag	access:private	signature:(ros::M_string const& fields)
+rosbag::Bag::writeIndexRecords	/opt/ros/fuerte/include/rosbag/bag.h	/^    void writeIndexRecords();$/;"	p	class:rosbag::Bag	access:private	signature:()
+rosbag::Bag::writeMessageDataRecord	/opt/ros/fuerte/include/rosbag/bag.h	/^    void writeMessageDataRecord(uint32_t conn_id, ros::Time const& time, T const& msg);$/;"	p	class:rosbag::Bag	access:private	signature:(uint32_t conn_id, ros::Time const& time, T const& msg)
+rosbag::Bag::writeMessageDataRecord	/opt/ros/fuerte/include/rosbag/bag.h	/^void Bag::writeMessageDataRecord(uint32_t conn_id, ros::Time const& time, T const& msg) {$/;"	f	class:rosbag::Bag	signature:(uint32_t conn_id, ros::Time const& time, T const& msg)
+rosbag::Bag::writeVersion	/opt/ros/fuerte/include/rosbag/bag.h	/^    void writeVersion();$/;"	p	class:rosbag::Bag	access:private	signature:()
+rosbag::Bag::~Bag	/opt/ros/fuerte/include/rosbag/bag.h	/^    ~Bag();$/;"	p	class:rosbag::Bag	access:public	signature:()
+rosbag::BagException	/opt/ros/fuerte/include/rosbag/exceptions.h	/^class BagException : public ros::Exception$/;"	c	namespace:rosbag	inherits:ros::Exception
+rosbag::BagException::BagException	/opt/ros/fuerte/include/rosbag/exceptions.h	/^    BagException(std::string const& msg) : ros::Exception(msg) { }$/;"	f	class:rosbag::BagException	access:public	signature:(std::string const& msg)
+rosbag::BagFormatException	/opt/ros/fuerte/include/rosbag/exceptions.h	/^class BagFormatException : public BagException$/;"	c	namespace:rosbag	inherits:BagException
+rosbag::BagFormatException::BagFormatException	/opt/ros/fuerte/include/rosbag/exceptions.h	/^    BagFormatException(std::string const& msg) : BagException(msg) { }$/;"	f	class:rosbag::BagFormatException	access:public	signature:(std::string const& msg)
+rosbag::BagIOException	/opt/ros/fuerte/include/rosbag/exceptions.h	/^class BagIOException : public BagException$/;"	c	namespace:rosbag	inherits:BagException
+rosbag::BagIOException::BagIOException	/opt/ros/fuerte/include/rosbag/exceptions.h	/^    BagIOException(std::string const& msg) : BagException(msg) { }$/;"	f	class:rosbag::BagIOException	access:public	signature:(std::string const& msg)
+rosbag::BagMode	/opt/ros/fuerte/include/rosbag/bag.h	/^typedef bagmode::BagMode BagMode;$/;"	t	namespace:rosbag
+rosbag::BagQuery	/opt/ros/fuerte/include/rosbag/query.h	/^struct BagQuery$/;"	s	namespace:rosbag
+rosbag::BagQuery::BagQuery	/opt/ros/fuerte/include/rosbag/query.h	/^    BagQuery(Bag const* _bag, Query const& _query, uint32_t _bag_revision);$/;"	p	struct:rosbag::BagQuery	access:public	signature:(Bag const* _bag, Query const& _query, uint32_t _bag_revision)
+rosbag::BagQuery::bag	/opt/ros/fuerte/include/rosbag/query.h	/^    Bag const* bag;$/;"	m	struct:rosbag::BagQuery	access:public
+rosbag::BagQuery::bag_revision	/opt/ros/fuerte/include/rosbag/query.h	/^    uint32_t   bag_revision;$/;"	m	struct:rosbag::BagQuery	access:public
+rosbag::BagQuery::query	/opt/ros/fuerte/include/rosbag/query.h	/^    Query      query;$/;"	m	struct:rosbag::BagQuery	access:public
+rosbag::BagUnindexedException	/opt/ros/fuerte/include/rosbag/exceptions.h	/^class BagUnindexedException : public BagException$/;"	c	namespace:rosbag	inherits:BagException
+rosbag::BagUnindexedException::BagUnindexedException	/opt/ros/fuerte/include/rosbag/exceptions.h	/^    BagUnindexedException() : BagException("Bag unindexed") { }$/;"	f	class:rosbag::BagUnindexedException	access:public	signature:()
+rosbag::Buffer	/opt/ros/fuerte/include/rosbag/buffer.h	/^class Buffer$/;"	c	namespace:rosbag
+rosbag::Buffer::Buffer	/opt/ros/fuerte/include/rosbag/buffer.h	/^    Buffer();$/;"	p	class:rosbag::Buffer	access:public	signature:()
+rosbag::Buffer::buffer_	/opt/ros/fuerte/include/rosbag/buffer.h	/^    uint8_t* buffer_;$/;"	m	class:rosbag::Buffer	access:private
+rosbag::Buffer::capacity_	/opt/ros/fuerte/include/rosbag/buffer.h	/^    uint32_t capacity_;$/;"	m	class:rosbag::Buffer	access:private
+rosbag::Buffer::ensureCapacity	/opt/ros/fuerte/include/rosbag/buffer.h	/^    void ensureCapacity(uint32_t capacity);$/;"	p	class:rosbag::Buffer	access:private	signature:(uint32_t capacity)
+rosbag::Buffer::getCapacity	/opt/ros/fuerte/include/rosbag/buffer.h	/^    uint32_t getCapacity() const;$/;"	p	class:rosbag::Buffer	access:public	signature:() const
+rosbag::Buffer::getData	/opt/ros/fuerte/include/rosbag/buffer.h	/^    uint8_t* getData();$/;"	p	class:rosbag::Buffer	access:public	signature:()
+rosbag::Buffer::getSize	/opt/ros/fuerte/include/rosbag/buffer.h	/^    uint32_t getSize()     const;$/;"	p	class:rosbag::Buffer	access:public	signature:() const
+rosbag::Buffer::setSize	/opt/ros/fuerte/include/rosbag/buffer.h	/^    void setSize(uint32_t size);$/;"	p	class:rosbag::Buffer	access:public	signature:(uint32_t size)
+rosbag::Buffer::size_	/opt/ros/fuerte/include/rosbag/buffer.h	/^    uint32_t size_;$/;"	m	class:rosbag::Buffer	access:private
+rosbag::Buffer::~Buffer	/opt/ros/fuerte/include/rosbag/buffer.h	/^    ~Buffer();$/;"	p	class:rosbag::Buffer	access:public	signature:()
+rosbag::CALLERID_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string CALLERID_FIELD_NAME = "callerid";      \/\/ <2.0$/;"	m	namespace:rosbag
+rosbag::CHUNK_COUNT_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string CHUNK_COUNT_FIELD_NAME      = "chunk_count";   \/\/ 2.0+$/;"	m	namespace:rosbag
+rosbag::CHUNK_INFO_VERSION	/opt/ros/fuerte/include/rosbag/constants.h	/^static const uint32_t CHUNK_INFO_VERSION = 1;$/;"	m	namespace:rosbag
+rosbag::CHUNK_POS_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string CHUNK_POS_FIELD_NAME        = "chunk_pos";     \/\/ 2.0+$/;"	m	namespace:rosbag
+rosbag::COMPRESSION_BZ2	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string COMPRESSION_BZ2  = "bz2";$/;"	m	namespace:rosbag
+rosbag::COMPRESSION_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string COMPRESSION_FIELD_NAME      = "compression";   \/\/ 2.0+$/;"	m	namespace:rosbag
+rosbag::COMPRESSION_NONE	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string COMPRESSION_NONE = "none";$/;"	m	namespace:rosbag
+rosbag::CONNECTION_COUNT_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string CONNECTION_COUNT_FIELD_NAME = "conn_count";    \/\/ 2.0+$/;"	m	namespace:rosbag
+rosbag::CONNECTION_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string CONNECTION_FIELD_NAME       = "conn";          \/\/ 2.0+$/;"	m	namespace:rosbag
+rosbag::COUNT_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string COUNT_FIELD_NAME            = "count";$/;"	m	namespace:rosbag
+rosbag::ChunkHeader	/opt/ros/fuerte/include/rosbag/structures.h	/^struct ChunkHeader$/;"	s	namespace:rosbag
+rosbag::ChunkHeader::compressed_size	/opt/ros/fuerte/include/rosbag/structures.h	/^    uint32_t    compressed_size;      \/\/! compressed size of the chunk in bytes$/;"	m	struct:rosbag::ChunkHeader	access:public
+rosbag::ChunkHeader::compression	/opt/ros/fuerte/include/rosbag/structures.h	/^    std::string compression;          \/\/! chunk compression type, e.g. "none" or "bz2" (see constants.h)$/;"	m	struct:rosbag::ChunkHeader	access:public
+rosbag::ChunkHeader::uncompressed_size	/opt/ros/fuerte/include/rosbag/structures.h	/^    uint32_t    uncompressed_size;    \/\/! uncompressed size of the chunk in bytes$/;"	m	struct:rosbag::ChunkHeader	access:public
+rosbag::ChunkInfo	/opt/ros/fuerte/include/rosbag/structures.h	/^struct ChunkInfo$/;"	s	namespace:rosbag
+rosbag::ChunkInfo::connection_counts	/opt/ros/fuerte/include/rosbag/structures.h	/^    std::map<uint32_t, uint32_t> connection_counts;   \/\/! number of messages in each connection stored in the chunk$/;"	m	struct:rosbag::ChunkInfo	access:public
+rosbag::ChunkInfo::end_time	/opt/ros/fuerte/include/rosbag/structures.h	/^    ros::Time   end_time;      \/\/! latest timestamp of a message in the chunk$/;"	m	struct:rosbag::ChunkInfo	access:public
+rosbag::ChunkInfo::pos	/opt/ros/fuerte/include/rosbag/structures.h	/^    uint64_t    pos;           \/\/! absolute byte offset of chunk record in bag file$/;"	m	struct:rosbag::ChunkInfo	access:public
+rosbag::ChunkInfo::start_time	/opt/ros/fuerte/include/rosbag/structures.h	/^    ros::Time   start_time;    \/\/! earliest timestamp of a message in the chunk$/;"	m	struct:rosbag::ChunkInfo	access:public
+rosbag::ChunkedFile	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^class ChunkedFile$/;"	c	namespace:rosbag
+rosbag::ChunkedFile::ChunkedFile	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    ChunkedFile();$/;"	p	class:rosbag::ChunkedFile	access:public	signature:()
+rosbag::ChunkedFile::clearUnused	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    void clearUnused();$/;"	p	class:rosbag::ChunkedFile	access:private	signature:()
+rosbag::ChunkedFile::close	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    void close();                                               \/\/!< close the file$/;"	p	class:rosbag::ChunkedFile	access:public	signature:()
+rosbag::ChunkedFile::compressed_in_	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    uint64_t    compressed_in_;  \/\/!< number of bytes written to current compressed stream$/;"	m	class:rosbag::ChunkedFile	access:private
+rosbag::ChunkedFile::decompress	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    void        decompress(CompressionType compression, uint8_t* dest, unsigned int dest_len, uint8_t* source, unsigned int source_len);$/;"	p	class:rosbag::ChunkedFile	access:public	signature:(CompressionType compression, uint8_t* dest, unsigned int dest_len, uint8_t* source, unsigned int source_len)
+rosbag::ChunkedFile::file_	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    FILE*       file_;           \/\/!< file pointer$/;"	m	class:rosbag::ChunkedFile	access:private
+rosbag::ChunkedFile::filename_	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    std::string filename_;       \/\/!< path to file$/;"	m	class:rosbag::ChunkedFile	access:private
+rosbag::ChunkedFile::getCompressedBytesIn	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    uint32_t    getCompressedBytesIn() const;                   \/\/!< return the number of bytes written to current compressed stream$/;"	p	class:rosbag::ChunkedFile	access:public	signature:() const
+rosbag::ChunkedFile::getFileName	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    std::string getFileName()          const;                   \/\/!< return path of currently open file$/;"	p	class:rosbag::ChunkedFile	access:public	signature:() const
+rosbag::ChunkedFile::getOffset	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    uint64_t    getOffset()            const;                   \/\/!< return current offset from the beginning of the file$/;"	p	class:rosbag::ChunkedFile	access:public	signature:() const
+rosbag::ChunkedFile::getline	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    std::string getline();$/;"	p	class:rosbag::ChunkedFile	access:public	signature:()
+rosbag::ChunkedFile::good	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    bool        good()                 const;                   \/\/!< return true if hasn't reached end-of-file and no error$/;"	p	class:rosbag::ChunkedFile	access:public	signature:() const
+rosbag::ChunkedFile::isOpen	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    bool        isOpen()               const;                   \/\/!< return true if file is open for reading or writing$/;"	p	class:rosbag::ChunkedFile	access:public	signature:() const
+rosbag::ChunkedFile::nUnused_	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    int         nUnused_;        \/\/!< number of bytes of extra data read by compressed stream$/;"	m	class:rosbag::ChunkedFile	access:private
+rosbag::ChunkedFile::offset_	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    uint64_t    offset_;         \/\/!< current position in the file$/;"	m	class:rosbag::ChunkedFile	access:private
+rosbag::ChunkedFile::open	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    void open(std::string const& filename, std::string const& mode);$/;"	p	class:rosbag::ChunkedFile	access:private	signature:(std::string const& filename, std::string const& mode)
+rosbag::ChunkedFile::openRead	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    void openRead     (std::string const& filename);            \/\/!< open file for reading$/;"	p	class:rosbag::ChunkedFile	access:public	signature:(std::string const& filename)
+rosbag::ChunkedFile::openReadWrite	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    void openReadWrite(std::string const& filename);            \/\/!< open file for reading & writing$/;"	p	class:rosbag::ChunkedFile	access:public	signature:(std::string const& filename)
+rosbag::ChunkedFile::openWrite	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    void openWrite    (std::string const& filename);            \/\/!< open file for writing$/;"	p	class:rosbag::ChunkedFile	access:public	signature:(std::string const& filename)
+rosbag::ChunkedFile::read	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    void        read(void* ptr, size_t size);                           \/\/!< read size bytes from the file into ptr$/;"	p	class:rosbag::ChunkedFile	access:public	signature:(void* ptr, size_t size)
+rosbag::ChunkedFile::read_stream_	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    boost::shared_ptr<Stream> read_stream_;$/;"	m	class:rosbag::ChunkedFile	access:private
+rosbag::ChunkedFile::seek	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    void        seek(uint64_t offset, int origin = std::ios_base::beg); \/\/!< seek to given offset from origin$/;"	p	class:rosbag::ChunkedFile	access:public	signature:(uint64_t offset, int origin = std::ios_base::beg)
+rosbag::ChunkedFile::setReadMode	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    void        setReadMode(CompressionType type);$/;"	p	class:rosbag::ChunkedFile	access:public	signature:(CompressionType type)
+rosbag::ChunkedFile::setWriteMode	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    void        setWriteMode(CompressionType type);$/;"	p	class:rosbag::ChunkedFile	access:public	signature:(CompressionType type)
+rosbag::ChunkedFile::stream_factory_	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    boost::shared_ptr<StreamFactory> stream_factory_;$/;"	m	class:rosbag::ChunkedFile	access:private
+rosbag::ChunkedFile::truncate	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    bool        truncate(uint64_t length);$/;"	p	class:rosbag::ChunkedFile	access:public	signature:(uint64_t length)
+rosbag::ChunkedFile::unused_	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    char*       unused_;         \/\/!< extra data read by compressed stream$/;"	m	class:rosbag::ChunkedFile	access:private
+rosbag::ChunkedFile::write	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    void        write(std::string const& s);$/;"	p	class:rosbag::ChunkedFile	access:public	signature:(std::string const& s)
+rosbag::ChunkedFile::write	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    void        write(void* ptr, size_t size);                          \/\/!< write size bytes from ptr to the file$/;"	p	class:rosbag::ChunkedFile	access:public	signature:(void* ptr, size_t size)
+rosbag::ChunkedFile::write_stream_	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    boost::shared_ptr<Stream> write_stream_;$/;"	m	class:rosbag::ChunkedFile	access:private
+rosbag::ChunkedFile::writing_	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    bool        writing_;        \/\/!< true iff file is opened for writing$/;"	m	class:rosbag::ChunkedFile	access:private
+rosbag::ChunkedFile::~ChunkedFile	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    ~ChunkedFile();$/;"	p	class:rosbag::ChunkedFile	access:public	signature:()
+rosbag::CompressionType	/opt/ros/fuerte/include/rosbag/stream.h	/^typedef compression::CompressionType CompressionType;$/;"	t	namespace:rosbag
+rosbag::ConnectionInfo	/opt/ros/fuerte/include/rosbag/structures.h	/^struct ConnectionInfo$/;"	s	namespace:rosbag
+rosbag::ConnectionInfo::ConnectionInfo	/opt/ros/fuerte/include/rosbag/structures.h	/^    ConnectionInfo() : id(-1) { }$/;"	f	struct:rosbag::ConnectionInfo	access:public	signature:()
+rosbag::ConnectionInfo::datatype	/opt/ros/fuerte/include/rosbag/structures.h	/^    std::string datatype;$/;"	m	struct:rosbag::ConnectionInfo	access:public
+rosbag::ConnectionInfo::header	/opt/ros/fuerte/include/rosbag/structures.h	/^    boost::shared_ptr<ros::M_string> header;$/;"	m	struct:rosbag::ConnectionInfo	access:public
+rosbag::ConnectionInfo::id	/opt/ros/fuerte/include/rosbag/structures.h	/^    uint32_t    id;$/;"	m	struct:rosbag::ConnectionInfo	access:public
+rosbag::ConnectionInfo::md5sum	/opt/ros/fuerte/include/rosbag/structures.h	/^    std::string md5sum;$/;"	m	struct:rosbag::ConnectionInfo	access:public
+rosbag::ConnectionInfo::msg_def	/opt/ros/fuerte/include/rosbag/structures.h	/^    std::string msg_def;$/;"	m	struct:rosbag::ConnectionInfo	access:public
+rosbag::ConnectionInfo::topic	/opt/ros/fuerte/include/rosbag/structures.h	/^    std::string topic;$/;"	m	struct:rosbag::ConnectionInfo	access:public
+rosbag::DEF_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string DEF_FIELD_NAME      = "def";           \/\/ <2.0$/;"	m	namespace:rosbag
+rosbag::END_TIME_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string END_TIME_FIELD_NAME         = "end_time";      \/\/ 2.0+$/;"	m	namespace:rosbag
+rosbag::FIELD_DELIM	/opt/ros/fuerte/include/rosbag/constants.h	/^static const unsigned char FIELD_DELIM = '=';$/;"	m	namespace:rosbag
+rosbag::FILE_HEADER_LENGTH	/opt/ros/fuerte/include/rosbag/constants.h	/^static const uint32_t FILE_HEADER_LENGTH = 4 * 1024;$/;"	m	namespace:rosbag
+rosbag::INDEX_POS_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string INDEX_POS_FIELD_NAME        = "index_pos";     \/\/ 1.2+$/;"	m	namespace:rosbag
+rosbag::INDEX_VERSION	/opt/ros/fuerte/include/rosbag/constants.h	/^static const uint32_t INDEX_VERSION = 1;$/;"	m	namespace:rosbag
+rosbag::IndexEntry	/opt/ros/fuerte/include/rosbag/structures.h	/^struct IndexEntry$/;"	s	namespace:rosbag
+rosbag::IndexEntry::chunk_pos	/opt/ros/fuerte/include/rosbag/structures.h	/^    uint64_t  chunk_pos;       \/\/! absolute byte offset of the chunk record containing the message$/;"	m	struct:rosbag::IndexEntry	access:public
+rosbag::IndexEntry::offset	/opt/ros/fuerte/include/rosbag/structures.h	/^    uint32_t  offset;          \/\/! relative byte offset of the message record (either definition or data) in the chunk$/;"	m	struct:rosbag::IndexEntry	access:public
+rosbag::IndexEntry::operator <	/opt/ros/fuerte/include/rosbag/structures.h	/^    bool operator<(IndexEntry const& b) const { return time < b.time; }$/;"	f	struct:rosbag::IndexEntry	access:public	signature:(IndexEntry const& b) const
+rosbag::IndexEntry::time	/opt/ros/fuerte/include/rosbag/structures.h	/^    ros::Time time;            \/\/! timestamp of the message$/;"	m	struct:rosbag::IndexEntry	access:public
+rosbag::IndexEntryCompare	/opt/ros/fuerte/include/rosbag/structures.h	/^struct IndexEntryCompare$/;"	s	namespace:rosbag
+rosbag::IndexEntryCompare::operator ()	/opt/ros/fuerte/include/rosbag/structures.h	/^    bool operator()(IndexEntry const& a, ros::Time const& b) const { return a.time < b; }$/;"	f	struct:rosbag::IndexEntryCompare	access:public	signature:(IndexEntry const& a, ros::Time const& b) const
+rosbag::IndexEntryCompare::operator ()	/opt/ros/fuerte/include/rosbag/structures.h	/^    bool operator()(ros::Time const& a, IndexEntry const& b) const { return a < b.time; }$/;"	f	struct:rosbag::IndexEntryCompare	access:public	signature:(ros::Time const& a, IndexEntry const& b) const
+rosbag::LATCHING_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string LATCHING_FIELD_NAME = "latching";      \/\/ <2.0$/;"	m	namespace:rosbag
+rosbag::MD5_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string MD5_FIELD_NAME      = "md5";           \/\/ <2.0$/;"	m	namespace:rosbag
+rosbag::MessageInstance	/opt/ros/fuerte/include/rosbag/message_instance.h	/^class MessageInstance$/;"	c	namespace:rosbag
+rosbag::MessageInstance::MessageInstance	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    MessageInstance(ConnectionInfo const* connection_info, IndexEntry const& index, Bag const& bag);$/;"	p	class:rosbag::MessageInstance	access:private	signature:(ConnectionInfo const* connection_info, IndexEntry const& index, Bag const& bag)
+rosbag::MessageInstance::bag_	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    Bag const*            bag_;$/;"	m	class:rosbag::MessageInstance	access:private
+rosbag::MessageInstance::connection_info_	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    ConnectionInfo const* connection_info_;$/;"	m	class:rosbag::MessageInstance	access:private
+rosbag::MessageInstance::getCallerId	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    std::string getCallerId() const;$/;"	p	class:rosbag::MessageInstance	access:public	signature:() const
+rosbag::MessageInstance::getConnectionHeader	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    boost::shared_ptr<ros::M_string> getConnectionHeader() const;$/;"	p	class:rosbag::MessageInstance	access:public	signature:() const
+rosbag::MessageInstance::index_entry_	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    IndexEntry const      index_entry_;$/;"	m	class:rosbag::MessageInstance	access:private
+rosbag::MessageInstance::instantiate	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    boost::shared_ptr<T> instantiate() const;$/;"	p	class:rosbag::MessageInstance	access:public	signature:() const
+rosbag::MessageInstance::instantiate	/opt/ros/fuerte/include/rosbag/message_instance.h	/^boost::shared_ptr<T> MessageInstance::instantiate() const {$/;"	f	class:rosbag::MessageInstance	signature:() const
+rosbag::MessageInstance::isLatching	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    bool        isLatching()  const;$/;"	p	class:rosbag::MessageInstance	access:public	signature:() const
+rosbag::MessageInstance::isType	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    bool isType() const;$/;"	p	class:rosbag::MessageInstance	access:public	signature:() const
+rosbag::MessageInstance::isType	/opt/ros/fuerte/include/rosbag/message_instance.h	/^bool MessageInstance::isType() const {$/;"	f	class:rosbag::MessageInstance	signature:() const
+rosbag::MessageInstance::ros::getTime	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    ros::Time   const& getTime()              const;$/;"	p	class:rosbag::MessageInstance::ros	access:public	signature:() const
+rosbag::MessageInstance::size	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    uint32_t size() const;$/;"	p	class:rosbag::MessageInstance	access:public	signature:() const
+rosbag::MessageInstance::std::getDataType	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    std::string const& getDataType()          const;$/;"	p	class:rosbag::MessageInstance::std	access:public	signature:() const
+rosbag::MessageInstance::std::getMD5Sum	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    std::string const& getMD5Sum()            const;$/;"	p	class:rosbag::MessageInstance::std	access:public	signature:() const
+rosbag::MessageInstance::std::getMessageDefinition	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    std::string const& getMessageDefinition() const;$/;"	p	class:rosbag::MessageInstance::std	access:public	signature:() const
+rosbag::MessageInstance::std::getTopic	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    std::string const& getTopic()             const;$/;"	p	class:rosbag::MessageInstance::std	access:public	signature:() const
+rosbag::MessageInstance::write	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    void write(Stream& stream) const;$/;"	p	class:rosbag::MessageInstance	access:public	signature:(Stream& stream) const
+rosbag::MessageInstance::write	/opt/ros/fuerte/include/rosbag/message_instance.h	/^void MessageInstance::write(Stream& stream) const {$/;"	f	class:rosbag::MessageInstance	signature:(Stream& stream) const
+rosbag::MessageRange	/opt/ros/fuerte/include/rosbag/query.h	/^struct MessageRange$/;"	s	namespace:rosbag
+rosbag::MessageRange::MessageRange	/opt/ros/fuerte/include/rosbag/query.h	/^    MessageRange(std::multiset<IndexEntry>::const_iterator const& _begin,$/;"	p	struct:rosbag::MessageRange	access:public	signature:(std::multiset<IndexEntry>::const_iterator const& _begin, std::multiset<IndexEntry>::const_iterator const& _end, ConnectionInfo const* _connection_info, BagQuery const* _bag_query)
+rosbag::MessageRange::bag_query	/opt/ros/fuerte/include/rosbag/query.h	/^    BagQuery const* bag_query;           \/\/!< pointer to vector of queries in View$/;"	m	struct:rosbag::MessageRange	access:public
+rosbag::MessageRange::begin	/opt/ros/fuerte/include/rosbag/query.h	/^    std::multiset<IndexEntry>::const_iterator begin;$/;"	m	struct:rosbag::MessageRange	access:public
+rosbag::MessageRange::connection_info	/opt/ros/fuerte/include/rosbag/query.h	/^    ConnectionInfo const* connection_info;$/;"	m	struct:rosbag::MessageRange	access:public
+rosbag::MessageRange::end	/opt/ros/fuerte/include/rosbag/query.h	/^    std::multiset<IndexEntry>::const_iterator end;$/;"	m	struct:rosbag::MessageRange	access:public
+rosbag::NSEC_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string NSEC_FIELD_NAME     = "nsec";          \/\/ <2.0$/;"	m	namespace:rosbag
+rosbag::OP_CHUNK	/opt/ros/fuerte/include/rosbag/constants.h	/^static const unsigned char OP_CHUNK       = 0x05;$/;"	m	namespace:rosbag
+rosbag::OP_CHUNK_INFO	/opt/ros/fuerte/include/rosbag/constants.h	/^static const unsigned char OP_CHUNK_INFO  = 0x06;$/;"	m	namespace:rosbag
+rosbag::OP_CONNECTION	/opt/ros/fuerte/include/rosbag/constants.h	/^static const unsigned char OP_CONNECTION  = 0x07;$/;"	m	namespace:rosbag
+rosbag::OP_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string OP_FIELD_NAME               = "op";$/;"	m	namespace:rosbag
+rosbag::OP_FILE_HEADER	/opt/ros/fuerte/include/rosbag/constants.h	/^static const unsigned char OP_FILE_HEADER = 0x03;$/;"	m	namespace:rosbag
+rosbag::OP_INDEX_DATA	/opt/ros/fuerte/include/rosbag/constants.h	/^static const unsigned char OP_INDEX_DATA  = 0x04;$/;"	m	namespace:rosbag
+rosbag::OP_MSG_DATA	/opt/ros/fuerte/include/rosbag/constants.h	/^static const unsigned char OP_MSG_DATA    = 0x02;$/;"	m	namespace:rosbag
+rosbag::OP_MSG_DEF	/opt/ros/fuerte/include/rosbag/constants.h	/^static const unsigned char OP_MSG_DEF     = 0x01;$/;"	m	namespace:rosbag
+rosbag::OutgoingMessage	/opt/ros/fuerte/include/rosbag/recorder.h	/^class OutgoingMessage$/;"	c	namespace:rosbag
+rosbag::OutgoingMessage::OutgoingMessage	/opt/ros/fuerte/include/rosbag/recorder.h	/^    OutgoingMessage(std::string const& _topic, topic_tools::ShapeShifter::ConstPtr _msg, boost::shared_ptr<ros::M_string> _connection_header, ros::Time _time);$/;"	p	class:rosbag::OutgoingMessage	access:public	signature:(std::string const& _topic, topic_tools::ShapeShifter::ConstPtr _msg, boost::shared_ptr<ros::M_string> _connection_header, ros::Time _time)
+rosbag::OutgoingMessage::connection_header	/opt/ros/fuerte/include/rosbag/recorder.h	/^    boost::shared_ptr<ros::M_string>    connection_header;$/;"	m	class:rosbag::OutgoingMessage	access:public
+rosbag::OutgoingMessage::msg	/opt/ros/fuerte/include/rosbag/recorder.h	/^    topic_tools::ShapeShifter::ConstPtr msg;$/;"	m	class:rosbag::OutgoingMessage	access:public
+rosbag::OutgoingMessage::time	/opt/ros/fuerte/include/rosbag/recorder.h	/^    ros::Time                           time;$/;"	m	class:rosbag::OutgoingMessage	access:public
+rosbag::OutgoingMessage::topic	/opt/ros/fuerte/include/rosbag/recorder.h	/^    std::string                         topic;$/;"	m	class:rosbag::OutgoingMessage	access:public
+rosbag::OutgoingQueue	/opt/ros/fuerte/include/rosbag/recorder.h	/^class OutgoingQueue$/;"	c	namespace:rosbag
+rosbag::OutgoingQueue::OutgoingQueue	/opt/ros/fuerte/include/rosbag/recorder.h	/^    OutgoingQueue(std::string const& _filename, std::queue<OutgoingMessage>* _queue, ros::Time _time);$/;"	p	class:rosbag::OutgoingQueue	access:public	signature:(std::string const& _filename, std::queue<OutgoingMessage>* _queue, ros::Time _time)
+rosbag::OutgoingQueue::filename	/opt/ros/fuerte/include/rosbag/recorder.h	/^    std::string                  filename;$/;"	m	class:rosbag::OutgoingQueue	access:public
+rosbag::OutgoingQueue::queue	/opt/ros/fuerte/include/rosbag/recorder.h	/^    std::queue<OutgoingMessage>* queue;$/;"	m	class:rosbag::OutgoingQueue	access:public
+rosbag::OutgoingQueue::time	/opt/ros/fuerte/include/rosbag/recorder.h	/^    ros::Time                    time;$/;"	m	class:rosbag::OutgoingQueue	access:public
+rosbag::Player	/opt/ros/fuerte/include/rosbag/player.h	/^class Player$/;"	c	namespace:rosbag
+rosbag::Player::Player	/opt/ros/fuerte/include/rosbag/player.h	/^    Player(PlayerOptions const& options);$/;"	p	class:rosbag::Player	access:public	signature:(PlayerOptions const& options)
+rosbag::Player::bag_length_	/opt/ros/fuerte/include/rosbag/player.h	/^    ros::Duration bag_length_;$/;"	m	class:rosbag::Player	access:private
+rosbag::Player::bags_	/opt/ros/fuerte/include/rosbag/player.h	/^    std::vector<boost::shared_ptr<Bag> >  bags_;$/;"	m	class:rosbag::Player	access:private
+rosbag::Player::doKeepAlive	/opt/ros/fuerte/include/rosbag/player.h	/^    void doKeepAlive();$/;"	p	class:rosbag::Player	access:private	signature:()
+rosbag::Player::doPublish	/opt/ros/fuerte/include/rosbag/player.h	/^    void doPublish(rosbag::MessageInstance const& m);$/;"	p	class:rosbag::Player	access:private	signature:(rosbag::MessageInstance const& m)
+rosbag::Player::maxfd_	/opt/ros/fuerte/include/rosbag/player.h	/^    int     maxfd_;$/;"	m	class:rosbag::Player	access:private
+rosbag::Player::node_handle_	/opt/ros/fuerte/include/rosbag/player.h	/^    ros::NodeHandle node_handle_;$/;"	m	class:rosbag::Player	access:private
+rosbag::Player::options_	/opt/ros/fuerte/include/rosbag/player.h	/^    PlayerOptions options_;$/;"	m	class:rosbag::Player	access:private
+rosbag::Player::orig_flags_	/opt/ros/fuerte/include/rosbag/player.h	/^    termios orig_flags_;$/;"	m	class:rosbag::Player	access:private
+rosbag::Player::paused_	/opt/ros/fuerte/include/rosbag/player.h	/^    bool paused_;$/;"	m	class:rosbag::Player	access:private
+rosbag::Player::paused_time_	/opt/ros/fuerte/include/rosbag/player.h	/^    ros::WallTime paused_time_;$/;"	m	class:rosbag::Player	access:private
+rosbag::Player::printTime	/opt/ros/fuerte/include/rosbag/player.h	/^    void printTime();$/;"	p	class:rosbag::Player	access:private	signature:()
+rosbag::Player::publish	/opt/ros/fuerte/include/rosbag/player.h	/^    void publish();$/;"	p	class:rosbag::Player	access:public	signature:()
+rosbag::Player::publishers_	/opt/ros/fuerte/include/rosbag/player.h	/^    std::map<std::string, ros::Publisher> publishers_;$/;"	m	class:rosbag::Player	access:private
+rosbag::Player::readCharFromStdin	/opt/ros/fuerte/include/rosbag/player.h	/^    char readCharFromStdin();$/;"	p	class:rosbag::Player	access:private	signature:()
+rosbag::Player::restoreTerminal	/opt/ros/fuerte/include/rosbag/player.h	/^    void restoreTerminal();$/;"	p	class:rosbag::Player	access:private	signature:()
+rosbag::Player::setupTerminal	/opt/ros/fuerte/include/rosbag/player.h	/^    void setupTerminal();$/;"	p	class:rosbag::Player	access:private	signature:()
+rosbag::Player::start_time_	/opt/ros/fuerte/include/rosbag/player.h	/^    ros::Time start_time_;$/;"	m	class:rosbag::Player	access:private
+rosbag::Player::stdin_fdset_	/opt/ros/fuerte/include/rosbag/player.h	/^    fd_set  stdin_fdset_;$/;"	m	class:rosbag::Player	access:private
+rosbag::Player::terminal_modified_	/opt/ros/fuerte/include/rosbag/player.h	/^    bool    terminal_modified_;$/;"	m	class:rosbag::Player	access:private
+rosbag::Player::time_publisher_	/opt/ros/fuerte/include/rosbag/player.h	/^    TimePublisher time_publisher_;$/;"	m	class:rosbag::Player	access:private
+rosbag::Player::time_translator_	/opt/ros/fuerte/include/rosbag/player.h	/^    TimeTranslator time_translator_;$/;"	m	class:rosbag::Player	access:private
+rosbag::Player::~Player	/opt/ros/fuerte/include/rosbag/player.h	/^    ~Player();$/;"	p	class:rosbag::Player	access:public	signature:()
+rosbag::PlayerOptions	/opt/ros/fuerte/include/rosbag/player.h	/^struct PlayerOptions$/;"	s	namespace:rosbag
+rosbag::PlayerOptions::PlayerOptions	/opt/ros/fuerte/include/rosbag/player.h	/^    PlayerOptions();$/;"	p	struct:rosbag::PlayerOptions	access:public	signature:()
+rosbag::PlayerOptions::advertise_sleep	/opt/ros/fuerte/include/rosbag/player.h	/^    ros::WallDuration advertise_sleep;$/;"	m	struct:rosbag::PlayerOptions	access:public
+rosbag::PlayerOptions::at_once	/opt/ros/fuerte/include/rosbag/player.h	/^    bool     at_once;$/;"	m	struct:rosbag::PlayerOptions	access:public
+rosbag::PlayerOptions::bag_time	/opt/ros/fuerte/include/rosbag/player.h	/^    bool     bag_time;$/;"	m	struct:rosbag::PlayerOptions	access:public
+rosbag::PlayerOptions::bag_time_frequency	/opt/ros/fuerte/include/rosbag/player.h	/^    double   bag_time_frequency;$/;"	m	struct:rosbag::PlayerOptions	access:public
+rosbag::PlayerOptions::bags	/opt/ros/fuerte/include/rosbag/player.h	/^    std::vector<std::string> bags;$/;"	m	struct:rosbag::PlayerOptions	access:public
+rosbag::PlayerOptions::check	/opt/ros/fuerte/include/rosbag/player.h	/^    void check();$/;"	p	struct:rosbag::PlayerOptions	access:public	signature:()
+rosbag::PlayerOptions::has_time	/opt/ros/fuerte/include/rosbag/player.h	/^    bool     has_time;$/;"	m	struct:rosbag::PlayerOptions	access:public
+rosbag::PlayerOptions::keep_alive	/opt/ros/fuerte/include/rosbag/player.h	/^    bool     keep_alive;$/;"	m	struct:rosbag::PlayerOptions	access:public
+rosbag::PlayerOptions::loop	/opt/ros/fuerte/include/rosbag/player.h	/^    bool     loop;$/;"	m	struct:rosbag::PlayerOptions	access:public
+rosbag::PlayerOptions::queue_size	/opt/ros/fuerte/include/rosbag/player.h	/^    int      queue_size;$/;"	m	struct:rosbag::PlayerOptions	access:public
+rosbag::PlayerOptions::quiet	/opt/ros/fuerte/include/rosbag/player.h	/^    bool     quiet;$/;"	m	struct:rosbag::PlayerOptions	access:public
+rosbag::PlayerOptions::skip_empty	/opt/ros/fuerte/include/rosbag/player.h	/^    ros::Duration skip_empty;$/;"	m	struct:rosbag::PlayerOptions	access:public
+rosbag::PlayerOptions::start_paused	/opt/ros/fuerte/include/rosbag/player.h	/^    bool     start_paused;$/;"	m	struct:rosbag::PlayerOptions	access:public
+rosbag::PlayerOptions::time	/opt/ros/fuerte/include/rosbag/player.h	/^    float    time;$/;"	m	struct:rosbag::PlayerOptions	access:public
+rosbag::PlayerOptions::time_scale	/opt/ros/fuerte/include/rosbag/player.h	/^    double   time_scale;$/;"	m	struct:rosbag::PlayerOptions	access:public
+rosbag::PlayerOptions::topics	/opt/ros/fuerte/include/rosbag/player.h	/^    std::vector<std::string> topics;$/;"	m	struct:rosbag::PlayerOptions	access:public
+rosbag::PlayerOptions::try_future	/opt/ros/fuerte/include/rosbag/player.h	/^    bool     try_future;$/;"	m	struct:rosbag::PlayerOptions	access:public
+rosbag::Query	/opt/ros/fuerte/include/rosbag/query.h	/^class Query$/;"	c	namespace:rosbag
+rosbag::Query::Query	/opt/ros/fuerte/include/rosbag/query.h	/^    Query(boost::function<bool(ConnectionInfo const*)>& query,$/;"	p	class:rosbag::Query	access:public	signature:(boost::function<bool(ConnectionInfo const*)>& query, ros::Time const& start_time = ros::TIME_MIN, ros::Time const& end_time = ros::TIME_MAX)
+rosbag::Query::boost::getQuery	/opt/ros/fuerte/include/rosbag/query.h	/^    boost::function<bool(ConnectionInfo const*)> const& getQuery() const;  \/\/!< Get the query functor$/;"	p	class:rosbag::Query::boost	access:public	signature:() const
+rosbag::Query::end_time_	/opt/ros/fuerte/include/rosbag/query.h	/^    ros::Time end_time_;$/;"	m	class:rosbag::Query	access:private
+rosbag::Query::query_	/opt/ros/fuerte/include/rosbag/query.h	/^    boost::function<bool(ConnectionInfo const*)> query_;$/;"	m	class:rosbag::Query	access:private
+rosbag::Query::ros::getEndTime	/opt/ros/fuerte/include/rosbag/query.h	/^    ros::Time const& getEndTime()   const; \/\/!< Get the end-time$/;"	p	class:rosbag::Query::ros	access:public	signature:() const
+rosbag::Query::ros::getStartTime	/opt/ros/fuerte/include/rosbag/query.h	/^    ros::Time const& getStartTime() const; \/\/!< Get the start-time$/;"	p	class:rosbag::Query::ros	access:public	signature:() const
+rosbag::Query::start_time_	/opt/ros/fuerte/include/rosbag/query.h	/^    ros::Time start_time_;$/;"	m	class:rosbag::Query	access:private
+rosbag::Recorder	/opt/ros/fuerte/include/rosbag/recorder.h	/^class Recorder$/;"	c	namespace:rosbag
+rosbag::Recorder::Recorder	/opt/ros/fuerte/include/rosbag/recorder.h	/^    Recorder(RecorderOptions const& options);$/;"	p	class:rosbag::Recorder	access:public	signature:(RecorderOptions const& options)
+rosbag::Recorder::bag_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    Bag                           bag_;$/;"	m	class:rosbag::Recorder	access:private
+rosbag::Recorder::checkDisk	/opt/ros/fuerte/include/rosbag/recorder.h	/^    bool checkDisk();$/;"	p	class:rosbag::Recorder	access:private	signature:()
+rosbag::Recorder::checkDuration	/opt/ros/fuerte/include/rosbag/recorder.h	/^    bool checkDuration(const ros::Time&);$/;"	p	class:rosbag::Recorder	access:private	signature:(const ros::Time&)
+rosbag::Recorder::checkLogging	/opt/ros/fuerte/include/rosbag/recorder.h	/^    bool checkLogging();$/;"	p	class:rosbag::Recorder	access:private	signature:()
+rosbag::Recorder::checkSize	/opt/ros/fuerte/include/rosbag/recorder.h	/^    bool checkSize();$/;"	p	class:rosbag::Recorder	access:private	signature:()
+rosbag::Recorder::check_disk_mutex_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    boost::mutex                  check_disk_mutex_;$/;"	m	class:rosbag::Recorder	access:private
+rosbag::Recorder::check_disk_next_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    ros::WallTime                 check_disk_next_;$/;"	m	class:rosbag::Recorder	access:private
+rosbag::Recorder::currently_recording_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    std::set<std::string>         currently_recording_;  \/\/!< set of currenly recording topics$/;"	m	class:rosbag::Recorder	access:private
+rosbag::Recorder::doCheckMaster	/opt/ros/fuerte/include/rosbag/recorder.h	/^    void doCheckMaster(ros::TimerEvent const& e, ros::NodeHandle& node_handle);$/;"	p	class:rosbag::Recorder	access:private	signature:(ros::TimerEvent const& e, ros::NodeHandle& node_handle)
+rosbag::Recorder::doQueue	/opt/ros/fuerte/include/rosbag/recorder.h	/^    void doQueue(ros::MessageEvent<topic_tools::ShapeShifter const> msg_event, std::string const& topic, boost::shared_ptr<ros::Subscriber> subscriber, boost::shared_ptr<int> count);$/;"	p	class:rosbag::Recorder	access:private	signature:(ros::MessageEvent<topic_tools::ShapeShifter const> msg_event, std::string const& topic, boost::shared_ptr<ros::Subscriber> subscriber, boost::shared_ptr<int> count)
+rosbag::Recorder::doRecord	/opt/ros/fuerte/include/rosbag/recorder.h	/^    void doRecord();$/;"	p	class:rosbag::Recorder	access:private	signature:()
+rosbag::Recorder::doRecordSnapshotter	/opt/ros/fuerte/include/rosbag/recorder.h	/^    void doRecordSnapshotter();$/;"	p	class:rosbag::Recorder	access:private	signature:()
+rosbag::Recorder::doTrigger	/opt/ros/fuerte/include/rosbag/recorder.h	/^    void doTrigger();$/;"	p	class:rosbag::Recorder	access:public	signature:()
+rosbag::Recorder::exit_code_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    int                           exit_code_;            \/\/!< eventual exit code$/;"	m	class:rosbag::Recorder	access:private
+rosbag::Recorder::isSubscribed	/opt/ros/fuerte/include/rosbag/recorder.h	/^    bool isSubscribed(std::string const& topic) const;$/;"	p	class:rosbag::Recorder	access:public	signature:(std::string const& topic) const
+rosbag::Recorder::last_buffer_warn_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    ros::Time                     last_buffer_warn_;$/;"	m	class:rosbag::Recorder	access:private
+rosbag::Recorder::max_queue_size_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    uint64_t                      max_queue_size_;       \/\/!< max queue size$/;"	m	class:rosbag::Recorder	access:private
+rosbag::Recorder::num_subscribers_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    int                           num_subscribers_;      \/\/!< used for book-keeping of our number of subscribers$/;"	m	class:rosbag::Recorder	access:private
+rosbag::Recorder::options_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    RecorderOptions               options_;$/;"	m	class:rosbag::Recorder	access:private
+rosbag::Recorder::printUsage	/opt/ros/fuerte/include/rosbag/recorder.h	/^    void printUsage();$/;"	p	class:rosbag::Recorder	access:private	signature:()
+rosbag::Recorder::queue_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    std::queue<OutgoingMessage>*  queue_;                \/\/!< queue for storing$/;"	m	class:rosbag::Recorder	access:private
+rosbag::Recorder::queue_condition_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    boost::condition_variable_any queue_condition_;      \/\/!< conditional variable for queue$/;"	m	class:rosbag::Recorder	access:private
+rosbag::Recorder::queue_mutex_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    boost::mutex                  queue_mutex_;          \/\/!< mutex for queue$/;"	m	class:rosbag::Recorder	access:private
+rosbag::Recorder::queue_queue_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    std::queue<OutgoingQueue>     queue_queue_;          \/\/!< queue of queues to be used by the snapshot recorders$/;"	m	class:rosbag::Recorder	access:private
+rosbag::Recorder::queue_size_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    uint64_t                      queue_size_;           \/\/!< queue size$/;"	m	class:rosbag::Recorder	access:private
+rosbag::Recorder::run	/opt/ros/fuerte/include/rosbag/recorder.h	/^    int run();$/;"	p	class:rosbag::Recorder	access:public	signature:()
+rosbag::Recorder::scheduledCheckDisk	/opt/ros/fuerte/include/rosbag/recorder.h	/^    bool scheduledCheckDisk();$/;"	p	class:rosbag::Recorder	access:private	signature:()
+rosbag::Recorder::shouldSubscribeToTopic	/opt/ros/fuerte/include/rosbag/recorder.h	/^    bool shouldSubscribeToTopic(std::string const& topic, bool from_node = false);$/;"	p	class:rosbag::Recorder	access:private	signature:(std::string const& topic, bool from_node = false)
+rosbag::Recorder::snapshotTrigger	/opt/ros/fuerte/include/rosbag/recorder.h	/^    void snapshotTrigger(std_msgs::Empty::ConstPtr trigger);$/;"	p	class:rosbag::Recorder	access:private	signature:(std_msgs::Empty::ConstPtr trigger)
+rosbag::Recorder::split_count_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    uint64_t                      split_count_;          \/\/!< split count$/;"	m	class:rosbag::Recorder	access:private
+rosbag::Recorder::startWriting	/opt/ros/fuerte/include/rosbag/recorder.h	/^    void startWriting();$/;"	p	class:rosbag::Recorder	access:private	signature:()
+rosbag::Recorder::start_time_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    ros::Time                     start_time_;$/;"	m	class:rosbag::Recorder	access:private
+rosbag::Recorder::stopWriting	/opt/ros/fuerte/include/rosbag/recorder.h	/^    void stopWriting();$/;"	p	class:rosbag::Recorder	access:private	signature:()
+rosbag::Recorder::subscribe	/opt/ros/fuerte/include/rosbag/recorder.h	/^    boost::shared_ptr<ros::Subscriber> subscribe(std::string const& topic);$/;"	p	class:rosbag::Recorder	access:public	signature:(std::string const& topic)
+rosbag::Recorder::target_filename_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    std::string                   target_filename_;$/;"	m	class:rosbag::Recorder	access:private
+rosbag::Recorder::timeToStr	/opt/ros/fuerte/include/rosbag/recorder.h	/^    static std::string timeToStr(T ros_t);$/;"	p	class:rosbag::Recorder	access:private	signature:(T ros_t)
+rosbag::Recorder::updateFilenames	/opt/ros/fuerte/include/rosbag/recorder.h	/^    void updateFilenames();$/;"	p	class:rosbag::Recorder	access:private	signature:()
+rosbag::Recorder::warn_next_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    ros::WallTime                 warn_next_;$/;"	m	class:rosbag::Recorder	access:private
+rosbag::Recorder::write_filename_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    std::string                   write_filename_;$/;"	m	class:rosbag::Recorder	access:private
+rosbag::Recorder::writing_enabled_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    bool                          writing_enabled_;$/;"	m	class:rosbag::Recorder	access:private
+rosbag::RecorderOptions	/opt/ros/fuerte/include/rosbag/recorder.h	/^struct RecorderOptions$/;"	s	namespace:rosbag
+rosbag::RecorderOptions::RecorderOptions	/opt/ros/fuerte/include/rosbag/recorder.h	/^    RecorderOptions();$/;"	p	struct:rosbag::RecorderOptions	access:public	signature:()
+rosbag::RecorderOptions::append_date	/opt/ros/fuerte/include/rosbag/recorder.h	/^    bool            append_date;$/;"	m	struct:rosbag::RecorderOptions	access:public
+rosbag::RecorderOptions::buffer_size	/opt/ros/fuerte/include/rosbag/recorder.h	/^    uint32_t        buffer_size;$/;"	m	struct:rosbag::RecorderOptions	access:public
+rosbag::RecorderOptions::compression	/opt/ros/fuerte/include/rosbag/recorder.h	/^    CompressionType compression;$/;"	m	struct:rosbag::RecorderOptions	access:public
+rosbag::RecorderOptions::do_exclude	/opt/ros/fuerte/include/rosbag/recorder.h	/^    bool            do_exclude;$/;"	m	struct:rosbag::RecorderOptions	access:public
+rosbag::RecorderOptions::exclude_regex	/opt/ros/fuerte/include/rosbag/recorder.h	/^    boost::regex    exclude_regex;$/;"	m	struct:rosbag::RecorderOptions	access:public
+rosbag::RecorderOptions::limit	/opt/ros/fuerte/include/rosbag/recorder.h	/^    uint32_t        limit;$/;"	m	struct:rosbag::RecorderOptions	access:public
+rosbag::RecorderOptions::max_duration	/opt/ros/fuerte/include/rosbag/recorder.h	/^    ros::Duration   max_duration;$/;"	m	struct:rosbag::RecorderOptions	access:public
+rosbag::RecorderOptions::max_size	/opt/ros/fuerte/include/rosbag/recorder.h	/^    uint32_t        max_size;$/;"	m	struct:rosbag::RecorderOptions	access:public
+rosbag::RecorderOptions::name	/opt/ros/fuerte/include/rosbag/recorder.h	/^    std::string     name;$/;"	m	struct:rosbag::RecorderOptions	access:public
+rosbag::RecorderOptions::node	/opt/ros/fuerte/include/rosbag/recorder.h	/^    std::string     node;$/;"	m	struct:rosbag::RecorderOptions	access:public
+rosbag::RecorderOptions::prefix	/opt/ros/fuerte/include/rosbag/recorder.h	/^    std::string     prefix;$/;"	m	struct:rosbag::RecorderOptions	access:public
+rosbag::RecorderOptions::quiet	/opt/ros/fuerte/include/rosbag/recorder.h	/^    bool            quiet;$/;"	m	struct:rosbag::RecorderOptions	access:public
+rosbag::RecorderOptions::record_all	/opt/ros/fuerte/include/rosbag/recorder.h	/^    bool            record_all;$/;"	m	struct:rosbag::RecorderOptions	access:public
+rosbag::RecorderOptions::regex	/opt/ros/fuerte/include/rosbag/recorder.h	/^    bool            regex;$/;"	m	struct:rosbag::RecorderOptions	access:public
+rosbag::RecorderOptions::snapshot	/opt/ros/fuerte/include/rosbag/recorder.h	/^    bool            snapshot;$/;"	m	struct:rosbag::RecorderOptions	access:public
+rosbag::RecorderOptions::split	/opt/ros/fuerte/include/rosbag/recorder.h	/^    bool            split;$/;"	m	struct:rosbag::RecorderOptions	access:public
+rosbag::RecorderOptions::topics	/opt/ros/fuerte/include/rosbag/recorder.h	/^    std::vector<std::string> topics;$/;"	m	struct:rosbag::RecorderOptions	access:public
+rosbag::RecorderOptions::trigger	/opt/ros/fuerte/include/rosbag/recorder.h	/^    bool            trigger;$/;"	m	struct:rosbag::RecorderOptions	access:public
+rosbag::RecorderOptions::verbose	/opt/ros/fuerte/include/rosbag/recorder.h	/^    bool            verbose;$/;"	m	struct:rosbag::RecorderOptions	access:public
+rosbag::SEC_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string SEC_FIELD_NAME      = "sec";           \/\/ <2.0$/;"	m	namespace:rosbag
+rosbag::SIZE_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string SIZE_FIELD_NAME             = "size";          \/\/ 2.0+$/;"	m	namespace:rosbag
+rosbag::START_TIME_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string START_TIME_FIELD_NAME       = "start_time";    \/\/ 2.0+$/;"	m	namespace:rosbag
+rosbag::Stream	/opt/ros/fuerte/include/rosbag/stream.h	/^class Stream$/;"	c	namespace:rosbag
+rosbag::Stream::Stream	/opt/ros/fuerte/include/rosbag/stream.h	/^    Stream(ChunkedFile* file);$/;"	p	class:rosbag::Stream	access:public	signature:(ChunkedFile* file)
+rosbag::Stream::advanceOffset	/opt/ros/fuerte/include/rosbag/stream.h	/^    void     advanceOffset(uint64_t nbytes);$/;"	p	class:rosbag::Stream	access:protected	signature:(uint64_t nbytes)
+rosbag::Stream::clearUnused	/opt/ros/fuerte/include/rosbag/stream.h	/^    void     clearUnused();$/;"	p	class:rosbag::Stream	access:protected	signature:()
+rosbag::Stream::decompress	/opt/ros/fuerte/include/rosbag/stream.h	/^    virtual void decompress(uint8_t* dest, unsigned int dest_len, uint8_t* source, unsigned int source_len) = 0;$/;"	p	class:rosbag::Stream	access:public	signature:(uint8_t* dest, unsigned int dest_len, uint8_t* source, unsigned int source_len)
+rosbag::Stream::file_	/opt/ros/fuerte/include/rosbag/stream.h	/^    ChunkedFile* file_;$/;"	m	class:rosbag::Stream	access:protected
+rosbag::Stream::getCompressedIn	/opt/ros/fuerte/include/rosbag/stream.h	/^    uint64_t getCompressedIn();$/;"	p	class:rosbag::Stream	access:protected	signature:()
+rosbag::Stream::getCompressionType	/opt/ros/fuerte/include/rosbag/stream.h	/^    virtual CompressionType getCompressionType() const = 0;$/;"	p	class:rosbag::Stream	access:public	signature:() const
+rosbag::Stream::getFilePointer	/opt/ros/fuerte/include/rosbag/stream.h	/^    FILE*    getFilePointer();$/;"	p	class:rosbag::Stream	access:protected	signature:()
+rosbag::Stream::getUnused	/opt/ros/fuerte/include/rosbag/stream.h	/^    char*    getUnused();$/;"	p	class:rosbag::Stream	access:protected	signature:()
+rosbag::Stream::getUnusedLength	/opt/ros/fuerte/include/rosbag/stream.h	/^    int      getUnusedLength();$/;"	p	class:rosbag::Stream	access:protected	signature:()
+rosbag::Stream::read	/opt/ros/fuerte/include/rosbag/stream.h	/^    virtual void read (void* ptr, size_t size) = 0;$/;"	p	class:rosbag::Stream	access:public	signature:(void* ptr, size_t size)
+rosbag::Stream::setCompressedIn	/opt/ros/fuerte/include/rosbag/stream.h	/^    void     setCompressedIn(uint64_t nbytes);$/;"	p	class:rosbag::Stream	access:protected	signature:(uint64_t nbytes)
+rosbag::Stream::setUnused	/opt/ros/fuerte/include/rosbag/stream.h	/^    void     setUnused(char* unused);$/;"	p	class:rosbag::Stream	access:protected	signature:(char* unused)
+rosbag::Stream::setUnusedLength	/opt/ros/fuerte/include/rosbag/stream.h	/^    void     setUnusedLength(int nUnused);$/;"	p	class:rosbag::Stream	access:protected	signature:(int nUnused)
+rosbag::Stream::startRead	/opt/ros/fuerte/include/rosbag/stream.h	/^    virtual void startRead();$/;"	p	class:rosbag::Stream	access:public	signature:()
+rosbag::Stream::startWrite	/opt/ros/fuerte/include/rosbag/stream.h	/^    virtual void startWrite();$/;"	p	class:rosbag::Stream	access:public	signature:()
+rosbag::Stream::stopRead	/opt/ros/fuerte/include/rosbag/stream.h	/^    virtual void stopRead();$/;"	p	class:rosbag::Stream	access:public	signature:()
+rosbag::Stream::stopWrite	/opt/ros/fuerte/include/rosbag/stream.h	/^    virtual void stopWrite();$/;"	p	class:rosbag::Stream	access:public	signature:()
+rosbag::Stream::write	/opt/ros/fuerte/include/rosbag/stream.h	/^    virtual void write(void* ptr, size_t size) = 0;$/;"	p	class:rosbag::Stream	access:public	signature:(void* ptr, size_t size)
+rosbag::Stream::~Stream	/opt/ros/fuerte/include/rosbag/stream.h	/^    virtual ~Stream();$/;"	p	class:rosbag::Stream	access:public	signature:()
+rosbag::StreamFactory	/opt/ros/fuerte/include/rosbag/stream.h	/^class StreamFactory$/;"	c	namespace:rosbag
+rosbag::StreamFactory::StreamFactory	/opt/ros/fuerte/include/rosbag/stream.h	/^    StreamFactory(ChunkedFile* file);$/;"	p	class:rosbag::StreamFactory	access:public	signature:(ChunkedFile* file)
+rosbag::StreamFactory::bz2_stream_	/opt/ros/fuerte/include/rosbag/stream.h	/^    boost::shared_ptr<Stream> bz2_stream_;$/;"	m	class:rosbag::StreamFactory	access:private
+rosbag::StreamFactory::getStream	/opt/ros/fuerte/include/rosbag/stream.h	/^    boost::shared_ptr<Stream> getStream(CompressionType type) const;$/;"	p	class:rosbag::StreamFactory	access:public	signature:(CompressionType type) const
+rosbag::StreamFactory::uncompressed_stream_	/opt/ros/fuerte/include/rosbag/stream.h	/^    boost::shared_ptr<Stream> uncompressed_stream_;$/;"	m	class:rosbag::StreamFactory	access:private
+rosbag::TIME_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string TIME_FIELD_NAME             = "time";          \/\/ 2.0+$/;"	m	namespace:rosbag
+rosbag::TOPIC_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string TOPIC_FIELD_NAME            = "topic";$/;"	m	namespace:rosbag
+rosbag::TYPE_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string TYPE_FIELD_NAME     = "type";          \/\/ <2.0$/;"	m	namespace:rosbag
+rosbag::TimePublisher	/opt/ros/fuerte/include/rosbag/player.h	/^class TimePublisher {$/;"	c	namespace:rosbag
+rosbag::TimePublisher::TimePublisher	/opt/ros/fuerte/include/rosbag/player.h	/^    TimePublisher();$/;"	p	class:rosbag::TimePublisher	access:public	signature:()
+rosbag::TimePublisher::current_	/opt/ros/fuerte/include/rosbag/player.h	/^    ros::Time current_;$/;"	m	class:rosbag::TimePublisher	access:private
+rosbag::TimePublisher::do_publish_	/opt/ros/fuerte/include/rosbag/player.h	/^    bool do_publish_;$/;"	m	class:rosbag::TimePublisher	access:private
+rosbag::TimePublisher::horizonReached	/opt/ros/fuerte/include/rosbag/player.h	/^    bool horizonReached();$/;"	p	class:rosbag::TimePublisher	access:public	signature:()
+rosbag::TimePublisher::horizon_	/opt/ros/fuerte/include/rosbag/player.h	/^    ros::Time horizon_;$/;"	m	class:rosbag::TimePublisher	access:private
+rosbag::TimePublisher::next_pub_	/opt/ros/fuerte/include/rosbag/player.h	/^    ros::WallTime next_pub_;$/;"	m	class:rosbag::TimePublisher	access:private
+rosbag::TimePublisher::node_handle_	/opt/ros/fuerte/include/rosbag/player.h	/^    ros::NodeHandle node_handle_;$/;"	m	class:rosbag::TimePublisher	access:private
+rosbag::TimePublisher::publish_frequency_	/opt/ros/fuerte/include/rosbag/player.h	/^    double publish_frequency_;$/;"	m	class:rosbag::TimePublisher	access:private
+rosbag::TimePublisher::ros::getTime	/opt/ros/fuerte/include/rosbag/player.h	/^    ros::Time const& getTime() const;$/;"	p	class:rosbag::TimePublisher::ros	access:public	signature:() const
+rosbag::TimePublisher::runClock	/opt/ros/fuerte/include/rosbag/player.h	/^    void runClock(const ros::WallDuration& duration);$/;"	p	class:rosbag::TimePublisher	access:public	signature:(const ros::WallDuration& duration)
+rosbag::TimePublisher::runStalledClock	/opt/ros/fuerte/include/rosbag/player.h	/^    void runStalledClock(const ros::WallDuration& duration);$/;"	p	class:rosbag::TimePublisher	access:public	signature:(const ros::WallDuration& duration)
+rosbag::TimePublisher::setHorizon	/opt/ros/fuerte/include/rosbag/player.h	/^    void setHorizon(const ros::Time& horizon);$/;"	p	class:rosbag::TimePublisher	access:public	signature:(const ros::Time& horizon)
+rosbag::TimePublisher::setPublishFrequency	/opt/ros/fuerte/include/rosbag/player.h	/^    void setPublishFrequency(double publish_frequency);$/;"	p	class:rosbag::TimePublisher	access:public	signature:(double publish_frequency)
+rosbag::TimePublisher::setTime	/opt/ros/fuerte/include/rosbag/player.h	/^    void setTime(const ros::Time& time);$/;"	p	class:rosbag::TimePublisher	access:public	signature:(const ros::Time& time)
+rosbag::TimePublisher::setTimeScale	/opt/ros/fuerte/include/rosbag/player.h	/^    void setTimeScale(double time_scale);$/;"	p	class:rosbag::TimePublisher	access:public	signature:(double time_scale)
+rosbag::TimePublisher::setWCHorizon	/opt/ros/fuerte/include/rosbag/player.h	/^    void setWCHorizon(const ros::WallTime& horizon);$/;"	p	class:rosbag::TimePublisher	access:public	signature:(const ros::WallTime& horizon)
+rosbag::TimePublisher::stepClock	/opt/ros/fuerte/include/rosbag/player.h	/^    void stepClock();$/;"	p	class:rosbag::TimePublisher	access:public	signature:()
+rosbag::TimePublisher::time_pub_	/opt/ros/fuerte/include/rosbag/player.h	/^    ros::Publisher time_pub_;$/;"	m	class:rosbag::TimePublisher	access:private
+rosbag::TimePublisher::time_scale_	/opt/ros/fuerte/include/rosbag/player.h	/^    double time_scale_;$/;"	m	class:rosbag::TimePublisher	access:private
+rosbag::TimePublisher::wall_step_	/opt/ros/fuerte/include/rosbag/player.h	/^    ros::WallDuration wall_step_;$/;"	m	class:rosbag::TimePublisher	access:private
+rosbag::TimePublisher::wc_horizon_	/opt/ros/fuerte/include/rosbag/player.h	/^    ros::WallTime wc_horizon_;$/;"	m	class:rosbag::TimePublisher	access:private
+rosbag::TimeTranslator	/opt/ros/fuerte/include/rosbag/time_translator.h	/^class TimeTranslator$/;"	c	namespace:rosbag
+rosbag::TimeTranslator::TimeTranslator	/opt/ros/fuerte/include/rosbag/time_translator.h	/^    TimeTranslator();$/;"	p	class:rosbag::TimeTranslator	access:public	signature:()
+rosbag::TimeTranslator::real_start_	/opt/ros/fuerte/include/rosbag/time_translator.h	/^    ros::Time real_start_;$/;"	m	class:rosbag::TimeTranslator	access:private
+rosbag::TimeTranslator::setRealStartTime	/opt/ros/fuerte/include/rosbag/time_translator.h	/^    void      setRealStartTime(ros::Time const& t);$/;"	p	class:rosbag::TimeTranslator	access:public	signature:(ros::Time const& t)
+rosbag::TimeTranslator::setTimeScale	/opt/ros/fuerte/include/rosbag/time_translator.h	/^    void      setTimeScale(double const& s);$/;"	p	class:rosbag::TimeTranslator	access:public	signature:(double const& s)
+rosbag::TimeTranslator::setTranslatedStartTime	/opt/ros/fuerte/include/rosbag/time_translator.h	/^    void      setTranslatedStartTime(ros::Time const& t);  \/\/!< Increments the translated start time by shift.  Useful for pausing.$/;"	p	class:rosbag::TimeTranslator	access:public	signature:(ros::Time const& t)
+rosbag::TimeTranslator::shift	/opt/ros/fuerte/include/rosbag/time_translator.h	/^    void      shift(ros::Duration const& d);               \/\/!< Increments the translated start time by shift.  Useful for pausing.$/;"	p	class:rosbag::TimeTranslator	access:public	signature:(ros::Duration const& d)
+rosbag::TimeTranslator::time_scale_	/opt/ros/fuerte/include/rosbag/time_translator.h	/^    double    time_scale_;$/;"	m	class:rosbag::TimeTranslator	access:private
+rosbag::TimeTranslator::translate	/opt/ros/fuerte/include/rosbag/time_translator.h	/^    ros::Time translate(ros::Time const& t);$/;"	p	class:rosbag::TimeTranslator	access:public	signature:(ros::Time const& t)
+rosbag::TimeTranslator::translated_start_	/opt/ros/fuerte/include/rosbag/time_translator.h	/^    ros::Time translated_start_;$/;"	m	class:rosbag::TimeTranslator	access:private
+rosbag::TopicQuery	/opt/ros/fuerte/include/rosbag/query.h	/^class TopicQuery$/;"	c	namespace:rosbag
+rosbag::TopicQuery::TopicQuery	/opt/ros/fuerte/include/rosbag/query.h	/^    TopicQuery(std::string const& topic);$/;"	p	class:rosbag::TopicQuery	access:public	signature:(std::string const& topic)
+rosbag::TopicQuery::TopicQuery	/opt/ros/fuerte/include/rosbag/query.h	/^    TopicQuery(std::vector<std::string> const& topics);$/;"	p	class:rosbag::TopicQuery	access:public	signature:(std::vector<std::string> const& topics)
+rosbag::TopicQuery::operator ()	/opt/ros/fuerte/include/rosbag/query.h	/^    bool operator()(ConnectionInfo const*) const;$/;"	p	class:rosbag::TopicQuery	access:public	signature:(ConnectionInfo const*) const
+rosbag::TopicQuery::topics_	/opt/ros/fuerte/include/rosbag/query.h	/^    std::vector<std::string> topics_;$/;"	m	class:rosbag::TopicQuery	access:private
+rosbag::TypeQuery	/opt/ros/fuerte/include/rosbag/query.h	/^class TypeQuery$/;"	c	namespace:rosbag
+rosbag::TypeQuery::TypeQuery	/opt/ros/fuerte/include/rosbag/query.h	/^    TypeQuery(std::string const& type);$/;"	p	class:rosbag::TypeQuery	access:public	signature:(std::string const& type)
+rosbag::TypeQuery::TypeQuery	/opt/ros/fuerte/include/rosbag/query.h	/^    TypeQuery(std::vector<std::string> const& types);$/;"	p	class:rosbag::TypeQuery	access:public	signature:(std::vector<std::string> const& types)
+rosbag::TypeQuery::operator ()	/opt/ros/fuerte/include/rosbag/query.h	/^    bool operator()(ConnectionInfo const*) const;$/;"	p	class:rosbag::TypeQuery	access:public	signature:(ConnectionInfo const*) const
+rosbag::TypeQuery::types_	/opt/ros/fuerte/include/rosbag/query.h	/^    std::vector<std::string> types_;$/;"	m	class:rosbag::TypeQuery	access:private
+rosbag::UncompressedStream	/opt/ros/fuerte/include/rosbag/stream.h	/^class UncompressedStream : public Stream$/;"	c	namespace:rosbag	inherits:Stream
+rosbag::UncompressedStream::UncompressedStream	/opt/ros/fuerte/include/rosbag/stream.h	/^    UncompressedStream(ChunkedFile* file);$/;"	p	class:rosbag::UncompressedStream	access:public	signature:(ChunkedFile* file)
+rosbag::UncompressedStream::decompress	/opt/ros/fuerte/include/rosbag/stream.h	/^    void decompress(uint8_t* dest, unsigned int dest_len, uint8_t* source, unsigned int source_len);$/;"	p	class:rosbag::UncompressedStream	access:public	signature:(uint8_t* dest, unsigned int dest_len, uint8_t* source, unsigned int source_len)
+rosbag::UncompressedStream::getCompressionType	/opt/ros/fuerte/include/rosbag/stream.h	/^    CompressionType getCompressionType() const;$/;"	p	class:rosbag::UncompressedStream	access:public	signature:() const
+rosbag::UncompressedStream::read	/opt/ros/fuerte/include/rosbag/stream.h	/^    void read(void* ptr, size_t size);$/;"	p	class:rosbag::UncompressedStream	access:public	signature:(void* ptr, size_t size)
+rosbag::UncompressedStream::write	/opt/ros/fuerte/include/rosbag/stream.h	/^    void write(void* ptr, size_t size);$/;"	p	class:rosbag::UncompressedStream	access:public	signature:(void* ptr, size_t size)
+rosbag::VERSION	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string VERSION = "2.0";$/;"	m	namespace:rosbag
+rosbag::VER_FIELD_NAME	/opt/ros/fuerte/include/rosbag/constants.h	/^static const std::string VER_FIELD_NAME              = "ver";$/;"	m	namespace:rosbag
+rosbag::View	/opt/ros/fuerte/include/rosbag/view.h	/^class View$/;"	c	namespace:rosbag
+rosbag::View::TrueQuery	/opt/ros/fuerte/include/rosbag/view.h	/^    struct TrueQuery {$/;"	s	class:rosbag::View	access:public
+rosbag::View::TrueQuery::operator ()	/opt/ros/fuerte/include/rosbag/view.h	/^    	bool operator()(ConnectionInfo const*) const { return true; };$/;"	f	struct:rosbag::View::TrueQuery	access:public	signature:(ConnectionInfo const*) const
+rosbag::View::View	/opt/ros/fuerte/include/rosbag/view.h	/^    View(Bag const& bag, boost::function<bool(ConnectionInfo const*)> query,$/;"	p	class:rosbag::View	access:public	signature:(Bag const& bag, boost::function<bool(ConnectionInfo const*)> query, ros::Time const& start_time = ros::TIME_MIN, ros::Time const& end_time = ros::TIME_MAX, bool const& reduce_overlap = false)
+rosbag::View::View	/opt/ros/fuerte/include/rosbag/view.h	/^    View(Bag const& bag, ros::Time const& start_time = ros::TIME_MIN, ros::Time const& end_time = ros::TIME_MAX, bool const& reduce_overlap = false);$/;"	p	class:rosbag::View	access:public	signature:(Bag const& bag, ros::Time const& start_time = ros::TIME_MIN, ros::Time const& end_time = ros::TIME_MAX, bool const& reduce_overlap = false)
+rosbag::View::View	/opt/ros/fuerte/include/rosbag/view.h	/^    View(View const& view);$/;"	p	class:rosbag::View	access:private	signature:(View const& view)
+rosbag::View::View	/opt/ros/fuerte/include/rosbag/view.h	/^    View(bool const& reduce_overlap = false);$/;"	p	class:rosbag::View	access:public	signature:(bool const& reduce_overlap = false)
+rosbag::View::addQuery	/opt/ros/fuerte/include/rosbag/view.h	/^    void addQuery(Bag const& bag, boost::function<bool(ConnectionInfo const*)> query,$/;"	p	class:rosbag::View	access:public	signature:(Bag const& bag, boost::function<bool(ConnectionInfo const*)> query, ros::Time const& start_time = ros::TIME_MIN, ros::Time const& end_time = ros::TIME_MAX)
+rosbag::View::addQuery	/opt/ros/fuerte/include/rosbag/view.h	/^    void addQuery(Bag const& bag, ros::Time const& start_time = ros::TIME_MIN, ros::Time const& end_time = ros::TIME_MAX);$/;"	p	class:rosbag::View	access:public	signature:(Bag const& bag, ros::Time const& start_time = ros::TIME_MIN, ros::Time const& end_time = ros::TIME_MAX)
+rosbag::View::begin	/opt/ros/fuerte/include/rosbag/view.h	/^    iterator begin();$/;"	p	class:rosbag::View	access:public	signature:()
+rosbag::View::const_iterator	/opt/ros/fuerte/include/rosbag/view.h	/^    typedef iterator const_iterator;$/;"	t	class:rosbag::View	access:public
+rosbag::View::end	/opt/ros/fuerte/include/rosbag/view.h	/^    iterator end();$/;"	p	class:rosbag::View	access:public	signature:()
+rosbag::View::getBeginTime	/opt/ros/fuerte/include/rosbag/view.h	/^    ros::Time getBeginTime();$/;"	p	class:rosbag::View	access:public	signature:()
+rosbag::View::getConnections	/opt/ros/fuerte/include/rosbag/view.h	/^    std::vector<const ConnectionInfo*> getConnections();$/;"	p	class:rosbag::View	access:public	signature:()
+rosbag::View::getEndTime	/opt/ros/fuerte/include/rosbag/view.h	/^    ros::Time getEndTime();$/;"	p	class:rosbag::View	access:public	signature:()
+rosbag::View::iterator	/opt/ros/fuerte/include/rosbag/view.h	/^    class iterator : public boost::iterator_facade<iterator,$/;"	c	class:rosbag::View	inherits:boost::iterator_facade	access:public
+rosbag::View::iterator::dereference	/opt/ros/fuerte/include/rosbag/view.h	/^        MessageInstance& dereference() const;$/;"	p	class:rosbag::View::iterator	access:private	signature:() const
+rosbag::View::iterator::equal	/opt/ros/fuerte/include/rosbag/view.h	/^        bool equal(iterator const& other) const;$/;"	p	class:rosbag::View::iterator	access:private	signature:(iterator const& other) const
+rosbag::View::iterator::increment	/opt/ros/fuerte/include/rosbag/view.h	/^        void increment();$/;"	p	class:rosbag::View::iterator	access:private	signature:()
+rosbag::View::iterator::iterator	/opt/ros/fuerte/include/rosbag/view.h	/^        iterator();$/;"	p	class:rosbag::View::iterator	access:public	signature:()
+rosbag::View::iterator::iterator	/opt/ros/fuerte/include/rosbag/view.h	/^        iterator(View* view, bool end = false);$/;"	p	class:rosbag::View::iterator	access:protected	signature:(View* view, bool end = false)
+rosbag::View::iterator::iterator	/opt/ros/fuerte/include/rosbag/view.h	/^        iterator(iterator const& i);$/;"	p	class:rosbag::View::iterator	access:public	signature:(iterator const& i)
+rosbag::View::iterator::iters_	/opt/ros/fuerte/include/rosbag/view.h	/^        std::vector<ViewIterHelper> iters_;$/;"	m	class:rosbag::View::iterator	access:private
+rosbag::View::iterator::message_instance_	/opt/ros/fuerte/include/rosbag/view.h	/^        mutable MessageInstance* message_instance_;$/;"	m	class:rosbag::View::iterator	access:private
+rosbag::View::iterator::populate	/opt/ros/fuerte/include/rosbag/view.h	/^		void populate();$/;"	p	class:rosbag::View::iterator	access:private	signature:()
+rosbag::View::iterator::populateSeek	/opt/ros/fuerte/include/rosbag/view.h	/^		void populateSeek(std::multiset<IndexEntry>::const_iterator iter);$/;"	p	class:rosbag::View::iterator	access:private	signature:(std::multiset<IndexEntry>::const_iterator iter)
+rosbag::View::iterator::view_	/opt/ros/fuerte/include/rosbag/view.h	/^        View* view_;$/;"	m	class:rosbag::View::iterator	access:private
+rosbag::View::iterator::view_revision_	/opt/ros/fuerte/include/rosbag/view.h	/^        uint32_t view_revision_;$/;"	m	class:rosbag::View::iterator	access:private
+rosbag::View::iterator::~iterator	/opt/ros/fuerte/include/rosbag/view.h	/^        ~iterator();$/;"	p	class:rosbag::View::iterator	access:public	signature:()
+rosbag::View::newMessageInstance	/opt/ros/fuerte/include/rosbag/view.h	/^    MessageInstance* newMessageInstance(ConnectionInfo const* connection_info, IndexEntry const& index, Bag const& bag);$/;"	p	class:rosbag::View	access:protected	signature:(ConnectionInfo const* connection_info, IndexEntry const& index, Bag const& bag)
+rosbag::View::operator =	/opt/ros/fuerte/include/rosbag/view.h	/^    View& operator=(View const& view);$/;"	p	class:rosbag::View	access:private	signature:(View const& view)
+rosbag::View::queries_	/opt/ros/fuerte/include/rosbag/view.h	/^    std::vector<BagQuery*>     queries_;$/;"	m	class:rosbag::View	access:protected
+rosbag::View::ranges_	/opt/ros/fuerte/include/rosbag/view.h	/^    std::vector<MessageRange*> ranges_;$/;"	m	class:rosbag::View	access:protected
+rosbag::View::reduce_overlap_	/opt/ros/fuerte/include/rosbag/view.h	/^    bool reduce_overlap_;$/;"	m	class:rosbag::View	access:protected
+rosbag::View::size	/opt/ros/fuerte/include/rosbag/view.h	/^    uint32_t size();$/;"	p	class:rosbag::View	access:public	signature:()
+rosbag::View::size_cache_	/opt/ros/fuerte/include/rosbag/view.h	/^    uint32_t size_cache_;$/;"	m	class:rosbag::View	access:protected
+rosbag::View::size_revision_	/opt/ros/fuerte/include/rosbag/view.h	/^    uint32_t size_revision_;$/;"	m	class:rosbag::View	access:protected
+rosbag::View::update	/opt/ros/fuerte/include/rosbag/view.h	/^    void update();$/;"	p	class:rosbag::View	access:protected	signature:()
+rosbag::View::updateQueries	/opt/ros/fuerte/include/rosbag/view.h	/^    void updateQueries(BagQuery* q);$/;"	p	class:rosbag::View	access:protected	signature:(BagQuery* q)
+rosbag::View::view_revision_	/opt/ros/fuerte/include/rosbag/view.h	/^    uint32_t                   view_revision_;$/;"	m	class:rosbag::View	access:protected
+rosbag::View::~View	/opt/ros/fuerte/include/rosbag/view.h	/^    ~View();$/;"	p	class:rosbag::View	access:public	signature:()
+rosbag::ViewIterHelper	/opt/ros/fuerte/include/rosbag/query.h	/^struct ViewIterHelper$/;"	s	namespace:rosbag
+rosbag::ViewIterHelper::ViewIterHelper	/opt/ros/fuerte/include/rosbag/query.h	/^    ViewIterHelper(std::multiset<IndexEntry>::const_iterator _iter, MessageRange const* _range);$/;"	p	struct:rosbag::ViewIterHelper	access:public	signature:(std::multiset<IndexEntry>::const_iterator _iter, MessageRange const* _range)
+rosbag::ViewIterHelper::iter	/opt/ros/fuerte/include/rosbag/query.h	/^    std::multiset<IndexEntry>::const_iterator iter;$/;"	m	struct:rosbag::ViewIterHelper	access:public
+rosbag::ViewIterHelper::range	/opt/ros/fuerte/include/rosbag/query.h	/^    MessageRange const* range;  \/\/!< pointer to vector of ranges in View$/;"	m	struct:rosbag::ViewIterHelper	access:public
+rosbag::ViewIterHelperCompare	/opt/ros/fuerte/include/rosbag/query.h	/^struct ViewIterHelperCompare$/;"	s	namespace:rosbag
+rosbag::ViewIterHelperCompare::operator ()	/opt/ros/fuerte/include/rosbag/query.h	/^    bool operator()(ViewIterHelper const& a, ViewIterHelper const& b);$/;"	p	struct:rosbag::ViewIterHelperCompare	access:public	signature:(ViewIterHelper const& a, ViewIterHelper const& b)
+rosbag::bagmode	/opt/ros/fuerte/include/rosbag/bag.h	/^namespace bagmode$/;"	n	namespace:rosbag
+rosbag::bagmode::Append	/opt/ros/fuerte/include/rosbag/bag.h	/^        Append  = 4$/;"	e	enum:rosbag::bagmode::BagMode
+rosbag::bagmode::BagMode	/opt/ros/fuerte/include/rosbag/bag.h	/^    enum BagMode$/;"	g	namespace:rosbag::bagmode
+rosbag::bagmode::Read	/opt/ros/fuerte/include/rosbag/bag.h	/^        Read    = 2,$/;"	e	enum:rosbag::bagmode::BagMode
+rosbag::bagmode::Write	/opt/ros/fuerte/include/rosbag/bag.h	/^        Write   = 1,$/;"	e	enum:rosbag::bagmode::BagMode
+rosbag::compression	/opt/ros/fuerte/include/rosbag/stream.h	/^namespace compression$/;"	n	namespace:rosbag
+rosbag::compression::BZ2	/opt/ros/fuerte/include/rosbag/stream.h	/^        BZ2          = 1,$/;"	e	enum:rosbag::compression::CompressionType
+rosbag::compression::CompressionType	/opt/ros/fuerte/include/rosbag/stream.h	/^    enum CompressionType$/;"	g	namespace:rosbag::compression
+rosbag::compression::Uncompressed	/opt/ros/fuerte/include/rosbag/stream.h	/^        Uncompressed = 0,$/;"	e	enum:rosbag::compression::CompressionType
+rosbag::createAdvertiseOptions	/opt/ros/fuerte/include/rosbag/message_instance.h	/^ros::AdvertiseOptions createAdvertiseOptions(MessageInstance const& msg, uint32_t queue_size);$/;"	p	namespace:rosbag	signature:(MessageInstance const& msg, uint32_t queue_size)
+rosbag::createAdvertiseOptions	/opt/ros/fuerte/include/rosbag/structures.h	/^ros::AdvertiseOptions createAdvertiseOptions(const ConnectionInfo* c, uint32_t queue_size);$/;"	p	namespace:rosbag	signature:(const ConnectionInfo* c, uint32_t queue_size)
+run	/opt/ros/fuerte/include/rosbag/recorder.h	/^    int run();$/;"	p	class:rosbag::Recorder	access:public	signature:()
+runClock	/opt/ros/fuerte/include/rosbag/player.h	/^    void runClock(const ros::WallDuration& duration);$/;"	p	class:rosbag::TimePublisher	access:public	signature:(const ros::WallDuration& duration)
+runStalledClock	/opt/ros/fuerte/include/rosbag/player.h	/^    void runStalledClock(const ros::WallDuration& duration);$/;"	p	class:rosbag::TimePublisher	access:public	signature:(const ros::WallDuration& duration)
+scheduledCheckDisk	/opt/ros/fuerte/include/rosbag/recorder.h	/^    bool scheduledCheckDisk();$/;"	p	class:rosbag::Recorder	access:private	signature:()
+seek	/opt/ros/fuerte/include/rosbag/bag.h	/^    void seek(uint64_t pos, int origin = std::ios_base::beg) const;$/;"	p	class:rosbag::Bag	access:private	signature:(uint64_t pos, int origin = std::ios_base::beg) const
+seek	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    void        seek(uint64_t offset, int origin = std::ios_base::beg); \/\/!< seek to given offset from origin$/;"	p	class:rosbag::ChunkedFile	access:public	signature:(uint64_t offset, int origin = std::ios_base::beg)
+serialization	/opt/ros/fuerte/include/rosbag/message_instance.h	/^namespace serialization$/;"	n	namespace:ros
+serializedLength	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    inline static uint32_t serializedLength(const rosbag::MessageInstance& m) {$/;"	f	struct:ros::serialization::Serializer	access:public	signature:(const rosbag::MessageInstance& m)
+setChunkThreshold	/opt/ros/fuerte/include/rosbag/bag.h	/^    void            setChunkThreshold(uint32_t chunk_threshold);  \/\/!< Set the threshold for creating new chunks$/;"	p	class:rosbag::Bag	access:public	signature:(uint32_t chunk_threshold)
+setCompressedIn	/opt/ros/fuerte/include/rosbag/stream.h	/^    void     setCompressedIn(uint64_t nbytes);$/;"	p	class:rosbag::Stream	access:protected	signature:(uint64_t nbytes)
+setCompression	/opt/ros/fuerte/include/rosbag/bag.h	/^    void            setCompression(CompressionType compression);  \/\/!< Set the compression method to use for writing chunks$/;"	p	class:rosbag::Bag	access:public	signature:(CompressionType compression)
+setHorizon	/opt/ros/fuerte/include/rosbag/player.h	/^    void setHorizon(const ros::Time& horizon);$/;"	p	class:rosbag::TimePublisher	access:public	signature:(const ros::Time& horizon)
+setPublishFrequency	/opt/ros/fuerte/include/rosbag/player.h	/^    void setPublishFrequency(double publish_frequency);$/;"	p	class:rosbag::TimePublisher	access:public	signature:(double publish_frequency)
+setReadMode	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    void        setReadMode(CompressionType type);$/;"	p	class:rosbag::ChunkedFile	access:public	signature:(CompressionType type)
+setRealStartTime	/opt/ros/fuerte/include/rosbag/time_translator.h	/^    void      setRealStartTime(ros::Time const& t);$/;"	p	class:rosbag::TimeTranslator	access:public	signature:(ros::Time const& t)
+setSize	/opt/ros/fuerte/include/rosbag/buffer.h	/^    void setSize(uint32_t size);$/;"	p	class:rosbag::Buffer	access:public	signature:(uint32_t size)
+setTime	/opt/ros/fuerte/include/rosbag/player.h	/^    void setTime(const ros::Time& time);$/;"	p	class:rosbag::TimePublisher	access:public	signature:(const ros::Time& time)
+setTimeScale	/opt/ros/fuerte/include/rosbag/player.h	/^    void setTimeScale(double time_scale);$/;"	p	class:rosbag::TimePublisher	access:public	signature:(double time_scale)
+setTimeScale	/opt/ros/fuerte/include/rosbag/time_translator.h	/^    void      setTimeScale(double const& s);$/;"	p	class:rosbag::TimeTranslator	access:public	signature:(double const& s)
+setTranslatedStartTime	/opt/ros/fuerte/include/rosbag/time_translator.h	/^    void      setTranslatedStartTime(ros::Time const& t);  \/\/!< Increments the translated start time by shift.  Useful for pausing.$/;"	p	class:rosbag::TimeTranslator	access:public	signature:(ros::Time const& t)
+setUnused	/opt/ros/fuerte/include/rosbag/stream.h	/^    void     setUnused(char* unused);$/;"	p	class:rosbag::Stream	access:protected	signature:(char* unused)
+setUnusedLength	/opt/ros/fuerte/include/rosbag/stream.h	/^    void     setUnusedLength(int nUnused);$/;"	p	class:rosbag::Stream	access:protected	signature:(int nUnused)
+setWCHorizon	/opt/ros/fuerte/include/rosbag/player.h	/^    void setWCHorizon(const ros::WallTime& horizon);$/;"	p	class:rosbag::TimePublisher	access:public	signature:(const ros::WallTime& horizon)
+setWriteMode	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    void        setWriteMode(CompressionType type);$/;"	p	class:rosbag::ChunkedFile	access:public	signature:(CompressionType type)
+setupTerminal	/opt/ros/fuerte/include/rosbag/player.h	/^    void setupTerminal();$/;"	p	class:rosbag::Player	access:private	signature:()
+shift	/opt/ros/fuerte/include/rosbag/time_translator.h	/^    void      shift(ros::Duration const& d);               \/\/!< Increments the translated start time by shift.  Useful for pausing.$/;"	p	class:rosbag::TimeTranslator	access:public	signature:(ros::Duration const& d)
+shouldSubscribeToTopic	/opt/ros/fuerte/include/rosbag/recorder.h	/^    bool shouldSubscribeToTopic(std::string const& topic, bool from_node = false);$/;"	p	class:rosbag::Recorder	access:private	signature:(std::string const& topic, bool from_node = false)
+size	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    uint32_t size() const;$/;"	p	class:rosbag::MessageInstance	access:public	signature:() const
+size	/opt/ros/fuerte/include/rosbag/view.h	/^    uint32_t size();$/;"	p	class:rosbag::View	access:public	signature:()
+size_	/opt/ros/fuerte/include/rosbag/buffer.h	/^    uint32_t size_;$/;"	m	class:rosbag::Buffer	access:private
+size_cache_	/opt/ros/fuerte/include/rosbag/view.h	/^    uint32_t size_cache_;$/;"	m	class:rosbag::View	access:protected
+size_revision_	/opt/ros/fuerte/include/rosbag/view.h	/^    uint32_t size_revision_;$/;"	m	class:rosbag::View	access:protected
+skip_empty	/opt/ros/fuerte/include/rosbag/player.h	/^    ros::Duration skip_empty;$/;"	m	struct:rosbag::PlayerOptions	access:public
+snapshot	/opt/ros/fuerte/include/rosbag/recorder.h	/^    bool            snapshot;$/;"	m	struct:rosbag::RecorderOptions	access:public
+snapshotTrigger	/opt/ros/fuerte/include/rosbag/recorder.h	/^    void snapshotTrigger(std_msgs::Empty::ConstPtr trigger);$/;"	p	class:rosbag::Recorder	access:private	signature:(std_msgs::Empty::ConstPtr trigger)
+split	/opt/ros/fuerte/include/rosbag/recorder.h	/^    bool            split;$/;"	m	struct:rosbag::RecorderOptions	access:public
+split_count_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    uint64_t                      split_count_;          \/\/!< split count$/;"	m	class:rosbag::Recorder	access:private
+startRead	/opt/ros/fuerte/include/rosbag/stream.h	/^    virtual void startRead();$/;"	p	class:rosbag::Stream	access:public	signature:()
+startRead	/opt/ros/fuerte/include/rosbag/stream.h	/^    void startRead();$/;"	p	class:rosbag::BZ2Stream	access:public	signature:()
+startReadingVersion102	/opt/ros/fuerte/include/rosbag/bag.h	/^    void startReadingVersion102();$/;"	p	class:rosbag::Bag	access:private	signature:()
+startReadingVersion200	/opt/ros/fuerte/include/rosbag/bag.h	/^    void startReadingVersion200();$/;"	p	class:rosbag::Bag	access:private	signature:()
+startWrite	/opt/ros/fuerte/include/rosbag/stream.h	/^    virtual void startWrite();$/;"	p	class:rosbag::Stream	access:public	signature:()
+startWrite	/opt/ros/fuerte/include/rosbag/stream.h	/^    void startWrite();$/;"	p	class:rosbag::BZ2Stream	access:public	signature:()
+startWriting	/opt/ros/fuerte/include/rosbag/bag.h	/^    void startWriting();$/;"	p	class:rosbag::Bag	access:private	signature:()
+startWriting	/opt/ros/fuerte/include/rosbag/recorder.h	/^    void startWriting();$/;"	p	class:rosbag::Recorder	access:private	signature:()
+startWritingChunk	/opt/ros/fuerte/include/rosbag/bag.h	/^    void startWritingChunk(ros::Time time);$/;"	p	class:rosbag::Bag	access:private	signature:(ros::Time time)
+start_paused	/opt/ros/fuerte/include/rosbag/player.h	/^    bool     start_paused;$/;"	m	struct:rosbag::PlayerOptions	access:public
+start_time	/opt/ros/fuerte/include/rosbag/structures.h	/^    ros::Time   start_time;    \/\/! earliest timestamp of a message in the chunk$/;"	m	struct:rosbag::ChunkInfo	access:public
+start_time_	/opt/ros/fuerte/include/rosbag/player.h	/^    ros::Time start_time_;$/;"	m	class:rosbag::Player	access:private
+start_time_	/opt/ros/fuerte/include/rosbag/query.h	/^    ros::Time start_time_;$/;"	m	class:rosbag::Query	access:private
+start_time_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    ros::Time                     start_time_;$/;"	m	class:rosbag::Recorder	access:private
+stdin_fdset_	/opt/ros/fuerte/include/rosbag/player.h	/^    fd_set  stdin_fdset_;$/;"	m	class:rosbag::Player	access:private
+stepClock	/opt/ros/fuerte/include/rosbag/player.h	/^    void stepClock();$/;"	p	class:rosbag::TimePublisher	access:public	signature:()
+stopRead	/opt/ros/fuerte/include/rosbag/stream.h	/^    virtual void stopRead();$/;"	p	class:rosbag::Stream	access:public	signature:()
+stopRead	/opt/ros/fuerte/include/rosbag/stream.h	/^    void stopRead();$/;"	p	class:rosbag::BZ2Stream	access:public	signature:()
+stopWrite	/opt/ros/fuerte/include/rosbag/stream.h	/^    virtual void stopWrite();$/;"	p	class:rosbag::Stream	access:public	signature:()
+stopWrite	/opt/ros/fuerte/include/rosbag/stream.h	/^    void stopWrite();$/;"	p	class:rosbag::BZ2Stream	access:public	signature:()
+stopWriting	/opt/ros/fuerte/include/rosbag/bag.h	/^    void stopWriting();$/;"	p	class:rosbag::Bag	access:private	signature:()
+stopWriting	/opt/ros/fuerte/include/rosbag/recorder.h	/^    void stopWriting();$/;"	p	class:rosbag::Recorder	access:private	signature:()
+stopWritingChunk	/opt/ros/fuerte/include/rosbag/bag.h	/^    void stopWritingChunk();$/;"	p	class:rosbag::Bag	access:private	signature:()
+stream_factory_	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    boost::shared_ptr<StreamFactory> stream_factory_;$/;"	m	class:rosbag::ChunkedFile	access:private
+subscribe	/opt/ros/fuerte/include/rosbag/recorder.h	/^    boost::shared_ptr<ros::Subscriber> subscribe(std::string const& topic);$/;"	p	class:rosbag::Recorder	access:public	signature:(std::string const& topic)
+target_filename_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    std::string                   target_filename_;$/;"	m	class:rosbag::Recorder	access:private
+terminal_modified_	/opt/ros/fuerte/include/rosbag/player.h	/^    bool    terminal_modified_;$/;"	m	class:rosbag::Player	access:private
+time	/opt/ros/fuerte/include/rosbag/player.h	/^    float    time;$/;"	m	struct:rosbag::PlayerOptions	access:public
+time	/opt/ros/fuerte/include/rosbag/recorder.h	/^    ros::Time                           time;$/;"	m	class:rosbag::OutgoingMessage	access:public
+time	/opt/ros/fuerte/include/rosbag/recorder.h	/^    ros::Time                    time;$/;"	m	class:rosbag::OutgoingQueue	access:public
+time	/opt/ros/fuerte/include/rosbag/structures.h	/^    ros::Time time;            \/\/! timestamp of the message$/;"	m	struct:rosbag::IndexEntry	access:public
+timeToStr	/opt/ros/fuerte/include/rosbag/recorder.h	/^    static std::string timeToStr(T ros_t);$/;"	p	class:rosbag::Recorder	access:private	signature:(T ros_t)
+time_pub_	/opt/ros/fuerte/include/rosbag/player.h	/^    ros::Publisher time_pub_;$/;"	m	class:rosbag::TimePublisher	access:private
+time_publisher_	/opt/ros/fuerte/include/rosbag/player.h	/^    TimePublisher time_publisher_;$/;"	m	class:rosbag::Player	access:private
+time_scale	/opt/ros/fuerte/include/rosbag/player.h	/^    double   time_scale;$/;"	m	struct:rosbag::PlayerOptions	access:public
+time_scale_	/opt/ros/fuerte/include/rosbag/player.h	/^    double time_scale_;$/;"	m	class:rosbag::TimePublisher	access:private
+time_scale_	/opt/ros/fuerte/include/rosbag/time_translator.h	/^    double    time_scale_;$/;"	m	class:rosbag::TimeTranslator	access:private
+time_translator_	/opt/ros/fuerte/include/rosbag/player.h	/^    TimeTranslator time_translator_;$/;"	m	class:rosbag::Player	access:private
+toHeaderString	/opt/ros/fuerte/include/rosbag/bag.h	/^    std::string toHeaderString(T const* field) const;$/;"	p	class:rosbag::Bag	access:private	signature:(T const* field) const
+toHeaderString	/opt/ros/fuerte/include/rosbag/bag.h	/^    std::string toHeaderString(ros::Time const* field) const;$/;"	p	class:rosbag::Bag	access:private	signature:(ros::Time const* field) const
+toHeaderString	/opt/ros/fuerte/include/rosbag/bag.h	/^std::string Bag::toHeaderString(T const* field) const {$/;"	f	class:rosbag::Bag	signature:(T const* field) const
+topic	/opt/ros/fuerte/include/rosbag/recorder.h	/^    std::string                         topic;$/;"	m	class:rosbag::OutgoingMessage	access:public
+topic	/opt/ros/fuerte/include/rosbag/structures.h	/^    std::string topic;$/;"	m	struct:rosbag::ConnectionInfo	access:public
+topic_connection_ids_	/opt/ros/fuerte/include/rosbag/bag.h	/^    std::map<std::string, uint32_t>                topic_connection_ids_;$/;"	m	class:rosbag::Bag	access:private
+topics	/opt/ros/fuerte/include/rosbag/player.h	/^    std::vector<std::string> topics;$/;"	m	struct:rosbag::PlayerOptions	access:public
+topics	/opt/ros/fuerte/include/rosbag/recorder.h	/^    std::vector<std::string> topics;$/;"	m	struct:rosbag::RecorderOptions	access:public
+topics_	/opt/ros/fuerte/include/rosbag/query.h	/^    std::vector<std::string> topics_;$/;"	m	class:rosbag::TopicQuery	access:private
+translate	/opt/ros/fuerte/include/rosbag/time_translator.h	/^    ros::Time translate(ros::Time const& t);$/;"	p	class:rosbag::TimeTranslator	access:public	signature:(ros::Time const& t)
+translated_start_	/opt/ros/fuerte/include/rosbag/time_translator.h	/^    ros::Time translated_start_;$/;"	m	class:rosbag::TimeTranslator	access:private
+trigger	/opt/ros/fuerte/include/rosbag/recorder.h	/^    bool            trigger;$/;"	m	struct:rosbag::RecorderOptions	access:public
+truncate	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    bool        truncate(uint64_t length);$/;"	p	class:rosbag::ChunkedFile	access:public	signature:(uint64_t length)
+try_future	/opt/ros/fuerte/include/rosbag/player.h	/^    bool     try_future;$/;"	m	struct:rosbag::PlayerOptions	access:public
+types_	/opt/ros/fuerte/include/rosbag/query.h	/^    std::vector<std::string> types_;$/;"	m	class:rosbag::TypeQuery	access:private
+uncompressed_size	/opt/ros/fuerte/include/rosbag/structures.h	/^    uint32_t    uncompressed_size;    \/\/! uncompressed size of the chunk in bytes$/;"	m	struct:rosbag::ChunkHeader	access:public
+uncompressed_stream_	/opt/ros/fuerte/include/rosbag/stream.h	/^    boost::shared_ptr<Stream> uncompressed_stream_;$/;"	m	class:rosbag::StreamFactory	access:private
+unused_	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    char*       unused_;         \/\/!< extra data read by compressed stream$/;"	m	class:rosbag::ChunkedFile	access:private
+update	/opt/ros/fuerte/include/rosbag/view.h	/^    void update();$/;"	p	class:rosbag::View	access:protected	signature:()
+updateFilenames	/opt/ros/fuerte/include/rosbag/recorder.h	/^    void updateFilenames();$/;"	p	class:rosbag::Recorder	access:private	signature:()
+updateQueries	/opt/ros/fuerte/include/rosbag/view.h	/^    void updateQueries(BagQuery* q);$/;"	p	class:rosbag::View	access:protected	signature:(BagQuery* q)
+value	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    static const char* value(const rosbag::MessageInstance& m) { return m.getDataType().c_str(); }$/;"	f	struct:ros::message_traits::DataType	access:public	signature:(const rosbag::MessageInstance& m)
+value	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    static const char* value(const rosbag::MessageInstance& m) { return m.getMD5Sum().c_str(); }$/;"	f	struct:ros::message_traits::MD5Sum	access:public	signature:(const rosbag::MessageInstance& m)
+value	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    static const char* value(const rosbag::MessageInstance& m) { return m.getMessageDefinition().c_str(); }$/;"	f	struct:ros::message_traits::Definition	access:public	signature:(const rosbag::MessageInstance& m)
+verbose	/opt/ros/fuerte/include/rosbag/recorder.h	/^    bool            verbose;$/;"	m	struct:rosbag::RecorderOptions	access:public
+verbosity_	/opt/ros/fuerte/include/rosbag/stream.h	/^    int     verbosity_;        \/\/!< level of debugging output (0-4; 0 default). 0 is silent, 4 is max verbose debugging output$/;"	m	class:rosbag::BZ2Stream	access:private
+version_	/opt/ros/fuerte/include/rosbag/bag.h	/^    int                 version_;$/;"	m	class:rosbag::Bag	access:private
+view_	/opt/ros/fuerte/include/rosbag/view.h	/^        View* view_;$/;"	m	class:rosbag::View::iterator	access:private
+view_revision_	/opt/ros/fuerte/include/rosbag/view.h	/^        uint32_t view_revision_;$/;"	m	class:rosbag::View::iterator	access:private
+view_revision_	/opt/ros/fuerte/include/rosbag/view.h	/^    uint32_t                   view_revision_;$/;"	m	class:rosbag::View	access:protected
+wall_step_	/opt/ros/fuerte/include/rosbag/player.h	/^    ros::WallDuration wall_step_;$/;"	m	class:rosbag::TimePublisher	access:private
+warn_next_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    ros::WallTime                 warn_next_;$/;"	m	class:rosbag::Recorder	access:private
+wc_horizon_	/opt/ros/fuerte/include/rosbag/player.h	/^    ros::WallTime wc_horizon_;$/;"	m	class:rosbag::TimePublisher	access:private
+work_factor_	/opt/ros/fuerte/include/rosbag/stream.h	/^    int     work_factor_;      \/\/!< compression behavior for worst case, highly repetitive data (0-250; 30 default)$/;"	m	class:rosbag::BZ2Stream	access:private
+write	/opt/ros/fuerte/include/rosbag/bag.h	/^    void write(char const* s, std::streamsize n);$/;"	p	class:rosbag::Bag	access:private	signature:(char const* s, std::streamsize n)
+write	/opt/ros/fuerte/include/rosbag/bag.h	/^    void write(std::string const& s);$/;"	p	class:rosbag::Bag	access:private	signature:(std::string const& s)
+write	/opt/ros/fuerte/include/rosbag/bag.h	/^    void write(std::string const& topic, ros::MessageEvent<T> const& event);$/;"	p	class:rosbag::Bag	access:public	signature:(std::string const& topic, ros::MessageEvent<T> const& event)
+write	/opt/ros/fuerte/include/rosbag/bag.h	/^    void write(std::string const& topic, ros::Time const& time, T const& msg,$/;"	p	class:rosbag::Bag	access:public	signature:(std::string const& topic, ros::Time const& time, T const& msg, boost::shared_ptr<ros::M_string> connection_header = boost::shared_ptr<ros::M_string>())
+write	/opt/ros/fuerte/include/rosbag/bag.h	/^    void write(std::string const& topic, ros::Time const& time, boost::shared_ptr<T const> const& msg,$/;"	p	class:rosbag::Bag	access:public	signature:(std::string const& topic, ros::Time const& time, boost::shared_ptr<T const> const& msg, boost::shared_ptr<ros::M_string> connection_header = boost::shared_ptr<ros::M_string>())
+write	/opt/ros/fuerte/include/rosbag/bag.h	/^    void write(std::string const& topic, ros::Time const& time, boost::shared_ptr<T> const& msg,$/;"	p	class:rosbag::Bag	access:public	signature:(std::string const& topic, ros::Time const& time, boost::shared_ptr<T> const& msg, boost::shared_ptr<ros::M_string> connection_header = boost::shared_ptr<ros::M_string>())
+write	/opt/ros/fuerte/include/rosbag/bag.h	/^void Bag::write(std::string const& topic, ros::MessageEvent<T> const& event) {$/;"	f	class:rosbag::Bag	signature:(std::string const& topic, ros::MessageEvent<T> const& event)
+write	/opt/ros/fuerte/include/rosbag/bag.h	/^void Bag::write(std::string const& topic, ros::Time const& time, T const& msg, boost::shared_ptr<ros::M_string> connection_header) {$/;"	f	class:rosbag::Bag	signature:(std::string const& topic, ros::Time const& time, T const& msg, boost::shared_ptr<ros::M_string> connection_header)
+write	/opt/ros/fuerte/include/rosbag/bag.h	/^void Bag::write(std::string const& topic, ros::Time const& time, boost::shared_ptr<T const> const& msg, boost::shared_ptr<ros::M_string> connection_header) {$/;"	f	class:rosbag::Bag	signature:(std::string const& topic, ros::Time const& time, boost::shared_ptr<T const> const& msg, boost::shared_ptr<ros::M_string> connection_header)
+write	/opt/ros/fuerte/include/rosbag/bag.h	/^void Bag::write(std::string const& topic, ros::Time const& time, boost::shared_ptr<T> const& msg, boost::shared_ptr<ros::M_string> connection_header) {$/;"	f	class:rosbag::Bag	signature:(std::string const& topic, ros::Time const& time, boost::shared_ptr<T> const& msg, boost::shared_ptr<ros::M_string> connection_header)
+write	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    void        write(std::string const& s);$/;"	p	class:rosbag::ChunkedFile	access:public	signature:(std::string const& s)
+write	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    void        write(void* ptr, size_t size);                          \/\/!< write size bytes from ptr to the file$/;"	p	class:rosbag::ChunkedFile	access:public	signature:(void* ptr, size_t size)
+write	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    inline static void write(Stream& stream, const rosbag::MessageInstance& m) {$/;"	f	struct:ros::serialization::Serializer	access:public	signature:(Stream& stream, const rosbag::MessageInstance& m)
+write	/opt/ros/fuerte/include/rosbag/message_instance.h	/^    void write(Stream& stream) const;$/;"	p	class:rosbag::MessageInstance	access:public	signature:(Stream& stream) const
+write	/opt/ros/fuerte/include/rosbag/message_instance.h	/^void MessageInstance::write(Stream& stream) const {$/;"	f	class:rosbag::MessageInstance	signature:(Stream& stream) const
+write	/opt/ros/fuerte/include/rosbag/stream.h	/^    virtual void write(void* ptr, size_t size) = 0;$/;"	p	class:rosbag::Stream	access:public	signature:(void* ptr, size_t size)
+write	/opt/ros/fuerte/include/rosbag/stream.h	/^    void write(void* ptr, size_t size);$/;"	p	class:rosbag::BZ2Stream	access:public	signature:(void* ptr, size_t size)
+write	/opt/ros/fuerte/include/rosbag/stream.h	/^    void write(void* ptr, size_t size);$/;"	p	class:rosbag::UncompressedStream	access:public	signature:(void* ptr, size_t size)
+writeChunkHeader	/opt/ros/fuerte/include/rosbag/bag.h	/^    void writeChunkHeader(CompressionType compression, uint32_t compressed_size, uint32_t uncompressed_size);$/;"	p	class:rosbag::Bag	access:private	signature:(CompressionType compression, uint32_t compressed_size, uint32_t uncompressed_size)
+writeChunkInfoRecords	/opt/ros/fuerte/include/rosbag/bag.h	/^    void writeChunkInfoRecords();$/;"	p	class:rosbag::Bag	access:private	signature:()
+writeConnectionRecord	/opt/ros/fuerte/include/rosbag/bag.h	/^    void writeConnectionRecord(ConnectionInfo const* connection_info);$/;"	p	class:rosbag::Bag	access:private	signature:(ConnectionInfo const* connection_info)
+writeConnectionRecords	/opt/ros/fuerte/include/rosbag/bag.h	/^    void writeConnectionRecords();$/;"	p	class:rosbag::Bag	access:private	signature:()
+writeDataLength	/opt/ros/fuerte/include/rosbag/bag.h	/^    void writeDataLength(uint32_t data_len);$/;"	p	class:rosbag::Bag	access:private	signature:(uint32_t data_len)
+writeFileHeaderRecord	/opt/ros/fuerte/include/rosbag/bag.h	/^    void writeFileHeaderRecord();$/;"	p	class:rosbag::Bag	access:private	signature:()
+writeHeader	/opt/ros/fuerte/include/rosbag/bag.h	/^    void writeHeader(ros::M_string const& fields);$/;"	p	class:rosbag::Bag	access:private	signature:(ros::M_string const& fields)
+writeIndexRecords	/opt/ros/fuerte/include/rosbag/bag.h	/^    void writeIndexRecords();$/;"	p	class:rosbag::Bag	access:private	signature:()
+writeMessageDataRecord	/opt/ros/fuerte/include/rosbag/bag.h	/^    void writeMessageDataRecord(uint32_t conn_id, ros::Time const& time, T const& msg);$/;"	p	class:rosbag::Bag	access:private	signature:(uint32_t conn_id, ros::Time const& time, T const& msg)
+writeMessageDataRecord	/opt/ros/fuerte/include/rosbag/bag.h	/^void Bag::writeMessageDataRecord(uint32_t conn_id, ros::Time const& time, T const& msg) {$/;"	f	class:rosbag::Bag	signature:(uint32_t conn_id, ros::Time const& time, T const& msg)
+writeVersion	/opt/ros/fuerte/include/rosbag/bag.h	/^    void writeVersion();$/;"	p	class:rosbag::Bag	access:private	signature:()
+write_filename_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    std::string                   write_filename_;$/;"	m	class:rosbag::Recorder	access:private
+write_stream_	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    boost::shared_ptr<Stream> write_stream_;$/;"	m	class:rosbag::ChunkedFile	access:private
+writing_	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    bool        writing_;        \/\/!< true iff file is opened for writing$/;"	m	class:rosbag::ChunkedFile	access:private
+writing_enabled_	/opt/ros/fuerte/include/rosbag/recorder.h	/^    bool                          writing_enabled_;$/;"	m	class:rosbag::Recorder	access:private
+~Bag	/opt/ros/fuerte/include/rosbag/bag.h	/^    ~Bag();$/;"	p	class:rosbag::Bag	access:public	signature:()
+~Buffer	/opt/ros/fuerte/include/rosbag/buffer.h	/^    ~Buffer();$/;"	p	class:rosbag::Buffer	access:public	signature:()
+~ChunkedFile	/opt/ros/fuerte/include/rosbag/chunked_file.h	/^    ~ChunkedFile();$/;"	p	class:rosbag::ChunkedFile	access:public	signature:()
+~Player	/opt/ros/fuerte/include/rosbag/player.h	/^    ~Player();$/;"	p	class:rosbag::Player	access:public	signature:()
+~Stream	/opt/ros/fuerte/include/rosbag/stream.h	/^    virtual ~Stream();$/;"	p	class:rosbag::Stream	access:public	signature:()
+~View	/opt/ros/fuerte/include/rosbag/view.h	/^    ~View();$/;"	p	class:rosbag::View	access:public	signature:()
+~iterator	/opt/ros/fuerte/include/rosbag/view.h	/^        ~iterator();$/;"	p	class:rosbag::View::iterator	access:public	signature:()
