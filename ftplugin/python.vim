@@ -3,8 +3,8 @@
 " to override whatever 
 " <buffer> means mapping is local
 " only in normal mode, no remap
-"
-setlocal omnifunc=pythoncomplete#Complete
+
+" setlocal omnifunc=pythoncomplete#Complete
 " nnoremap <buffer> <F6> :w<cr>:make<cr>
 " nnoremap <buffer> <F5> :w<cr>:!python %<CR>
 
