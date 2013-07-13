@@ -4,7 +4,7 @@ if exists('did_load_filetypes')
 endif
 
 augroup filetypedetect
-    autocmd! BufRead,BufNewFile *.txt setfiletype human
+    "autocmd! BufRead,BufNewFile *.txt setfiletype human
     autocmd! BufRead,BufNewFile *.ctp setfiletype php
     autocmd! BufRead,BufNewFile SCons* setfiletype scons
     autocmd! BufRead,BufNewFile *.spin setfiletype spin
