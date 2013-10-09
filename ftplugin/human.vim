@@ -4,5 +4,5 @@ setlocal noexpandtab
 setlocal spell spelllang=en_us
 set complete += s
 set formatprg=par
-setlocal wrap
-setlocal linebreak
+"setlocal wrap
+"setlocal linebreak
