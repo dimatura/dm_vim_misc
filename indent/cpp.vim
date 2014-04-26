@@ -15,11 +15,10 @@
 "
 "}}}
 
-if exists("b:did_indent")
+if exists("b:did_indent_googlecpp")
     finish
 endif
-let b:did_indent = 1
-
+let b:did_indent_googlecpp = 1
 
 function! GoogleCppIndent()
     let l:cline_num = line('.')
