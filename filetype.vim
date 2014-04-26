@@ -13,7 +13,7 @@ augroup filetypedetect
     autocmd! BufRead,BufNewFile *.vapi setfiletype vala
     autocmd! BufRead,BufNewFile *.mkd,*.md setfiletype mkd
     autocmd! BufRead,BufNewFile CMakeLists.txt setfiletype cmake
-    autocmd! BufRead,BufNewFile *.json set filetype json
+    autocmd! BufRead,BufNewFile *.json setfiletype json
     autocmd! BufRead,BufNewFile *.launch setfiletype xml
     autocmd! BufNewFile,BufRead *.r set ft=r
     autocmd! BufNewFile,BufRead *.R set ft=r
