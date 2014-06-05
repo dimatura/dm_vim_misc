@@ -11,15 +11,14 @@ augroup filetypedetect
     autocmd! BufRead,BufNewFile *.t2t setfiletype txt2tags
     autocmd! BufRead,BufNewFile *.vala setfiletype vala
     autocmd! BufRead,BufNewFile *.vapi setfiletype vala
-    autocmd! BufRead,BufNewFile *.mkd,*.md setfiletype mkd
+    autocmd! BufRead,BufNewFile *.mkd,*.md setfiletype markdown
     autocmd! BufRead,BufNewFile CMakeLists.txt setfiletype cmake
     autocmd! BufRead,BufNewFile *.json setfiletype json
     autocmd! BufRead,BufNewFile *.launch setfiletype xml
-    autocmd! BufNewFile,BufRead *.r set ft=r
-    autocmd! BufNewFile,BufRead *.R set ft=r
-    autocmd! BufNewFile,BufRead *.s set ft=r
-    autocmd! BufNewFile,BufRead *.S set ft=r
-    autocmd! BufRead *.Rout set ft=r
-    autocmd! BufRead *.Rhistory set ft=r
-
+    autocmd! BufRead,BufNewFile *.r set ft=r
+    autocmd! BufRead,BufNewFile *.R set ft=r
+    autocmd! BufRead,BufNewFile *.s set ft=r
+    autocmd! BufRead,BufNewFile *.S set ft=r
+    autocmd! BufRead,BufNewFile *.Rout set ft=r
+    autocmd! BufRead,BufNewFile *.Rhistory set ft=r
 augroup END
