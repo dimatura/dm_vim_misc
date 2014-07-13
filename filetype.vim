@@ -21,4 +21,5 @@ augroup filetypedetect
     autocmd! BufRead,BufNewFile *.S set ft=r
     autocmd! BufRead,BufNewFile *.Rout set ft=r
     autocmd! BufRead,BufNewFile *.Rhistory set ft=r
+    autocmd! BufRead,BufNewFile *.ninja setfiletype ninja
 augroup END
