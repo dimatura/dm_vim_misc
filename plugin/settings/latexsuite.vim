@@ -7,5 +7,3 @@
     "    vnoremap <leader><C-j> <Plug>IMAP_JumpForward
     "    nnoremap <leader><C-j> <Plug>IMAP_JumpForward
     "" }}}
-
-
