@@ -1,13 +1,13 @@
 " terminals expand c-space to c-@ -- not sure what to do
-"if has("gui_running")
-"    let g:UltiSnipsExpandTrigger="<c-space>"
-"    let g:UltiSnipsJumpForwardTrigger="<c-space>"
-"else
-"    let g:UltiSnipsExpandTrigger="<c-@>"
-"    let g:UltiSnipsJumpForwardTrigger="<c-@>"
-"endif
+if has("gui_running")
+    let g:UltiSnipsListSnippets = "<c-space>"
+else
+    let g:UltiSnipsListSnippets = "<c-@>"
+endif
 
-"let g:UltiSnipsListSnippets = "<TAB>"
+let g:UltiSnipsExpandTrigger = "<TAB>"
+let g:UltiSnipsJumpForwardTrigger = "<c-j>"
+let g:UltiSnipsJumpBackwardTrigger = "<c-k>"
 
 "let g:UltiSnipsExpandTrigger="<c-return>"
 " TODO be wary of clashing with IMAP_JumpForward (see
