@@ -18,3 +18,5 @@ let g:UltiSnipsJumpBackwardTrigger = "<c-k>"
 "let g:UltiSnipsSnippetDirectories=["UltiSnips","~/.vim/bundle/ultisnip-snippets"]
 
 let g:UltiSnipsSnippetDirectories=["UltiSnips", "~/repos/ultisnip-snippets/UltiSnips"]
+
+let g:UltiSnipsUsePythonVersion = 3
