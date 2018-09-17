@@ -22,4 +22,5 @@ augroup filetypedetect
     autocmd! BufRead,BufNewFile *.Rout set ft=r
     autocmd! BufRead,BufNewFile *.Rhistory set ft=r
     autocmd! BufRead,BufNewFile *.ninja setfiletype ninja
+    autocmd! BufRead,BufNewFile *.xsh setfiletype python
 augroup END
